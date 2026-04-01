@@ -1,10 +1,11 @@
-- 👋 Hi, I’m @bmmmm
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# bmmmm
 
-<!---
-bmmmm/bmmmm is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+shell guy. building tools for claude code power users.
+
+→ **[claudii](https://github.com/bmmmm/claudii)** — zsh plugin that tells you what your claude sessions are actually costing you
+
+currently: spending too much on claude to build tools that tell me how much i'm spending on claude.
+
+---
+
+[ko-fi](https://ko-fi.com/bmabma) — if you want to contribute to the problem
