@@ -1,6 +1,6 @@
 # bmmmm
 
-shell guy. building tools for claude code power users.
+curious.
 
 → **[claudii](https://github.com/bmmmm/claudii)** — zsh plugin that tells you what your claude sessions are actually costing you
 
