@@ -1,4 +1,6 @@
-![bmmmm](terminal.svg)
+<picture>
+  <img src="https://raw.githubusercontent.com/bmmmm/bmmmm/main/terminal.svg" alt="bmmmm" />
+</picture>
 
 ---
 
