@@ -11,8 +11,9 @@ curious.
 ~ $ cat ./motivation.txt
 keep this planet alive o/
 
-~ $ curl -s ko.fi/bmabma | jq .why
-"if you want to contribute to the problem"
+~ $ sysctl vm.motivation
+vm.motivation = 0
+~ $ echo <a href="https://ko.fi/bmabma">ko.fi/bmabma</a> &gt; /proc/sys/vm/motivation
 
-~ $ █
+~ $ &#9611;
 </pre>
