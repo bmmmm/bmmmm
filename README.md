@@ -11,6 +11,9 @@ curious.
 ~ $ cat ./motivation.txt
 keep this planet alive o/
 
+~ $ cat ./signal.out
+▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█
+
 ~ $ sysctl vm.motivation
 vm.motivation = 0
 ~ $ echo <a href="https://ko.fi/bmabma">ko.fi/bmabma</a> &gt; /proc/sys/vm/motivation
