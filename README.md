@@ -4,7 +4,9 @@ curious.
 
 ~ $ ls ./projects
 <a href="https://github.com/bmmmm/claudii">claudii</a>        github.com/bmmmm/claudii
-<a href="https://github.com/bmmmm/cleankeyboard">cleankeyboard</a>  github.com/bmmmm/cleankeyboard
+<a href="https://github.com/bmmmm/pwdtintii">pwdtintii</a>      github.com/bmmmm/pwdtintii
+<a href="https://github.com/bmmmm/gateii">gateii</a>         github.com/bmmmm/gateii
+<a href="https://github.com/bmmmm/KeebLock">KeebLock</a>       github.com/bmmmm/KeebLock
 <a href="https://github.com/bmmmm/bitcircus101">bitcircus101</a>   github.com/bmmmm/bitcircus101
 <a href="https://github.com/bmmmm/db-wallet">db-wallet</a>      github.com/bmmmm/db-wallet
 
