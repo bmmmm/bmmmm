@@ -12,15 +12,19 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout (for the loading-bar inject script)
+        uses: actions/checkout@v4
+
       - name: generate snake svg
         uses: Platane/snk@v3
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-            dist/snake-green.svg?color_snake=#39d353&color_dots=#001b0e,#0e4429,#006d32,#26a641,#39d353
+            dist/snake.svg?color_snake=#bf00ff&color_dots=#001b0e,#0e4429,#006d32,#26a641,#39d353
+
+      - name: inject contribution-harvest loading bar
+        run: python3 .github/scripts/inject-bar.py dist/snake.svg
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
