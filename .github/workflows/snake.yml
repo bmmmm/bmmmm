@@ -24,7 +24,9 @@ jobs:
             dist/snake.svg?color_snake=#bf00ff&color_dots=#001b0e,#0e4429,#006d32,#26a641,#39d353
 
       - name: inject contribution-harvest loading bar
-        run: python3 .github/scripts/inject-bar.py dist/snake.svg
+        run: |
+          sudo chown -R "$(id -u):$(id -g)" dist
+          python3 .github/scripts/inject-bar.py dist/snake.svg
 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
