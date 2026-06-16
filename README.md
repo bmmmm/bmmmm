@@ -2,16 +2,16 @@
 ~ $ whoami
 curious.
 
-~ $ ls ./projects
-<a href="https://github.com/bmmmm/claudii">claudii</a>        github.com/bmmmm/claudii
-<a href="https://github.com/bmmmm/pwdtintii">pwdtintii</a>      github.com/bmmmm/pwdtintii
-<a href="https://github.com/bmmmm/gateii">gateii</a>         github.com/bmmmm/gateii
-<a href="https://github.com/bmmmm/KeebLock">KeebLock</a>       github.com/bmmmm/KeebLock
-<a href="https://github.com/bmmmm/bitcircus101">bitcircus101</a>   github.com/bmmmm/bitcircus101
-<a href="https://github.com/bmmmm/db-wallet">db-wallet</a>      github.com/bmmmm/db-wallet
-
-~ $ cat ./motivation.txt
-keep this planet alive o/
+~ $ dmesg | tail
+[    0.000000] bmmmm: cold boot, vintage 2016
+[    1.337420] claudii: agent swarm online
+[    4.242000] gateii: llm proxy listening
+[    6.660000] pwdtintii: $PWD tinted
+[   13.370000] KeebLock: keyboard locked for cleaning
+[   16.080000] db-wallet: drink ledger synced
+[   23.000000] bitcircus101: datenburg e.V. mounted at /bonn
+[   42.000000] planet: still alive o/
+[   99.999999] coffee: EAGAIN, refill required
 
 ~ $ cat ./signal.out
 ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█
@@ -22,3 +22,4 @@ vm.motivation = 0
 
 ~ $ &#9611;
 </pre>
+<!-- [  inf.000000] visitor: read the source. respect. -->
