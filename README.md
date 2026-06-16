@@ -23,3 +23,5 @@ vm.motivation = 0
 ~ $ &#9611;
 </pre>
 <!-- [  inf.000000] visitor: read the source. respect. -->
+
+<img src="https://raw.githubusercontent.com/bmmmm/bmmmm/output/snake.svg" alt="a purple snake grazes the contribution graph; the harvest bar below never quite hits 100%">
