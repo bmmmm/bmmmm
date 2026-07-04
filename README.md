@@ -1,27 +1,26 @@
+<!--
+    ()  ascii ribbon campaign
+    /\  against html e-mail
+-->
 <pre>
-~ $ whoami
-curious.
+Sphinx of black quartz, judge my vow.
 
-~ $ dmesg | tail
-[    0.000000] bmmmm: cold boot, vintage 2016
-[    1.337420] claudii: agent swarm online
-[    4.242000] gateii: llm proxy listening
-[    6.660000] pwdtintii: $PWD tinted
-[   13.370000] KeebLock: keyboard locked for cleaning
-[   16.080000] db-wallet: drink ledger synced
-[   23.000000] bitcircus101: datenburg e.V. mounted at /bonn
-[   42.000000] planet: still alive o/
-[   99.999999] coffee: EAGAIN, refill required
+0O 1lI|  ‐-–—−  ﬁﬂﬃ  ‽  �
 
-~ $ cat ./signal.out
-▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█
+┌─┐ ╔═╗  ░▒▓█  ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁
+└─┘ ╚═╝  80×24 · 9600 8N1 · LC_ALL=C
 
-~ $ sysctl vm.motivation
-vm.motivation = 0
-~ $ echo <a href="https://ko.fi/bmabma">ko.fi/bmabma</a> &gt; /proc/sys/vm/motivation
+☮︎  ⚖︎  ♥︎
+öffentliche daten nützen, private daten schützen
 
-~ $ &#9611;
+-- 
+<a href="https://ko.fi/bmabma">ko.fi/bmabma</a>
+
+~.
 </pre>
-<!-- [  inf.000000] visitor: read the source. respect. -->
 
-<img src="https://raw.githubusercontent.com/bmmmm/bmmmm/output/snake.svg" alt="a purple snake grazes the contribution graph; the harvest bar below never quite hits 100%">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bmmmm/bmmmm/output/snake-light.svg">
+  <img src="https://raw.githubusercontent.com/bmmmm/bmmmm/output/snake.svg" alt="a purple block snake reads the contribution year boustrophedon, grazing the shades off the grid. it spares exactly one cell — a heart — and the harvest bar holds at 99%. off by one.">
+</picture>
+<!-- Hamburgefonstiv -->
