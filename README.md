@@ -14,7 +14,7 @@ Sphinx of black quartz, judge my vow.
 öffentliche daten nützen, private daten schützen
 
 -- 
-<a href="https://ko.fi/bmabma">ko.fi/bmabma</a>
+<a href="https://ko-fi.com/bmabma">ko-fi.com/bmabma</a>
 
 ~.
 </pre>
