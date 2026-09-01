@@ -26,7 +26,7 @@ Sphinx of black quartz, judge my vow.
 Small, sharp tools that do one thing and can prove they did it. Most are a single static binary or run entirely in the browser — no backend, no account, no telemetry. Grouped by what they are; newest first inside each group.
 
 <details open>
-<summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7</summary>
+<summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7 projects</summary>
 
 - **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
 - **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
@@ -41,7 +41,7 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 </details>
 
 <details>
-<summary><strong>Backup, recovery &amp; proof</strong> — systems that assume the failure already happened and stay useful anyway · 4</summary>
+<summary><strong>Backup, recovery &amp; proof</strong> — systems that assume the failure already happened and stay useful anyway · 4 projects</summary>
 
 - **[stattii](https://github.com/bmmmm/stattii)** — attestation over an event calendar — cancellations propagate outward with delivery proof. · `Go`
 - **[how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)** — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed. · `Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
@@ -53,7 +53,7 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 </details>
 
 <details>
-<summary><strong>Local-first web apps</strong> — static pages that keep your data in your own browser · 7</summary>
+<summary><strong>Local-first web apps</strong> — static pages that keep your data in your own browser · 7 projects</summary>
 
 - **[putzii](https://github.com/bmmmm/putzii)** — cleaning schedule shared by capability link, with QR check-in. No backend at all. · `JavaScript` · [live](https://bmmmm.github.io/putzii/)
 - **[gymii](https://github.com/bmmmm/gymii)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. · `JavaScript` · [live](https://bmmmm.github.io/gymii/)
@@ -68,7 +68,7 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 </details>
 
 <details>
-<summary><strong>Terminal &amp; macOS</strong> — things that live in a shell, or in the menu bar next to it · 8</summary>
+<summary><strong>Terminal &amp; macOS</strong> — things that live in a shell, or in the menu bar next to it · 8 projects</summary>
 
 - **[pegel-visual](https://github.com/bmmmm/pegel-visual)** — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. · `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
 - **[youtubehistii](https://github.com/bmmmm/youtubehistii)** — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. · `Go`
@@ -84,7 +84,7 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 </details>
 
 <details>
-<summary><strong>FreshRSS extensions</strong> — four small extensions for the reader I actually use every day · 4</summary>
+<summary><strong>FreshRSS extensions</strong> — four small extensions for the reader I actually use every day · 4 projects</summary>
 
 - **[NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)** — drop notes and links on one device, copy them on another with one click. · `PHP`
 - **[ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)** — keeps a history of the article links you actually opened. · `PHP`
