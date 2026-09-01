@@ -1,39 +1,18 @@
-<!--
-    ()  ascii ribbon campaign
-    /\  against html e-mail
--->
-<pre>
-Sphinx of black quartz, judge my vow.
-
-0O 1lI|  ‐-–—−  ﬁﬂﬃ  ‽  �
-
-┌─┐ ╔═╗  ░▒▓█  ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁
-└─┘ ╚═╝  80×24 · 9600 8N1 · LC_ALL=C
-
-☮︎  ⚖︎  ♥︎
-öffentliche daten nützen, private daten schützen
-
--- 
-<a href="https://ko-fi.com/bmabma">ko-fi.com/bmabma</a>
-
-~.
-</pre>
-
 <!-- projects:start -->
 
 ## What I build
 
-Small, sharp tools that do one thing and can prove they did it. Most are a single static binary or run entirely in the browser — no backend, no account, no telemetry. Grouped by what they are; newest first inside each group.
+Small, sharp tools that do one thing and can prove they did it. Most are a single static binary or run entirely in the browser — no backend, no account, no telemetry. Much of the code is written with coding agents at the keyboard; what ships is what the tests, the CI and the benchmarks let through, and I answer for it. Grouped by what they are; newest first inside each group.
 
 <details open>
 <summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7 projects</summary>
 
+- **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 - **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
 - **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
-- **[check0r3000](https://github.com/bmmmm/check0r3000)** — LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool. · `Python`
-- **[bumpii](https://github.com/bmmmm/bumpii)** — read what actually changed in the tools you run, judged against how you actually use them. · `TypeScript`
+- **[check0r3000](https://github.com/bmmmm/check0r3000)** — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model. · `Python` · [scorecard](https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md)
+- **[bumpii](https://github.com/bmmmm/bumpii)** — reads what changed in the tools you run and keeps only what touches the features you use. · `TypeScript`
 - **[gateii](https://github.com/bmmmm/gateii)** — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. · `Lua`
-- **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 - **[cc-insomnii](https://github.com/bmmmm/cc-insomnii)** — a bedtime-shaming statusline for Claude Code. · `Shell`
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/llm-and-agent-tooling.md">LLM &amp; agent tooling in detail →</a></sub>
@@ -97,7 +76,7 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 
 ### Sites
 
-[bmako.de](https://bmako.de) · [bitcircus101.de](https://bitcircus101.de)
+[bmako.de](https://bmako.de) — IT consulting, Bonn · [bitcircus101.de](https://bitcircus101.de) — open hackspace, Bonn
 
 <!-- projects:end -->
 
@@ -105,4 +84,25 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bmmmm/bmmmm/output/snake-light.svg">
   <img src="https://raw.githubusercontent.com/bmmmm/bmmmm/output/snake.svg" alt="a purple block snake reads the contribution year boustrophedon, grazing the shades off the grid. it spares exactly one cell — a heart — and the harvest bar holds at 99%. off by one.">
 </picture>
+
+<!--
+    ()  ascii ribbon campaign
+    /\  against html e-mail
+-->
+<pre>
+Sphinx of black quartz, judge my vow.
+
+0O 1lI|  ‐-–—−  ﬁﬂﬃ  ‽  �
+
+┌─┐ ╔═╗  ░▒▓█  ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁
+└─┘ ╚═╝  80×24 · 9600 8N1 · LC_ALL=C
+
+☮︎  ⚖︎  ♥︎
+öffentliche daten nützen, private daten schützen
+
+-- 
+<a href="https://ko-fi.com/bmabma">ko-fi.com/bmabma</a>
+
+~.
+</pre>
 <!-- Hamburgefonstiv -->

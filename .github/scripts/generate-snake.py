@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 """Terminal snake: render the GitHub contribution graph as an animated
 character-cell SVG. Replaces Platane/snk entirely.
 

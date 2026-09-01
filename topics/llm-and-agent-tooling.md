@@ -4,6 +4,14 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
+## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
+
+`TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
+
+Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
+
+<sub>last pushed 2026-09-01</sub>
+
 ## [wallii](https://github.com/bmmmm/wallii)
 
 `Go`
@@ -22,9 +30,9 @@ A statusline for Claude Code: session cost, context usage in percent, rate-limit
 
 ## [check0r3000](https://github.com/bmmmm/check0r3000)
 
-`Python`
+`Python` · [scorecard](https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md)
 
-Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with a model benchmark, because an extraction pipeline whose accuracy you have not measured is a rumour.
+Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.
 
 <sub>last pushed 2026-09-01</sub>
 
@@ -32,7 +40,7 @@ Extracts comparable facts out of German insurance terms (AVB), ranks them by qua
 
 `TypeScript`
 
-Reads what actually changed in the CLI tools and containers you run, judged against how you use them, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
+Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
 
 <sub>last pushed 2026-09-01</sub>
 
@@ -43,14 +51,6 @@ Reads what actually changed in the CLI tools and containers you run, judged agai
 A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.
 
 <sub>last pushed 2026-08-23</sub>
-
-## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
-
-`TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
-
-Fact-checks release notes against the actual code diff. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you actually have before an upgrade: does the changelog describe what changed, and what did it leave out?
-
-<sub>last pushed 2026-08-17</sub>
 
 ## [cc-insomnii](https://github.com/bmmmm/cc-insomnii)
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: Apache-2.0
 # build-profile.sh — render projects.json, the README block and topics/ from
 # .github/projects.curated.json plus live GitHub metadata.
 #
@@ -135,7 +136,7 @@ render_readme() {
       ""
     ),
     "### Sites", "",
-    ( [.sites[] | "[" + .name + "](" + .url + ")"] | join(" · ") ), "",
+    ( [.sites[] | "[" + .name + "](" + .url + ")" + (if .note then " — " + .note else "" end)] | join(" · ") ), "",
     "<!-- projects:end -->"
   ' "$feed"
 }

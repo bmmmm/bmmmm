@@ -1,14 +1,16 @@
 {
   "owner": "bmmmm",
-  "intro": "Small, sharp tools that do one thing and can prove they did it. Most are a single static binary or run entirely in the browser — no backend, no account, no telemetry. Grouped by what they are; newest first inside each group.",
+  "intro": "Small, sharp tools that do one thing and can prove they did it. Most are a single static binary or run entirely in the browser — no backend, no account, no telemetry. Much of the code is written with coding agents at the keyboard; what ships is what the tests, the CI and the benchmarks let through, and I answer for it. Grouped by what they are; newest first inside each group.",
   "sites": [
     {
       "name": "bmako.de",
-      "url": "https://bmako.de"
+      "url": "https://bmako.de",
+      "note": "IT consulting, Bonn"
     },
     {
       "name": "bitcircus101.de",
-      "url": "https://bitcircus101.de"
+      "url": "https://bitcircus101.de",
+      "note": "open hackspace, Bonn"
     }
   ],
   "categories": [
@@ -18,6 +20,37 @@
       "tagline": "Instrumenting, measuring and fact-checking what models actually do",
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
+        {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-09-01T17:10:51Z",
+          "updated": "2026-09-01"
+        },
         {
           "repo": "wallii",
           "name": "wallii",
@@ -81,10 +114,15 @@
           "repo": "check0r3000",
           "name": "check0r3000",
           "url": "https://github.com/bmmmm/check0r3000",
-          "blurb": "LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool.",
-          "detail": "Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with a model benchmark, because an extraction pipeline whose accuracy you have not measured is a rumour.",
+          "blurb": "LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.",
+          "detail": "Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.",
           "install": null,
-          "links": [],
+          "links": [
+            {
+              "label": "scorecard",
+              "url": "https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md"
+            }
+          ],
           "language": "Python",
           "stars": 0,
           "topics": [
@@ -107,8 +145,8 @@
           "repo": "bumpii",
           "name": "bumpii",
           "url": "https://github.com/bmmmm/bumpii",
-          "blurb": "read what actually changed in the tools you run, judged against how you actually use them.",
-          "detail": "Reads what actually changed in the CLI tools and containers you run, judged against how you use them, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
+          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
+          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
           "install": null,
           "links": [],
           "language": "TypeScript",
@@ -146,37 +184,6 @@
           "live": null,
           "pushed_at": "2026-08-23T17:23:50Z",
           "updated": "2026-08-23"
-        },
-        {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the actual code diff. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you actually have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-08-17T14:42:05Z",
-          "updated": "2026-08-17"
         },
         {
           "repo": "cc-insomnii",
@@ -508,7 +515,7 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-01T10:03:30Z",
+          "pushed_at": "2026-09-01T18:32:12Z",
           "updated": "2026-09-01"
         },
         {
