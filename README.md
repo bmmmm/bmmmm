@@ -23,57 +23,77 @@ Sphinx of black quartz, judge my vow.
 
 ## What I build
 
-Small, sharp tools that do one thing and can prove they did it. Most are a
-single static binary or run entirely in the browser — no backend, no account,
-no telemetry. Grouped by what they are, not by when I wrote them.
+Small, sharp tools that do one thing and can prove they did it. Most are a single static binary or run entirely in the browser — no backend, no account, no telemetry. Grouped by what they are; newest first inside each group.
 
-### [LLM & agent tooling](https://github.com/bmmmm/bmmmm/blob/main/topics/llm-and-agent-tooling.md)
+<details open>
+<summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7</summary>
 
-Instrumenting, measuring and fact-checking what models actually do.
+- **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
+- **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
+- **[check0r3000](https://github.com/bmmmm/check0r3000)** — LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool. · `Python`
+- **[bumpii](https://github.com/bmmmm/bumpii)** — read what actually changed in the tools you run, judged against how you actually use them. · `TypeScript`
+- **[gateii](https://github.com/bmmmm/gateii)** — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. · `Lua`
+- **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
+- **[cc-insomnii](https://github.com/bmmmm/cc-insomnii)** — a bedtime-shaming statusline for Claude Code. · `Shell`
 
-- **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · [docs](https://bmmmm.github.io/claudii/)
-- **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the actual code diff, on GitHub, Forgejo, GitLab or any git clone. · [demo](https://bmmmm.github.io/comparereleaseii/demo/)
-- **[check0r3000](https://github.com/bmmmm/check0r3000)** — LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool.
+<sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/llm-and-agent-tooling.md">LLM &amp; agent tooling in detail →</a></sub>
 
-<sub>also here: bumpii · gateii · wallii · cc-insomnii — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/llm-and-agent-tooling.md">all seven →</a></sub>
+</details>
 
-### [Backup, recovery & proof](https://github.com/bmmmm/bmmmm/blob/main/topics/backup-recovery-and-proof.md)
+<details>
+<summary><strong>Backup, recovery &amp; proof</strong> — systems that assume the failure already happened and stay useful anyway · 4</summary>
 
-Systems that assume the failure already happened and stay useful anyway.
+- **[stattii](https://github.com/bmmmm/stattii)** — attestation over an event calendar — cancellations propagate outward with delivery proof. · `Go`
+- **[how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)** — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed. · `Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
+- **[baaackaaab](https://github.com/bmmmm/baaackaaab)** — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. · `Swift`
+- **[revertii](https://github.com/bmmmm/revertii)** — update a service with the way back built in: snapshot, dead man's switch, health-check, revert. · `Shell`
 
-- **[baaackaaab](https://github.com/bmmmm/baaackaaab)** — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.
-- **[revertii](https://github.com/bmmmm/revertii)** — update a service with the way back built in: snapshot, arm a dead man's switch, apply, health-check, revert if it does not return.
+<sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/backup-recovery-and-proof.md">Backup, recovery &amp; proof in detail →</a></sub>
 
-<sub>also here: how-small-can-we-go · stattii — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/backup-recovery-and-proof.md">all four →</a></sub>
+</details>
 
-### [Local-first web apps](https://github.com/bmmmm/bmmmm/blob/main/topics/local-first-web-apps.md)
+<details>
+<summary><strong>Local-first web apps</strong> — static pages that keep your data in your own browser · 7</summary>
 
-Static pages that keep your data in your own browser.
+- **[putzii](https://github.com/bmmmm/putzii)** — cleaning schedule shared by capability link, with QR check-in. No backend at all. · `JavaScript` · [live](https://bmmmm.github.io/putzii/)
+- **[gymii](https://github.com/bmmmm/gymii)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. · `JavaScript` · [live](https://bmmmm.github.io/gymii/)
+- **[kuvertii](https://github.com/bmmmm/kuvertii)** — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. · `JavaScript` · [live](https://bmmmm.github.io/kuvertii/)
+- **[musiclinkii](https://github.com/bmmmm/musiclinkii)** — turn one music link into links for every streaming platform. · `JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
+- **[shieldchipiii](https://github.com/bmmmm/shieldchipiii)** — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. · `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
+- **[app-icons-generator](https://github.com/bmmmm/app-icons-generator)** — every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser. · `Shell` · [live](https://bmmmm.github.io/app-icons-generator/)
+- **[db-wallet](https://github.com/bmmmm/db-wallet)** — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn. · `JavaScript` · [live](https://bmmmm.github.io/db-wallet/)
 
-- **[kuvertii](https://bmmmm.github.io/kuvertii/)** — read what an email header says about you: who it was really addressed to, how that was hidden, where the unsubscribe link actually leads.
-- **[putzii](https://bmmmm.github.io/putzii/)** — cleaning schedule shared by capability link, with QR check-in. No backend at all.
-- **[gymii](https://bmmmm.github.io/gymii/)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.
+<sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/local-first-web-apps.md">Local-first web apps in detail →</a></sub>
 
-<sub>also here: musiclinkii · shieldchipiii · db-wallet · app-icons-generator — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/local-first-web-apps.md">all seven →</a></sub>
+</details>
 
-### [Terminal & macOS](https://github.com/bmmmm/bmmmm/blob/main/topics/terminal-and-macos.md)
+<details>
+<summary><strong>Terminal &amp; macOS</strong> — things that live in a shell, or in the menu bar next to it · 8</summary>
 
-Things that live in a shell, or in the menu bar next to it.
+- **[pegel-visual](https://github.com/bmmmm/pegel-visual)** — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. · `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
+- **[youtubehistii](https://github.com/bmmmm/youtubehistii)** — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. · `Go`
+- **[epcii](https://github.com/bmmmm/epcii)** — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. · `Go`
+- **[pwdtintii](https://github.com/bmmmm/pwdtintii)** — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware. · `Shell`
+- **[vpnii](https://github.com/bmmmm/vpnii)** — VPN status in the zsh prompt, on top of WireGuard and Tailscale. · `Shell`
+- **[audioctl](https://github.com/bmmmm/audioctl)** — switch macOS output and input devices, volume, mute and sample rate from the CLI. · `Swift`
+- **[KeebLock](https://github.com/bmmmm/KeebLock)** — locks the keyboard while you clean it, with animations worth the thirty seconds. · `Swift`
+- **[git-times-live](https://github.com/bmmmm/git-times-live)** — a standalone live broadcast TV channel for your git activity. · `Shell` · [live](https://bmmmm.github.io/git-times-live/)
 
-- **[pegel-visual](https://bmmmm.github.io/pegel-visual/)** — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.
-- **[pwdtintii](https://github.com/bmmmm/pwdtintii)** — the terminal background takes its colour from the directory you are in. zsh, bash and fish, tmux-aware.
-- **[audioctl](https://github.com/bmmmm/audioctl)** — switch macOS output and input devices, volume, mute and sample rate from the CLI.
+<sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/terminal-and-macos.md">Terminal &amp; macOS in detail →</a></sub>
 
-<sub>also here: youtubehistii · epcii · vpnii · KeebLock · git-times-live — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/terminal-and-macos.md">all eight →</a></sub>
+</details>
 
-### [FreshRSS extensions](https://github.com/bmmmm/bmmmm/blob/main/topics/freshrss-extensions.md)
+<details>
+<summary><strong>FreshRSS extensions</strong> — four small extensions for the reader I actually use every day · 4</summary>
 
-Four small extensions for the reader I actually use every day.
+- **[NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)** — drop notes and links on one device, copy them on another with one click. · `PHP`
+- **[ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)** — keeps a history of the article links you actually opened. · `PHP`
+- **[ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)** — a large QR code for the current article, so a phone can pick the link off the screen. · `JavaScript`
+- **[ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)** — a floating button to leave the reading view in one click. · `JavaScript`
 
-- **[NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)** — drop notes and links on one device, copy them on another with one click.
-- **[ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)** — a large QR code for the current article, so a phone can pick the link off the screen.
+<sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/freshrss-extensions.md">FreshRSS extensions in detail →</a></sub>
 
-<sub>also here: ClickHistory · ExitReaderView — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/freshrss-extensions.md">all four →</a></sub>
+</details>
 
 ### Sites
 

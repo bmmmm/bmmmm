@@ -1,0 +1,42 @@
+name: build profile
+
+on:
+  schedule:
+    # Twenty past, so it does not land on top of the snake job at 03:00.
+    - cron: "20 3 * * *"
+  workflow_dispatch:
+  # Editing the curated file should show up without waiting for the cron. The
+  # path filter also keeps this from re-triggering itself: the job only ever
+  # commits README.md, topics/ and projects.json, none of which are listed.
+  push:
+    branches: [main]
+    paths:
+      - ".github/projects.curated.json"
+      - ".github/scripts/build-profile.sh"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: render profile, topic pages and feed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: .github/scripts/build-profile.sh "${{ github.repository_owner }}"
+
+      - name: commit only on a real change
+        run: |
+          set -euo pipefail
+          git add -A README.md topics projects.json
+          if git diff --cached --quiet; then
+            echo "nothing changed — no commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): refresh project order and metadata"
+          git push

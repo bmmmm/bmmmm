@@ -1,0 +1,207 @@
+{
+  "_comment": "Hand-curated input for .github/scripts/build-profile.sh. Category membership and prose live here; ordering, language, live URL and freshness come from the GitHub API at build time. Adding a repo means adding one entry — never editing README.md or topics/ by hand.",
+  "intro": "Small, sharp tools that do one thing and can prove they did it. Most are a single static binary or run entirely in the browser — no backend, no account, no telemetry. Grouped by what they are; newest first inside each group.",
+  "site_hosts": ["bmmmm.github.io", "bmako.de", "bitcircus101.de"],
+  "sites": [
+    { "name": "bmako.de", "url": "https://bmako.de" },
+    { "name": "bitcircus101.de", "url": "https://bitcircus101.de" }
+  ],
+  "categories": [
+    {
+      "key": "llm-and-agent-tooling",
+      "title": "LLM & agent tooling",
+      "tagline": "Instrumenting, measuring and fact-checking what models actually do",
+      "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
+      "projects": [
+        {
+          "repo": "claudii",
+          "install": "brew install bmmmm/tap/claudii",
+          "blurb": "statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.",
+          "detail": "A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell."
+        },
+        {
+          "repo": "comparereleaseii",
+          "links": [{ "label": "gh extension", "url": "https://github.com/bmmmm/gh-comparereleaseii" }],
+          "blurb": "fact-check release notes against the actual code diff — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the actual code diff. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you actually have before an upgrade: does the changelog describe what changed, and what did it leave out?"
+        },
+        {
+          "repo": "check0r3000",
+          "blurb": "LLM extraction of comparable facts out of insurance terms, with a model benchmark built into the tool.",
+          "detail": "Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with a model benchmark, because an extraction pipeline whose accuracy you have not measured is a rumour."
+        },
+        {
+          "repo": "bumpii",
+          "blurb": "read what actually changed in the tools you run, judged against how you actually use them.",
+          "detail": "Reads what actually changed in the CLI tools and containers you run, judged against how you use them, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you."
+        },
+        {
+          "repo": "gateii",
+          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
+          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal."
+        },
+        {
+          "repo": "wallii",
+          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
+          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback."
+        },
+        {
+          "repo": "cc-insomnii",
+          "blurb": "a bedtime-shaming statusline for Claude Code.",
+          "detail": "A bedtime-shaming statusline for Claude Code. Small, and it works."
+        }
+      ]
+    },
+    {
+      "key": "backup-recovery-and-proof",
+      "title": "Backup, recovery & proof",
+      "tagline": "Systems that assume the failure already happened and stay useful anyway",
+      "intro": "What matters after the bad thing is not that a backup exists, but that it cannot have been rewritten — and that you can show it.",
+      "projects": [
+        {
+          "repo": "baaackaaab",
+          "blurb": "one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.",
+          "detail": "One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday."
+        },
+        {
+          "repo": "revertii",
+          "blurb": "update a service with the way back built in: snapshot, dead man's switch, health-check, revert.",
+          "detail": "Updates a service with the way back built in: snapshot, arm a dead man's switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers."
+        },
+        {
+          "repo": "how-small-can-we-go",
+          "blurb": "trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed.",
+          "detail": "A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge."
+        },
+        {
+          "repo": "stattii",
+          "blurb": "attestation over an event calendar — cancellations propagate outward with delivery proof.",
+          "detail": "An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where \"I never got the message\" has consequences."
+        }
+      ]
+    },
+    {
+      "key": "local-first-web-apps",
+      "title": "Local-first web apps",
+      "tagline": "Static pages that keep your data in your own browser",
+      "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
+      "projects": [
+        {
+          "repo": "kuvertii",
+          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
+          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke."
+        },
+        {
+          "repo": "putzii",
+          "blurb": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
+          "detail": "A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission."
+        },
+        {
+          "repo": "gymii",
+          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
+          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser."
+        },
+        {
+          "repo": "musiclinkii",
+          "blurb": "turn one music link into links for every streaming platform.",
+          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static."
+        },
+        {
+          "repo": "shieldchipiii",
+          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
+          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN."
+        },
+        {
+          "repo": "db-wallet",
+          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn."
+        },
+        {
+          "repo": "app-icons-generator",
+          "blurb": "every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser.",
+          "detail": "Generates every iOS, macOS and watchOS app icon size from one 1024px PNG. Available as a CLI and as a client-side browser tool — the browser version never uploads the image."
+        }
+      ]
+    },
+    {
+      "key": "terminal-and-macos",
+      "title": "Terminal & macOS",
+      "tagline": "Things that live in a shell, or in the menu bar next to it",
+      "intro": "Mostly single static binaries or a few hundred lines of shell — installable, removable, and readable in one sitting.",
+      "projects": [
+        {
+          "repo": "pegel-visual",
+          "blurb": "live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver.",
+          "detail": "Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising."
+        },
+        {
+          "repo": "pwdtintii",
+          "blurb": "the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware.",
+          "detail": "The terminal background takes its colour from the directory you are standing in, via OSC 11 and tmux-aware. The point is not decoration: production and staging stop looking identical at 2am."
+        },
+        {
+          "repo": "youtubehistii",
+          "blurb": "local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.",
+          "detail": "Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade."
+        },
+        {
+          "repo": "epcii",
+          "blurb": "EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.",
+          "detail": "EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on."
+        },
+        {
+          "repo": "vpnii",
+          "blurb": "VPN status in the zsh prompt, on top of WireGuard and Tailscale.",
+          "detail": "VPN status indicator for zsh plus a small CLI on top of WireGuard and Tailscale. Answers \"am I actually on the tunnel right now\" in the prompt, where the question comes up."
+        },
+        {
+          "repo": "audioctl",
+          "blurb": "switch macOS output and input devices, volume, mute and sample rate from the CLI.",
+          "detail": "Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through."
+        },
+        {
+          "repo": "KeebLock",
+          "blurb": "locks the keyboard while you clean it, with animations worth the thirty seconds.",
+          "detail": "Locks the keyboard while you wipe it down, with animations worth watching for the thirty seconds it takes."
+        },
+        {
+          "repo": "git-times-live",
+          "blurb": "a standalone live broadcast TV channel for your git activity.",
+          "detail": "A standalone live broadcast TV channel for your git activity, generated from git-times. Exactly as useful as it sounds, and it runs."
+        }
+      ]
+    },
+    {
+      "key": "freshrss-extensions",
+      "title": "FreshRSS extensions",
+      "tagline": "Four small extensions for the reader I actually use every day",
+      "intro": "Each one exists because a single step in my own reading loop was one click too many.",
+      "projects": [
+        {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself."
+        },
+        {
+          "repo": "xExtension-ClickHistory",
+          "name": "ClickHistory",
+          "blurb": "keeps a history of the article links you actually opened.",
+          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list."
+        },
+        {
+          "repo": "xExtension-ShareViaQRCode",
+          "name": "ShareViaQRCode",
+          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
+          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between."
+        },
+        {
+          "repo": "xExtension-ExitReaderView",
+          "name": "ExitReaderView",
+          "blurb": "a floating button to leave the reading view in one click.",
+          "detail": "Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily."
+        }
+      ]
+    }
+  ]
+}
