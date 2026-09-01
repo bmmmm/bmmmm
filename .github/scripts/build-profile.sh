@@ -120,7 +120,7 @@ render_readme() {
       ( "<details" + (if $i == 0 then " open" else "" end) + ">" ),
       ( "<summary><strong>" + ($cat.title | gsub("&"; "&amp;")) + "</strong> — "
         + (($cat.tagline[0:1] | ascii_downcase) + $cat.tagline[1:])
-        + " · " + ($cat.projects | length | tostring) + "</summary>" ),
+        + " · " + ($cat.projects | length | tostring) + " projects</summary>" ),
       "",
       ( $cat.projects[] | entry(.) ),
       "",
