@@ -82,6 +82,10 @@ jq -n \
             links: ($p.links // []),
             language: .language,
             stars: .stars,
+            # Carried into the feed so the landing page can derive knowsAbout
+            # from topics actually set on the repos, never from a list of
+            # terms someone wished were true.
+            topics: .topics,
             live: live_url(.homepage),
             pushed_at: .pushed_at,
             updated: (.pushed_at | split("T")[0])
