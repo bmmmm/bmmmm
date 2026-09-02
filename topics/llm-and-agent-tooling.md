@@ -4,19 +4,19 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
-## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
-
-`TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
-
-Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
-
-<sub>last pushed 2026-09-01</sub>
-
 ## [wallii](https://github.com/bmmmm/wallii)
 
 `Go`
 
 An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
+
+<sub>last pushed 2026-09-02</sub>
+
+## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
+
+`TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
+
+Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
 
 <sub>last pushed 2026-09-01</sub>
 

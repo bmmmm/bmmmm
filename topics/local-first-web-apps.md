@@ -4,13 +4,21 @@ Static pages that keep your data in your own browser. No backend, no account, no
 
 Newest first — this page is generated, so the order follows the code.
 
+## [kuvertii](https://github.com/bmmmm/kuvertii)
+
+`JavaScript` · [live](https://bmmmm.github.io/kuvertii/)
+
+Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.
+
+<sub>last pushed 2026-09-02</sub>
+
 ## [putzii](https://github.com/bmmmm/putzii)
 
 `JavaScript` · [live](https://bmmmm.github.io/putzii/)
 
 A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
 
-<sub>last pushed 2026-09-01</sub>
+<sub>last pushed 2026-09-02</sub>
 
 ## [gymii](https://github.com/bmmmm/gymii)
 
@@ -19,14 +27,6 @@ A cleaning schedule for a shared flat or office, handed around as a capability l
 Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
 
 <sub>last pushed 2026-09-01</sub>
-
-## [kuvertii](https://github.com/bmmmm/kuvertii)
-
-`JavaScript` · [live](https://bmmmm.github.io/kuvertii/)
-
-Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.
-
-<sub>last pushed 2026-08-28</sub>
 
 ## [musiclinkii](https://github.com/bmmmm/musiclinkii)
 

@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where "I never got the message" has consequences.
 
-<sub>last pushed 2026-08-14</sub>
+<sub>last pushed 2026-09-02</sub>
 
 ## [how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)
 

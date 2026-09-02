@@ -21,6 +21,29 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "wallii",
+          "name": "wallii",
+          "url": "https://github.com/bmmmm/wallii",
+          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
+          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
+          "install": null,
+          "links": [],
+          "language": "Go",
+          "stars": 0,
+          "topics": [
+            "agent-monitoring",
+            "ai-agents",
+            "cli",
+            "developer-tools",
+            "golang",
+            "ndjson",
+            "tui"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-02T07:15:11Z",
+          "updated": "2026-09-02"
+        },
+        {
           "repo": "comparereleaseii",
           "name": "comparereleaseii",
           "url": "https://github.com/bmmmm/comparereleaseii",
@@ -49,29 +72,6 @@
           ],
           "live": "https://bmmmm.github.io/comparereleaseii/demo/",
           "pushed_at": "2026-09-01T17:10:51Z",
-          "updated": "2026-09-01"
-        },
-        {
-          "repo": "wallii",
-          "name": "wallii",
-          "url": "https://github.com/bmmmm/wallii",
-          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
-          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "agent-monitoring",
-            "ai-agents",
-            "cli",
-            "developer-tools",
-            "golang",
-            "ndjson",
-            "tui"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-01T11:30:00Z",
           "updated": "2026-09-01"
         },
         {
@@ -233,8 +233,8 @@
             "selfhosted"
           ],
           "live": null,
-          "pushed_at": "2026-08-14T00:23:01Z",
-          "updated": "2026-08-14"
+          "pushed_at": "2026-09-02T07:53:48Z",
+          "updated": "2026-09-02"
         },
         {
           "repo": "how-small-can-we-go",
@@ -322,6 +322,30 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
+          "repo": "kuvertii",
+          "name": "kuvertii",
+          "url": "https://github.com/bmmmm/kuvertii",
+          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
+          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "client-side",
+            "email",
+            "email-header",
+            "email-security",
+            "phishing",
+            "privacy",
+            "spam",
+            "static-site"
+          ],
+          "live": "https://bmmmm.github.io/kuvertii/",
+          "pushed_at": "2026-09-02T07:47:50Z",
+          "updated": "2026-09-02"
+        },
+        {
           "repo": "putzii",
           "name": "putzii",
           "url": "https://github.com/bmmmm/putzii",
@@ -340,8 +364,8 @@
             "vanilla-js"
           ],
           "live": "https://bmmmm.github.io/putzii/",
-          "pushed_at": "2026-09-01T09:53:58Z",
-          "updated": "2026-09-01"
+          "pushed_at": "2026-09-02T07:25:56Z",
+          "updated": "2026-09-02"
         },
         {
           "repo": "gymii",
@@ -367,30 +391,6 @@
           "live": "https://bmmmm.github.io/gymii/",
           "pushed_at": "2026-09-01T02:21:57Z",
           "updated": "2026-09-01"
-        },
-        {
-          "repo": "kuvertii",
-          "name": "kuvertii",
-          "url": "https://github.com/bmmmm/kuvertii",
-          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
-          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "client-side",
-            "email",
-            "email-header",
-            "email-security",
-            "phishing",
-            "privacy",
-            "spam",
-            "static-site"
-          ],
-          "live": "https://bmmmm.github.io/kuvertii/",
-          "pushed_at": "2026-08-28T13:59:53Z",
-          "updated": "2026-08-28"
         },
         {
           "repo": "musiclinkii",
