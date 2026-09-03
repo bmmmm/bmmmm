@@ -10,15 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.
 
-<sub>last pushed 2026-09-01</sub>
-
-## [youtubehistii](https://github.com/bmmmm/youtubehistii)
-
-`Go`
-
-Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.
-
-<sub>last pushed 2026-08-31</sub>
+<sub>last pushed 2026-09-03</sub>
 
 ## [epcii](https://github.com/bmmmm/epcii)
 
@@ -26,15 +18,15 @@ Analyses your YouTube watch history locally — topics, and the split between co
 
 EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.
 
-<sub>last pushed 2026-08-31</sub>
+<sub>last pushed 2026-09-03</sub>
 
-## [pwdtintii](https://github.com/bmmmm/pwdtintii)
+## [youtubehistii](https://github.com/bmmmm/youtubehistii)
 
-`Shell`
+`Go`
 
-The terminal background takes its colour from the directory you are standing in, via OSC 11 and tmux-aware. The point is not decoration: production and staging stop looking identical at 2am.
+Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.
 
-<sub>last pushed 2026-08-23</sub>
+<sub>last pushed 2026-09-02</sub>
 
 ## [vpnii](https://github.com/bmmmm/vpnii)
 
@@ -42,15 +34,15 @@ The terminal background takes its colour from the directory you are standing in,
 
 VPN status indicator for zsh plus a small CLI on top of WireGuard and Tailscale. Answers "am I actually on the tunnel right now" in the prompt, where the question comes up.
 
-<sub>last pushed 2026-08-05</sub>
+<sub>last pushed 2026-09-02</sub>
 
-## [audioctl](https://github.com/bmmmm/audioctl)
+## [pwdtintii](https://github.com/bmmmm/pwdtintii)
 
-`Swift`
+`Shell`
 
-Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through.
+The terminal background takes its colour from the directory you are standing in, via OSC 11 and tmux-aware. The point is not decoration: production and staging stop looking identical at 2am.
 
-<sub>last pushed 2026-07-27</sub>
+<sub>last pushed 2026-09-02</sub>
 
 ## [KeebLock](https://github.com/bmmmm/KeebLock)
 
@@ -58,7 +50,15 @@ Control macOS audio from the CLI: switch the default output and input device, vo
 
 Locks the keyboard while you wipe it down, with animations worth watching for the thirty seconds it takes.
 
-<sub>last pushed 2026-07-20</sub>
+<sub>last pushed 2026-09-02</sub>
+
+## [audioctl](https://github.com/bmmmm/audioctl)
+
+`Swift`
+
+Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through.
+
+<sub>last pushed 2026-09-02</sub>
 
 ## [git-times-live](https://github.com/bmmmm/git-times-live)
 
@@ -66,7 +66,7 @@ Locks the keyboard while you wipe it down, with animations worth watching for th
 
 A standalone live broadcast TV channel for your git activity, generated from git-times. Exactly as useful as it sounds, and it runs.
 
-<sub>last pushed 2026-07-17</sub>
+<sub>last pushed 2026-09-02</sub>
 
 ---
 
