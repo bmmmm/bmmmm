@@ -40,7 +40,7 @@
             "tui"
           ],
           "live": null,
-          "pushed_at": "2026-09-03T02:50:01Z",
+          "pushed_at": "2026-09-03T08:14:48Z",
           "updated": "2026-09-03"
         },
         {
@@ -215,6 +215,28 @@
       "intro": "What matters after the bad thing is not that a backup exists, but that it cannot have been rewritten — and that you can show it.",
       "projects": [
         {
+          "repo": "stattii",
+          "name": "stattii",
+          "url": "https://github.com/bmmmm/stattii",
+          "blurb": "attestation over an event calendar — cancellations propagate outward with delivery proof.",
+          "detail": "An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where \"I never got the message\" has consequences.",
+          "install": null,
+          "links": [],
+          "language": "Go",
+          "stars": 0,
+          "topics": [
+            "attestation",
+            "calendar",
+            "events",
+            "golang",
+            "ics",
+            "selfhosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-03T11:49:26Z",
+          "updated": "2026-09-03"
+        },
+        {
           "repo": "how-small-can-we-go",
           "name": "how-small-can-we-go",
           "url": "https://github.com/bmmmm/how-small-can-we-go",
@@ -240,28 +262,6 @@
           "live": "https://bmmmm.github.io/how-small-can-we-go/",
           "pushed_at": "2026-09-03T00:31:48Z",
           "updated": "2026-09-03"
-        },
-        {
-          "repo": "stattii",
-          "name": "stattii",
-          "url": "https://github.com/bmmmm/stattii",
-          "blurb": "attestation over an event calendar — cancellations propagate outward with delivery proof.",
-          "detail": "An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where \"I never got the message\" has consequences.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "attestation",
-            "calendar",
-            "events",
-            "golang",
-            "ics",
-            "selfhosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-02T22:41:54Z",
-          "updated": "2026-09-02"
         },
         {
           "repo": "revertii",
@@ -321,6 +321,28 @@
       "tagline": "Static pages that keep your data in your own browser",
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
+        {
+          "repo": "musiclinkii",
+          "name": "musiclinkii",
+          "url": "https://github.com/bmmmm/musiclinkii",
+          "blurb": "turn one music link into links for every streaming platform.",
+          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "github-pages",
+            "link-converter",
+            "music",
+            "songlink-alternative",
+            "static-site",
+            "streaming"
+          ],
+          "live": "https://bmmmm.github.io/musiclinkii/",
+          "pushed_at": "2026-09-03T22:59:15Z",
+          "updated": "2026-09-03"
+        },
         {
           "repo": "gymii",
           "name": "gymii",
@@ -391,28 +413,6 @@
           ],
           "live": "https://bmmmm.github.io/putzii/",
           "pushed_at": "2026-09-02T22:41:27Z",
-          "updated": "2026-09-02"
-        },
-        {
-          "repo": "musiclinkii",
-          "name": "musiclinkii",
-          "url": "https://github.com/bmmmm/musiclinkii",
-          "blurb": "turn one music link into links for every streaming platform.",
-          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "github-pages",
-            "link-converter",
-            "music",
-            "songlink-alternative",
-            "static-site",
-            "streaming"
-          ],
-          "live": "https://bmmmm.github.io/musiclinkii/",
-          "pushed_at": "2026-09-02T22:41:20Z",
           "updated": "2026-09-02"
         },
         {
@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-03T02:29:56Z",
-          "updated": "2026-09-03"
+          "pushed_at": "2026-09-04T01:59:41Z",
+          "updated": "2026-09-04"
         },
         {
           "repo": "epcii",
@@ -539,8 +539,8 @@
             "sepa"
           ],
           "live": null,
-          "pushed_at": "2026-09-03T00:32:21Z",
-          "updated": "2026-09-03"
+          "pushed_at": "2026-09-04T01:10:00Z",
+          "updated": "2026-09-04"
         },
         {
           "repo": "youtubehistii",

@@ -4,6 +4,14 @@ Static pages that keep your data in your own browser. No backend, no account, no
 
 Newest first — this page is generated, so the order follows the code.
 
+## [musiclinkii](https://github.com/bmmmm/musiclinkii)
+
+`JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
+
+Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.
+
+<sub>last pushed 2026-09-03</sub>
+
 ## [gymii](https://github.com/bmmmm/gymii)
 
 `JavaScript` · [live](https://bmmmm.github.io/gymii/)
@@ -25,14 +33,6 @@ A stone-chip logbook for your car windshield: photograph and date every chip, so
 `JavaScript` · [live](https://bmmmm.github.io/putzii/)
 
 A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
-
-<sub>last pushed 2026-09-02</sub>
-
-## [musiclinkii](https://github.com/bmmmm/musiclinkii)
-
-`JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
-
-Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.
 
 <sub>last pushed 2026-09-02</sub>
 

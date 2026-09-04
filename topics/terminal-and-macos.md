@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.
 
-<sub>last pushed 2026-09-03</sub>
+<sub>last pushed 2026-09-04</sub>
 
 ## [epcii](https://github.com/bmmmm/epcii)
 
@@ -18,7 +18,7 @@ Live ASCII water levels for German rivers, straight from PEGELONLINE, with an op
 
 EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.
 
-<sub>last pushed 2026-09-03</sub>
+<sub>last pushed 2026-09-04</sub>
 
 ## [youtubehistii](https://github.com/bmmmm/youtubehistii)
 

@@ -4,6 +4,14 @@ Systems that assume the failure already happened and stay useful anyway. What ma
 
 Newest first — this page is generated, so the order follows the code.
 
+## [stattii](https://github.com/bmmmm/stattii)
+
+`Go`
+
+An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where "I never got the message" has consequences.
+
+<sub>last pushed 2026-09-03</sub>
+
 ## [how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)
 
 `Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
@@ -11,14 +19,6 @@ Newest first — this page is generated, so the order follows the code.
 A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.
 
 <sub>last pushed 2026-09-03</sub>
-
-## [stattii](https://github.com/bmmmm/stattii)
-
-`Go`
-
-An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where "I never got the message" has consequences.
-
-<sub>last pushed 2026-09-02</sub>
 
 ## [revertii](https://github.com/bmmmm/revertii)
 
