@@ -4,6 +4,14 @@ Four small extensions for the reader I actually use every day. Each one exists b
 
 Newest first — this page is generated, so the order follows the code.
 
+## [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)
+
+`PHP`
+
+Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns "I read something about this last month" into a searchable list.
+
+<sub>last pushed 2026-09-04</sub>
+
 ## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
 
 `JavaScript`
@@ -17,14 +25,6 @@ Shows a large QR code for the current article, so a phone can pick the link stra
 `PHP`
 
 Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.
-
-<sub>last pushed 2026-09-02</sub>
-
-## [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)
-
-`PHP`
-
-Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns "I read something about this last month" into a searchable list.
 
 <sub>last pushed 2026-09-02</sub>
 

@@ -340,8 +340,8 @@
             "streaming"
           ],
           "live": "https://bmmmm.github.io/musiclinkii/",
-          "pushed_at": "2026-09-03T22:59:15Z",
-          "updated": "2026-09-03"
+          "pushed_at": "2026-09-04T15:16:08Z",
+          "updated": "2026-09-04"
         },
         {
           "repo": "gymii",
@@ -516,7 +516,7 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-04T01:59:41Z",
+          "pushed_at": "2026-09-04T18:25:21Z",
           "updated": "2026-09-04"
         },
         {
@@ -702,6 +702,27 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ClickHistory",
+          "name": "ClickHistory",
+          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
+          "blurb": "keeps a history of the article links you actually opened.",
+          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "reading-history",
+            "rss"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-04T09:08:10Z",
+          "updated": "2026-09-04"
+        },
+        {
           "repo": "xExtension-ShareViaQRCode",
           "name": "ShareViaQRCode",
           "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
@@ -743,27 +764,6 @@
           ],
           "live": null,
           "pushed_at": "2026-09-02T22:49:50Z",
-          "updated": "2026-09-02"
-        },
-        {
-          "repo": "xExtension-ClickHistory",
-          "name": "ClickHistory",
-          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
-          "blurb": "keeps a history of the article links you actually opened.",
-          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "reading-history",
-            "rss"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-02T22:49:46Z",
           "updated": "2026-09-02"
         },
         {
