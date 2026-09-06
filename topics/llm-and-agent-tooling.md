@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
 
-<sub>last pushed 2026-09-03</sub>
+<sub>last pushed 2026-09-05</sub>
 
 ## [claudii](https://github.com/bmmmm/claudii)
 

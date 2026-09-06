@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.
 
-<sub>last pushed 2026-09-04</sub>
+<sub>last pushed 2026-09-05</sub>
 
 ## [epcii](https://github.com/bmmmm/epcii)
 

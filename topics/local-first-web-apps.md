@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.
 
-<sub>last pushed 2026-09-04</sub>
+<sub>last pushed 2026-09-05</sub>
 
 ## [gymii](https://github.com/bmmmm/gymii)
 
