@@ -7,9 +7,9 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details open>
 <summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7 projects</summary>
 
-- **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
 - **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
 - **[bumpii](https://github.com/bmmmm/bumpii)** — reads what changed in the tools you run and keeps only what touches the features you use. · `TypeScript`
+- **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
 - **[check0r3000](https://github.com/bmmmm/check0r3000)** — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model. · `Python` · [scorecard](https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md)
 - **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 - **[gateii](https://github.com/bmmmm/gateii)** — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. · `Lua`
@@ -34,8 +34,8 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>Local-first web apps</strong> — static pages that keep your data in your own browser · 7 projects</summary>
 
-- **[musiclinkii](https://github.com/bmmmm/musiclinkii)** — turn one music link into links for every streaming platform. · `JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
 - **[gymii](https://github.com/bmmmm/gymii)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. · `JavaScript` · [live](https://bmmmm.github.io/gymii/)
+- **[musiclinkii](https://github.com/bmmmm/musiclinkii)** — turn one music link into links for every streaming platform. · `JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
 - **[shieldchipiii](https://github.com/bmmmm/shieldchipiii)** — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. · `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
 - **[putzii](https://github.com/bmmmm/putzii)** — cleaning schedule shared by capability link, with QR check-in. No backend at all. · `JavaScript` · [live](https://bmmmm.github.io/putzii/)
 - **[kuvertii](https://github.com/bmmmm/kuvertii)** — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. · `JavaScript` · [live](https://bmmmm.github.io/kuvertii/)

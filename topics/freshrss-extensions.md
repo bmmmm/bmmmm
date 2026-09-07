@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns "I read something about this last month" into a searchable list.
 
-<sub>last pushed 2026-09-04</sub>
+<sub>last pushed 2026-09-07</sub>
 
 ## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
 
