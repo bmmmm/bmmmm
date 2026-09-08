@@ -21,6 +21,104 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "wallii",
+          "name": "wallii",
+          "url": "https://github.com/bmmmm/wallii",
+          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
+          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
+          "install": null,
+          "links": [],
+          "language": "Go",
+          "stars": 0,
+          "topics": [
+            "agent-monitoring",
+            "ai-agents",
+            "cli",
+            "developer-tools",
+            "golang",
+            "ndjson",
+            "tui"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-07T09:39:30Z",
+          "updated": "2026-09-07"
+        },
+        {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-09-07T09:37:11Z",
+          "updated": "2026-09-07"
+        },
+        {
+          "repo": "bumpii",
+          "name": "bumpii",
+          "url": "https://github.com/bmmmm/bumpii",
+          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
+          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
+          "install": null,
+          "links": [],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "developer-tools",
+            "release-notes",
+            "typescript",
+            "updater"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-07T09:36:55Z",
+          "updated": "2026-09-07"
+        },
+        {
+          "repo": "gateii",
+          "name": "gateii",
+          "url": "https://github.com/bmmmm/gateii",
+          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
+          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
+          "install": null,
+          "links": [],
+          "language": "Lua",
+          "stars": 0,
+          "topics": [
+            "anthropic",
+            "api-proxy",
+            "claude",
+            "docker",
+            "llm",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-07T09:36:35Z",
+          "updated": "2026-09-07"
+        },
+        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -53,53 +151,8 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-09-06T22:57:01Z",
-          "updated": "2026-09-06"
-        },
-        {
-          "repo": "bumpii",
-          "name": "bumpii",
-          "url": "https://github.com/bmmmm/bumpii",
-          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
-          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
-          "install": null,
-          "links": [],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "developer-tools",
-            "release-notes",
-            "typescript",
-            "updater"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-06T22:33:03Z",
-          "updated": "2026-09-06"
-        },
-        {
-          "repo": "wallii",
-          "name": "wallii",
-          "url": "https://github.com/bmmmm/wallii",
-          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
-          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "agent-monitoring",
-            "ai-agents",
-            "cli",
-            "developer-tools",
-            "golang",
-            "ndjson",
-            "tui"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-06T19:54:54Z",
-          "updated": "2026-09-06"
+          "pushed_at": "2026-09-07T09:35:59Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "check0r3000",
@@ -129,61 +182,8 @@
             "uv"
           ],
           "live": null,
-          "pushed_at": "2026-09-03T00:25:37Z",
-          "updated": "2026-09-03"
-        },
-        {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-09-03T00:13:51Z",
-          "updated": "2026-09-03"
-        },
-        {
-          "repo": "gateii",
-          "name": "gateii",
-          "url": "https://github.com/bmmmm/gateii",
-          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
-          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
-          "install": null,
-          "links": [],
-          "language": "Lua",
-          "stars": 0,
-          "topics": [
-            "anthropic",
-            "api-proxy",
-            "claude",
-            "docker",
-            "llm",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-02T22:40:40Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:35:53Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "cc-insomnii",
@@ -233,7 +233,31 @@
             "selfhosted"
           ],
           "live": null,
-          "pushed_at": "2026-09-07T07:03:42Z",
+          "pushed_at": "2026-09-07T09:39:10Z",
+          "updated": "2026-09-07"
+        },
+        {
+          "repo": "revertii",
+          "name": "revertii",
+          "url": "https://github.com/bmmmm/revertii",
+          "blurb": "update a service with the way back built in: snapshot, dead man's switch, health-check, revert.",
+          "detail": "Updates a service with the way back built in: snapshot, arm a dead man's switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers.",
+          "install": null,
+          "links": [],
+          "language": "Shell",
+          "stars": 0,
+          "topics": [
+            "deployment",
+            "healthcheck",
+            "podman",
+            "rollback",
+            "self-healing",
+            "shell",
+            "sysadmin",
+            "systemd"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-07T09:38:42Z",
           "updated": "2026-09-07"
         },
         {
@@ -260,32 +284,8 @@
             "zero-dependency"
           ],
           "live": "https://bmmmm.github.io/how-small-can-we-go/",
-          "pushed_at": "2026-09-03T00:31:48Z",
-          "updated": "2026-09-03"
-        },
-        {
-          "repo": "revertii",
-          "name": "revertii",
-          "url": "https://github.com/bmmmm/revertii",
-          "blurb": "update a service with the way back built in: snapshot, dead man's switch, health-check, revert.",
-          "detail": "Updates a service with the way back built in: snapshot, arm a dead man's switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers.",
-          "install": null,
-          "links": [],
-          "language": "Shell",
-          "stars": 0,
-          "topics": [
-            "deployment",
-            "healthcheck",
-            "podman",
-            "rollback",
-            "self-healing",
-            "shell",
-            "sysadmin",
-            "systemd"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-02T22:41:41Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:37:06Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "baaackaaab",
@@ -310,8 +310,8 @@
             "tui"
           ],
           "live": null,
-          "pushed_at": "2026-09-02T20:11:37Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:35:35Z",
+          "updated": "2026-09-07"
         }
       ]
     },
@@ -321,31 +321,6 @@
       "tagline": "Static pages that keep your data in your own browser",
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
-        {
-          "repo": "gymii",
-          "name": "gymii",
-          "url": "https://github.com/bmmmm/gymii",
-          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
-          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "fitness",
-            "gym",
-            "localstorage",
-            "no-build",
-            "offline-first",
-            "pwa",
-            "static-site",
-            "vanilla-js",
-            "workout-tracker"
-          ],
-          "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-09-06T22:40:25Z",
-          "updated": "2026-09-06"
-        },
         {
           "repo": "musiclinkii",
           "name": "musiclinkii",
@@ -365,55 +340,8 @@
             "streaming"
           ],
           "live": "https://bmmmm.github.io/musiclinkii/",
-          "pushed_at": "2026-09-06T11:27:23Z",
-          "updated": "2026-09-06"
-        },
-        {
-          "repo": "shieldchipiii",
-          "name": "shieldchipiii",
-          "url": "https://github.com/bmmmm/shieldchipiii",
-          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
-          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "ascii-art",
-            "car",
-            "localstorage",
-            "logbook",
-            "offline-first",
-            "stone-chip",
-            "vanilla-js",
-            "windshield"
-          ],
-          "live": "https://bmmmm.github.io/shieldchipiii/",
-          "pushed_at": "2026-09-02T22:41:48Z",
-          "updated": "2026-09-02"
-        },
-        {
-          "repo": "putzii",
-          "name": "putzii",
-          "url": "https://github.com/bmmmm/putzii",
-          "blurb": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
-          "detail": "A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "cleaning-schedule",
-            "go",
-            "local-first",
-            "pwa",
-            "qr-code",
-            "self-hosted",
-            "vanilla-js"
-          ],
-          "live": "https://bmmmm.github.io/putzii/",
-          "pushed_at": "2026-09-02T22:41:27Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T23:06:31Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "kuvertii",
@@ -436,8 +364,80 @@
             "static-site"
           ],
           "live": "https://bmmmm.github.io/kuvertii/",
-          "pushed_at": "2026-09-02T22:41:13Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T20:18:31Z",
+          "updated": "2026-09-07"
+        },
+        {
+          "repo": "shieldchipiii",
+          "name": "shieldchipiii",
+          "url": "https://github.com/bmmmm/shieldchipiii",
+          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
+          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "ascii-art",
+            "car",
+            "localstorage",
+            "logbook",
+            "offline-first",
+            "stone-chip",
+            "vanilla-js",
+            "windshield"
+          ],
+          "live": "https://bmmmm.github.io/shieldchipiii/",
+          "pushed_at": "2026-09-07T09:38:57Z",
+          "updated": "2026-09-07"
+        },
+        {
+          "repo": "putzii",
+          "name": "putzii",
+          "url": "https://github.com/bmmmm/putzii",
+          "blurb": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
+          "detail": "A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "cleaning-schedule",
+            "go",
+            "local-first",
+            "pwa",
+            "qr-code",
+            "self-hosted",
+            "vanilla-js"
+          ],
+          "live": "https://bmmmm.github.io/putzii/",
+          "pushed_at": "2026-09-07T09:38:17Z",
+          "updated": "2026-09-07"
+        },
+        {
+          "repo": "gymii",
+          "name": "gymii",
+          "url": "https://github.com/bmmmm/gymii",
+          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
+          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "fitness",
+            "gym",
+            "localstorage",
+            "no-build",
+            "offline-first",
+            "pwa",
+            "static-site",
+            "vanilla-js",
+            "workout-tracker"
+          ],
+          "live": "https://bmmmm.github.io/gymii/",
+          "pushed_at": "2026-09-07T09:36:47Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "db-wallet",
@@ -457,8 +457,8 @@
             "pwa"
           ],
           "live": "https://bmmmm.github.io/db-wallet/",
-          "pushed_at": "2026-09-02T22:40:27Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:36:15Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "app-icons-generator",
@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-07T07:41:36Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-08T06:00:50Z",
+          "updated": "2026-09-08"
         },
         {
           "repo": "epcii",
@@ -539,8 +539,8 @@
             "sepa"
           ],
           "live": null,
-          "pushed_at": "2026-09-04T01:10:00Z",
-          "updated": "2026-09-04"
+          "pushed_at": "2026-09-07T15:17:37Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "youtubehistii",
@@ -561,8 +561,8 @@
             "youtube"
           ],
           "live": null,
-          "pushed_at": "2026-09-02T22:42:19Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:39:42Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "vpnii",
@@ -586,8 +586,8 @@
             "zsh-prompt"
           ],
           "live": null,
-          "pushed_at": "2026-09-02T22:42:00Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:39:18Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "pwdtintii",
@@ -613,8 +613,8 @@
             "zsh-plugin"
           ],
           "live": null,
-          "pushed_at": "2026-09-02T22:41:33Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:38:27Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "KeebLock",
@@ -634,8 +634,8 @@
             "swiftui"
           ],
           "live": null,
-          "pushed_at": "2026-09-02T22:41:06Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:37:30Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "audioctl",
@@ -659,8 +659,8 @@
             "swift"
           ],
           "live": null,
-          "pushed_at": "2026-09-02T22:39:57Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-07T09:35:30Z",
+          "updated": "2026-09-07"
         },
         {
           "repo": "git-times-live",
@@ -701,6 +701,26 @@
       "tagline": "Four small extensions for the reader I actually use every day",
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
+        {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 0,
+          "topics": [
+            "clipboard",
+            "freshrss",
+            "freshrss-extension",
+            "notes"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-08T06:34:42Z",
+          "updated": "2026-09-08"
+        },
         {
           "repo": "xExtension-ClickHistory",
           "name": "ClickHistory",
@@ -744,26 +764,6 @@
           ],
           "live": null,
           "pushed_at": "2026-09-02T22:49:53Z",
-          "updated": "2026-09-02"
-        },
-        {
-          "repo": "xExtension-NoteDrop",
-          "name": "NoteDrop",
-          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
-          "blurb": "drop notes and links on one device, copy them on another with one click.",
-          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 0,
-          "topics": [
-            "clipboard",
-            "freshrss",
-            "freshrss-extension",
-            "notes"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-02T22:49:50Z",
           "updated": "2026-09-02"
         },
         {
