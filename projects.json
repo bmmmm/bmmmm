@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-08T06:00:50Z",
-          "updated": "2026-09-08"
+          "pushed_at": "2026-09-09T06:58:39Z",
+          "updated": "2026-09-09"
         },
         {
           "repo": "epcii",
@@ -702,6 +702,30 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ShareViaQRCode",
+          "name": "ShareViaQRCode",
+          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
+          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
+          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "javascript",
+            "php",
+            "qr-code",
+            "rss",
+            "rss-reader",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-08T18:44:32Z",
+          "updated": "2026-09-08"
+        },
+        {
           "repo": "xExtension-NoteDrop",
           "name": "NoteDrop",
           "url": "https://github.com/bmmmm/xExtension-NoteDrop",
@@ -741,30 +765,6 @@
           "live": null,
           "pushed_at": "2026-09-07T07:09:17Z",
           "updated": "2026-09-07"
-        },
-        {
-          "repo": "xExtension-ShareViaQRCode",
-          "name": "ShareViaQRCode",
-          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
-          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
-          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "javascript",
-            "php",
-            "qr-code",
-            "rss",
-            "rss-reader",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-02T22:49:53Z",
-          "updated": "2026-09-02"
         },
         {
           "repo": "xExtension-ExitReaderView",
