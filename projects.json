@@ -21,6 +21,42 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "claudii",
+          "name": "claudii",
+          "url": "https://github.com/bmmmm/claudii",
+          "blurb": "statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.",
+          "detail": "A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.",
+          "install": "brew install bmmmm/tap/claudii",
+          "links": [],
+          "language": "Shell",
+          "stars": 2,
+          "topics": [
+            "anthropic",
+            "bash",
+            "claude",
+            "claude-code",
+            "claude-code-statusline",
+            "cli",
+            "cost-tracking",
+            "dashboard",
+            "developer-tools",
+            "homebrew",
+            "jq",
+            "monitoring",
+            "oh-my-zsh",
+            "rate-limit",
+            "shell",
+            "statusline",
+            "terminal",
+            "usage-tracking",
+            "zsh",
+            "zsh-plugin"
+          ],
+          "live": "https://bmmmm.github.io/claudii/",
+          "pushed_at": "2026-09-10T00:27:48Z",
+          "updated": "2026-09-10"
+        },
+        {
           "repo": "wallii",
           "name": "wallii",
           "url": "https://github.com/bmmmm/wallii",
@@ -116,42 +152,6 @@
           ],
           "live": null,
           "pushed_at": "2026-09-07T09:36:35Z",
-          "updated": "2026-09-07"
-        },
-        {
-          "repo": "claudii",
-          "name": "claudii",
-          "url": "https://github.com/bmmmm/claudii",
-          "blurb": "statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons.",
-          "detail": "A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.",
-          "install": "brew install bmmmm/tap/claudii",
-          "links": [],
-          "language": "Shell",
-          "stars": 2,
-          "topics": [
-            "anthropic",
-            "bash",
-            "claude",
-            "claude-code",
-            "claude-code-statusline",
-            "cli",
-            "cost-tracking",
-            "dashboard",
-            "developer-tools",
-            "homebrew",
-            "jq",
-            "monitoring",
-            "oh-my-zsh",
-            "rate-limit",
-            "shell",
-            "statusline",
-            "terminal",
-            "usage-tracking",
-            "zsh",
-            "zsh-plugin"
-          ],
-          "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-09-07T09:35:59Z",
           "updated": "2026-09-07"
         },
         {
@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-09T06:58:39Z",
-          "updated": "2026-09-09"
+          "pushed_at": "2026-09-10T02:32:02Z",
+          "updated": "2026-09-10"
         },
         {
           "repo": "epcii",

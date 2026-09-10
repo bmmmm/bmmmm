@@ -4,6 +4,14 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
+## [claudii](https://github.com/bmmmm/claudii)
+
+`Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
+
+A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
+
+<sub>last pushed 2026-09-10</sub>
+
 ## [wallii](https://github.com/bmmmm/wallii)
 
 `Go`
@@ -33,14 +41,6 @@ Reads what changed in the CLI tools and containers you run, keeps only what touc
 `Lua`
 
 A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.
-
-<sub>last pushed 2026-09-07</sub>
-
-## [claudii](https://github.com/bmmmm/claudii)
-
-`Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
-
-A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
 
 <sub>last pushed 2026-09-07</sub>
 
