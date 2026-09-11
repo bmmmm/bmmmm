@@ -4,6 +4,14 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
+## [wallii](https://github.com/bmmmm/wallii)
+
+`Go`
+
+An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
+
+<sub>last pushed 2026-09-10</sub>
+
 ## [claudii](https://github.com/bmmmm/claudii)
 
 `Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
@@ -12,27 +20,19 @@ A statusline for Claude Code: session cost, context usage in percent, rate-limit
 
 <sub>last pushed 2026-09-10</sub>
 
-## [wallii](https://github.com/bmmmm/wallii)
+## [bumpii](https://github.com/bmmmm/bumpii)
 
-`Go`
+`TypeScript`
 
-An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
+Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
 
-<sub>last pushed 2026-09-07</sub>
+<sub>last pushed 2026-09-10</sub>
 
 ## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
 
 `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 
 Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
-
-<sub>last pushed 2026-09-07</sub>
-
-## [bumpii](https://github.com/bmmmm/bumpii)
-
-`TypeScript`
-
-Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
 
 <sub>last pushed 2026-09-07</sub>
 
