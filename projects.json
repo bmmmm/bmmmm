@@ -21,6 +21,28 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "bumpii",
+          "name": "bumpii",
+          "url": "https://github.com/bmmmm/bumpii",
+          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
+          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
+          "install": null,
+          "links": [],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "developer-tools",
+            "release-notes",
+            "typescript",
+            "updater"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-12T02:47:14Z",
+          "updated": "2026-09-12"
+        },
+        {
           "repo": "wallii",
           "name": "wallii",
           "url": "https://github.com/bmmmm/wallii",
@@ -40,8 +62,30 @@
             "tui"
           ],
           "live": null,
-          "pushed_at": "2026-09-10T22:24:48Z",
-          "updated": "2026-09-10"
+          "pushed_at": "2026-09-11T11:50:05Z",
+          "updated": "2026-09-11"
+        },
+        {
+          "repo": "gateii",
+          "name": "gateii",
+          "url": "https://github.com/bmmmm/gateii",
+          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
+          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
+          "install": null,
+          "links": [],
+          "language": "Lua",
+          "stars": 0,
+          "topics": [
+            "anthropic",
+            "api-proxy",
+            "claude",
+            "docker",
+            "llm",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-11T10:57:23Z",
+          "updated": "2026-09-11"
         },
         {
           "repo": "claudii",
@@ -80,28 +124,6 @@
           "updated": "2026-09-10"
         },
         {
-          "repo": "bumpii",
-          "name": "bumpii",
-          "url": "https://github.com/bmmmm/bumpii",
-          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
-          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
-          "install": null,
-          "links": [],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "developer-tools",
-            "release-notes",
-            "typescript",
-            "updater"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-10T18:27:53Z",
-          "updated": "2026-09-10"
-        },
-        {
           "repo": "comparereleaseii",
           "name": "comparereleaseii",
           "url": "https://github.com/bmmmm/comparereleaseii",
@@ -130,28 +152,6 @@
           ],
           "live": "https://bmmmm.github.io/comparereleaseii/demo/",
           "pushed_at": "2026-09-07T09:37:11Z",
-          "updated": "2026-09-07"
-        },
-        {
-          "repo": "gateii",
-          "name": "gateii",
-          "url": "https://github.com/bmmmm/gateii",
-          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
-          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
-          "install": null,
-          "links": [],
-          "language": "Lua",
-          "stars": 0,
-          "topics": [
-            "anthropic",
-            "api-proxy",
-            "claude",
-            "docker",
-            "llm",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-07T09:36:35Z",
           "updated": "2026-09-07"
         },
         {
@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-10T20:02:18Z",
-          "updated": "2026-09-10"
+          "pushed_at": "2026-09-11T20:01:49Z",
+          "updated": "2026-09-11"
         },
         {
           "repo": "epcii",
@@ -702,6 +702,27 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ClickHistory",
+          "name": "ClickHistory",
+          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
+          "blurb": "keeps a history of the article links you actually opened.",
+          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "reading-history",
+            "rss"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-11T09:08:08Z",
+          "updated": "2026-09-11"
+        },
+        {
           "repo": "xExtension-ShareViaQRCode",
           "name": "ShareViaQRCode",
           "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
@@ -744,27 +765,6 @@
           "live": null,
           "pushed_at": "2026-09-08T06:34:42Z",
           "updated": "2026-09-08"
-        },
-        {
-          "repo": "xExtension-ClickHistory",
-          "name": "ClickHistory",
-          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
-          "blurb": "keeps a history of the article links you actually opened.",
-          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "reading-history",
-            "rss"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-07T07:09:17Z",
-          "updated": "2026-09-07"
         },
         {
           "repo": "xExtension-ExitReaderView",
