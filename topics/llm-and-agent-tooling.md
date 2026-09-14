@@ -4,6 +4,14 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
+## [wallii](https://github.com/bmmmm/wallii)
+
+`Go`
+
+An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
+
+<sub>last pushed 2026-09-13</sub>
+
 ## [bumpii](https://github.com/bmmmm/bumpii)
 
 `TypeScript`
@@ -11,14 +19,6 @@ Newest first — this page is generated, so the order follows the code.
 Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
 
 <sub>last pushed 2026-09-12</sub>
-
-## [wallii](https://github.com/bmmmm/wallii)
-
-`Go`
-
-An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
-
-<sub>last pushed 2026-09-11</sub>
 
 ## [gateii](https://github.com/bmmmm/gateii)
 

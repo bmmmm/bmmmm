@@ -7,8 +7,8 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details open>
 <summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7 projects</summary>
 
-- **[bumpii](https://github.com/bmmmm/bumpii)** — reads what changed in the tools you run and keeps only what touches the features you use. · `TypeScript`
 - **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
+- **[bumpii](https://github.com/bmmmm/bumpii)** — reads what changed in the tools you run and keeps only what touches the features you use. · `TypeScript`
 - **[gateii](https://github.com/bmmmm/gateii)** — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. · `Lua`
 - **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
 - **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
