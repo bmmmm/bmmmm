@@ -4,6 +4,14 @@ Static pages that keep your data in your own browser. No backend, no account, no
 
 Newest first — this page is generated, so the order follows the code.
 
+## [gymii](https://github.com/bmmmm/gymii)
+
+`JavaScript` · [live](https://bmmmm.github.io/gymii/)
+
+Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
+
+<sub>last pushed 2026-09-17</sub>
+
 ## [musiclinkii](https://github.com/bmmmm/musiclinkii)
 
 `JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
@@ -33,14 +41,6 @@ A stone-chip logbook for your car windshield: photograph and date every chip, so
 `JavaScript` · [live](https://bmmmm.github.io/putzii/)
 
 A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
-
-<sub>last pushed 2026-09-07</sub>
-
-## [gymii](https://github.com/bmmmm/gymii)
-
-`JavaScript` · [live](https://bmmmm.github.io/gymii/)
-
-Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
 
 <sub>last pushed 2026-09-07</sub>
 

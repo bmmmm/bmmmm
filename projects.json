@@ -322,6 +322,31 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
+          "repo": "gymii",
+          "name": "gymii",
+          "url": "https://github.com/bmmmm/gymii",
+          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
+          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "fitness",
+            "gym",
+            "localstorage",
+            "no-build",
+            "offline-first",
+            "pwa",
+            "static-site",
+            "vanilla-js",
+            "workout-tracker"
+          ],
+          "live": "https://bmmmm.github.io/gymii/",
+          "pushed_at": "2026-09-17T11:02:17Z",
+          "updated": "2026-09-17"
+        },
+        {
           "repo": "musiclinkii",
           "name": "musiclinkii",
           "url": "https://github.com/bmmmm/musiclinkii",
@@ -415,31 +440,6 @@
           "updated": "2026-09-07"
         },
         {
-          "repo": "gymii",
-          "name": "gymii",
-          "url": "https://github.com/bmmmm/gymii",
-          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
-          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "fitness",
-            "gym",
-            "localstorage",
-            "no-build",
-            "offline-first",
-            "pwa",
-            "static-site",
-            "vanilla-js",
-            "workout-tracker"
-          ],
-          "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-09-07T09:36:47Z",
-          "updated": "2026-09-07"
-        },
-        {
           "repo": "db-wallet",
           "name": "db-wallet",
           "url": "https://github.com/bmmmm/db-wallet",
@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-16T20:26:35Z",
-          "updated": "2026-09-16"
+          "pushed_at": "2026-09-17T20:34:07Z",
+          "updated": "2026-09-17"
         },
         {
           "repo": "epcii",

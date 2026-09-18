@@ -34,11 +34,11 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>Local-first web apps</strong> — static pages that keep your data in your own browser · 7 projects</summary>
 
+- **[gymii](https://github.com/bmmmm/gymii)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. · `JavaScript` · [live](https://bmmmm.github.io/gymii/)
 - **[musiclinkii](https://github.com/bmmmm/musiclinkii)** — turn one music link into links for every streaming platform. · `JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
 - **[kuvertii](https://github.com/bmmmm/kuvertii)** — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. · `JavaScript` · [live](https://bmmmm.github.io/kuvertii/)
 - **[shieldchipiii](https://github.com/bmmmm/shieldchipiii)** — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. · `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
 - **[putzii](https://github.com/bmmmm/putzii)** — cleaning schedule shared by capability link, with QR check-in. No backend at all. · `JavaScript` · [live](https://bmmmm.github.io/putzii/)
-- **[gymii](https://github.com/bmmmm/gymii)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. · `JavaScript` · [live](https://bmmmm.github.io/gymii/)
 - **[db-wallet](https://github.com/bmmmm/db-wallet)** — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn. · `JavaScript` · [live](https://bmmmm.github.io/db-wallet/)
 - **[app-icons-generator](https://github.com/bmmmm/app-icons-generator)** — every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser. · `Shell` · [live](https://bmmmm.github.io/app-icons-generator/)
 
