@@ -49,8 +49,8 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>Terminal &amp; macOS</strong> — things that live in a shell, or in the menu bar next to it · 8 projects</summary>
 
-- **[pegel-visual](https://github.com/bmmmm/pegel-visual)** — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. · `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
 - **[epcii](https://github.com/bmmmm/epcii)** — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. · `Go`
+- **[pegel-visual](https://github.com/bmmmm/pegel-visual)** — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. · `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
 - **[youtubehistii](https://github.com/bmmmm/youtubehistii)** — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. · `Go`
 - **[vpnii](https://github.com/bmmmm/vpnii)** — VPN status in the zsh prompt, on top of WireGuard and Tailscale. · `Shell`
 - **[pwdtintii](https://github.com/bmmmm/pwdtintii)** — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware. · `Shell`

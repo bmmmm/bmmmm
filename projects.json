@@ -496,6 +496,29 @@
       "intro": "Mostly single static binaries or a few hundred lines of shell — installable, removable, and readable in one sitting.",
       "projects": [
         {
+          "repo": "epcii",
+          "name": "epcii",
+          "url": "https://github.com/bmmmm/epcii",
+          "blurb": "EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.",
+          "detail": "EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.",
+          "install": null,
+          "links": [],
+          "language": "Go",
+          "stars": 0,
+          "topics": [
+            "cli",
+            "epc-qr",
+            "girocode",
+            "golang",
+            "payments",
+            "qr-code",
+            "sepa"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-21T09:00:36Z",
+          "updated": "2026-09-21"
+        },
+        {
           "repo": "pegel-visual",
           "name": "pegel-visual",
           "url": "https://github.com/bmmmm/pegel-visual",
@@ -516,31 +539,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-19T19:36:09Z",
-          "updated": "2026-09-19"
-        },
-        {
-          "repo": "epcii",
-          "name": "epcii",
-          "url": "https://github.com/bmmmm/epcii",
-          "blurb": "EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.",
-          "detail": "EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "cli",
-            "epc-qr",
-            "girocode",
-            "golang",
-            "payments",
-            "qr-code",
-            "sepa"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-07T15:17:37Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-21T04:23:12Z",
+          "updated": "2026-09-21"
         },
         {
           "repo": "youtubehistii",
