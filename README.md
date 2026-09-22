@@ -49,7 +49,7 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>Terminal &amp; macOS</strong> — things that live in a shell, or in the menu bar next to it · 8 projects</summary>
 
-- **[epcii](https://github.com/bmmmm/epcii)** — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. · `Go`
+- **[epcii](https://github.com/bmmmm/epcii)** — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. · `Go` · [live](https://bmmmm.github.io/epcii/)
 - **[pegel-visual](https://github.com/bmmmm/pegel-visual)** — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. · `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
 - **[youtubehistii](https://github.com/bmmmm/youtubehistii)** — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. · `Go`
 - **[vpnii](https://github.com/bmmmm/vpnii)** — VPN status in the zsh prompt, on top of WireGuard and Tailscale. · `Shell`
@@ -65,9 +65,9 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>FreshRSS extensions</strong> — four small extensions for the reader I actually use every day · 4 projects</summary>
 
+- **[NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)** — drop notes and links on one device, copy them on another with one click. · `PHP`
 - **[ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)** — keeps a history of the article links you actually opened. · `PHP`
 - **[ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)** — a large QR code for the current article, so a phone can pick the link off the screen. · `JavaScript`
-- **[NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)** — drop notes and links on one device, copy them on another with one click. · `PHP`
 - **[ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)** — a floating button to leave the reading view in one click. · `JavaScript`
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/freshrss-extensions.md">FreshRSS extensions in detail →</a></sub>

@@ -6,7 +6,7 @@ Newest first — this page is generated, so the order follows the code.
 
 ## [epcii](https://github.com/bmmmm/epcii)
 
-`Go`
+`Go` · [live](https://bmmmm.github.io/epcii/)
 
 EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.
 
