@@ -496,29 +496,6 @@
       "intro": "Mostly single static binaries or a few hundred lines of shell — installable, removable, and readable in one sitting.",
       "projects": [
         {
-          "repo": "epcii",
-          "name": "epcii",
-          "url": "https://github.com/bmmmm/epcii",
-          "blurb": "EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.",
-          "detail": "EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "cli",
-            "epc-qr",
-            "girocode",
-            "golang",
-            "payments",
-            "qr-code",
-            "sepa"
-          ],
-          "live": "https://bmmmm.github.io/epcii/",
-          "pushed_at": "2026-09-21T21:15:52Z",
-          "updated": "2026-09-21"
-        },
-        {
           "repo": "pegel-visual",
           "name": "pegel-visual",
           "url": "https://github.com/bmmmm/pegel-visual",
@@ -539,7 +516,30 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-21T21:15:32Z",
+          "pushed_at": "2026-09-22T22:50:02Z",
+          "updated": "2026-09-22"
+        },
+        {
+          "repo": "epcii",
+          "name": "epcii",
+          "url": "https://github.com/bmmmm/epcii",
+          "blurb": "EPC QR code (GiroCode) generator — one static binary with its own QR encoder core.",
+          "detail": "EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.",
+          "install": null,
+          "links": [],
+          "language": "Go",
+          "stars": 0,
+          "topics": [
+            "cli",
+            "epc-qr",
+            "girocode",
+            "golang",
+            "payments",
+            "qr-code",
+            "sepa"
+          ],
+          "live": "https://bmmmm.github.io/epcii/",
+          "pushed_at": "2026-09-21T21:15:52Z",
           "updated": "2026-09-21"
         },
         {
@@ -702,6 +702,30 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ShareViaQRCode",
+          "name": "ShareViaQRCode",
+          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
+          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
+          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "javascript",
+            "php",
+            "qr-code",
+            "rss",
+            "rss-reader",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-22T18:44:11Z",
+          "updated": "2026-09-22"
+        },
+        {
           "repo": "xExtension-NoteDrop",
           "name": "NoteDrop",
           "url": "https://github.com/bmmmm/xExtension-NoteDrop",
@@ -741,30 +765,6 @@
           "live": null,
           "pushed_at": "2026-09-18T09:07:52Z",
           "updated": "2026-09-18"
-        },
-        {
-          "repo": "xExtension-ShareViaQRCode",
-          "name": "ShareViaQRCode",
-          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
-          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
-          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "javascript",
-            "php",
-            "qr-code",
-            "rss",
-            "rss-reader",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-08T18:44:32Z",
-          "updated": "2026-09-08"
         },
         {
           "repo": "xExtension-ExitReaderView",

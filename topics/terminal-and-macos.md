@@ -4,19 +4,19 @@ Things that live in a shell, or in the menu bar next to it. Mostly single static
 
 Newest first — this page is generated, so the order follows the code.
 
-## [epcii](https://github.com/bmmmm/epcii)
-
-`Go` · [live](https://bmmmm.github.io/epcii/)
-
-EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.
-
-<sub>last pushed 2026-09-21</sub>
-
 ## [pegel-visual](https://github.com/bmmmm/pegel-visual)
 
 `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
 
 Live ASCII water levels for German rivers, straight from PEGELONLINE, with an optional aircraft overlay fed by your own ADS-B receiver. A dashboard that fits in an 80×24 terminal and still tells you whether the river is rising.
+
+<sub>last pushed 2026-09-22</sub>
+
+## [epcii](https://github.com/bmmmm/epcii)
+
+`Go` · [live](https://bmmmm.github.io/epcii/)
+
+EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.
 
 <sub>last pushed 2026-09-21</sub>
 
