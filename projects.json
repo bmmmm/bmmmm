@@ -21,6 +21,73 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "wallii",
+          "name": "wallii",
+          "url": "https://github.com/bmmmm/wallii",
+          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
+          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
+          "install": null,
+          "links": [],
+          "language": "Go",
+          "stars": 0,
+          "topics": [
+            "agent-monitoring",
+            "ai-agents",
+            "cli",
+            "developer-tools",
+            "golang",
+            "ndjson",
+            "tui"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-24T00:17:45Z",
+          "updated": "2026-09-24"
+        },
+        {
+          "repo": "bumpii",
+          "name": "bumpii",
+          "url": "https://github.com/bmmmm/bumpii",
+          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
+          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
+          "install": null,
+          "links": [],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "developer-tools",
+            "release-notes",
+            "typescript",
+            "updater"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-23T23:55:10Z",
+          "updated": "2026-09-23"
+        },
+        {
+          "repo": "gateii",
+          "name": "gateii",
+          "url": "https://github.com/bmmmm/gateii",
+          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
+          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
+          "install": null,
+          "links": [],
+          "language": "Lua",
+          "stars": 0,
+          "topics": [
+            "anthropic",
+            "api-proxy",
+            "claude",
+            "docker",
+            "llm",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-23T23:16:25Z",
+          "updated": "2026-09-23"
+        },
+        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -55,73 +122,6 @@
           "live": "https://bmmmm.github.io/claudii/",
           "pushed_at": "2026-09-16T13:21:25Z",
           "updated": "2026-09-16"
-        },
-        {
-          "repo": "wallii",
-          "name": "wallii",
-          "url": "https://github.com/bmmmm/wallii",
-          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
-          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "agent-monitoring",
-            "ai-agents",
-            "cli",
-            "developer-tools",
-            "golang",
-            "ndjson",
-            "tui"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-13T21:02:05Z",
-          "updated": "2026-09-13"
-        },
-        {
-          "repo": "bumpii",
-          "name": "bumpii",
-          "url": "https://github.com/bmmmm/bumpii",
-          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
-          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
-          "install": null,
-          "links": [],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "developer-tools",
-            "release-notes",
-            "typescript",
-            "updater"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-12T02:47:14Z",
-          "updated": "2026-09-12"
-        },
-        {
-          "repo": "gateii",
-          "name": "gateii",
-          "url": "https://github.com/bmmmm/gateii",
-          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
-          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
-          "install": null,
-          "links": [],
-          "language": "Lua",
-          "stars": 0,
-          "topics": [
-            "anthropic",
-            "api-proxy",
-            "claude",
-            "docker",
-            "llm",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-11T10:57:23Z",
-          "updated": "2026-09-11"
         },
         {
           "repo": "comparereleaseii",
@@ -233,8 +233,34 @@
             "selfhosted"
           ],
           "live": null,
-          "pushed_at": "2026-09-07T09:39:10Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-24T00:30:43Z",
+          "updated": "2026-09-24"
+        },
+        {
+          "repo": "baaackaaab",
+          "name": "baaackaaab",
+          "url": "https://github.com/bmmmm/baaackaaab",
+          "blurb": "one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.",
+          "detail": "One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.",
+          "install": null,
+          "links": [],
+          "language": "Swift",
+          "stars": 0,
+          "topics": [
+            "append-only",
+            "backup",
+            "cli",
+            "icloud",
+            "icloud-photos",
+            "macos",
+            "ransomware-protection",
+            "restic",
+            "swift",
+            "tui"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-24T00:14:30Z",
+          "updated": "2026-09-24"
         },
         {
           "repo": "revertii",
@@ -286,32 +312,6 @@
           "live": "https://bmmmm.github.io/how-small-can-we-go/",
           "pushed_at": "2026-09-07T09:37:06Z",
           "updated": "2026-09-07"
-        },
-        {
-          "repo": "baaackaaab",
-          "name": "baaackaaab",
-          "url": "https://github.com/bmmmm/baaackaaab",
-          "blurb": "one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.",
-          "detail": "One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.",
-          "install": null,
-          "links": [],
-          "language": "Swift",
-          "stars": 0,
-          "topics": [
-            "append-only",
-            "backup",
-            "cli",
-            "icloud",
-            "icloud-photos",
-            "macos",
-            "ransomware-protection",
-            "restic",
-            "swift",
-            "tui"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-07T09:35:35Z",
-          "updated": "2026-09-07"
         }
       ]
     },
@@ -343,8 +343,8 @@
             "workout-tracker"
           ],
           "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-09-17T11:02:17Z",
-          "updated": "2026-09-17"
+          "pushed_at": "2026-09-23T23:38:40Z",
+          "updated": "2026-09-23"
         },
         {
           "repo": "musiclinkii",
@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-22T22:50:02Z",
-          "updated": "2026-09-22"
+          "pushed_at": "2026-09-24T00:38:31Z",
+          "updated": "2026-09-24"
         },
         {
           "repo": "epcii",
@@ -528,7 +528,7 @@
           "install": null,
           "links": [],
           "language": "Go",
-          "stars": 0,
+          "stars": 1,
           "topics": [
             "cli",
             "epc-qr",

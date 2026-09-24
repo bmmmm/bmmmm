@@ -7,10 +7,10 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details open>
 <summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7 projects</summary>
 
-- **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
 - **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
 - **[bumpii](https://github.com/bmmmm/bumpii)** — reads what changed in the tools you run and keeps only what touches the features you use. · `TypeScript`
 - **[gateii](https://github.com/bmmmm/gateii)** — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. · `Lua`
+- **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
 - **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 - **[check0r3000](https://github.com/bmmmm/check0r3000)** — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model. · `Python` · [scorecard](https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md)
 - **[cc-insomnii](https://github.com/bmmmm/cc-insomnii)** — a bedtime-shaming statusline for Claude Code. · `Shell`
@@ -23,9 +23,9 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <summary><strong>Backup, recovery &amp; proof</strong> — systems that assume the failure already happened and stay useful anyway · 4 projects</summary>
 
 - **[stattii](https://github.com/bmmmm/stattii)** — attestation over an event calendar — cancellations propagate outward with delivery proof. · `Go`
+- **[baaackaaab](https://github.com/bmmmm/baaackaaab)** — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. · `Swift`
 - **[revertii](https://github.com/bmmmm/revertii)** — update a service with the way back built in: snapshot, dead man's switch, health-check, revert. · `Shell`
 - **[how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)** — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed. · `Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
-- **[baaackaaab](https://github.com/bmmmm/baaackaaab)** — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. · `Swift`
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/backup-recovery-and-proof.md">Backup, recovery &amp; proof in detail →</a></sub>
 
