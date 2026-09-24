@@ -4,13 +4,13 @@ Static pages that keep your data in your own browser. No backend, no account, no
 
 Newest first — this page is generated, so the order follows the code.
 
-## [gymii](https://github.com/bmmmm/gymii)
+## [putzii](https://github.com/bmmmm/putzii)
 
-`JavaScript` · [live](https://bmmmm.github.io/gymii/)
+`JavaScript` · [live](https://bmmmm.github.io/putzii/)
 
-Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
+A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
 
-<sub>last pushed 2026-09-23</sub>
+<sub>last pushed 2026-09-24</sub>
 
 ## [musiclinkii](https://github.com/bmmmm/musiclinkii)
 
@@ -18,7 +18,15 @@ Floor-plan your gym, then log sets against numbered machines instead of guessing
 
 Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.
 
-<sub>last pushed 2026-09-07</sub>
+<sub>last pushed 2026-09-24</sub>
+
+## [gymii](https://github.com/bmmmm/gymii)
+
+`JavaScript` · [live](https://bmmmm.github.io/gymii/)
+
+Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
+
+<sub>last pushed 2026-09-23</sub>
 
 ## [kuvertii](https://github.com/bmmmm/kuvertii)
 
@@ -33,14 +41,6 @@ Paste an email header and read what it says about you: who the message was reall
 `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
 
 A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.
-
-<sub>last pushed 2026-09-07</sub>
-
-## [putzii](https://github.com/bmmmm/putzii)
-
-`JavaScript` · [live](https://bmmmm.github.io/putzii/)
-
-A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
 
 <sub>last pushed 2026-09-07</sub>
 

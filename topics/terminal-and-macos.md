@@ -4,6 +4,14 @@ Things that live in a shell, or in the menu bar next to it. Mostly single static
 
 Newest first — this page is generated, so the order follows the code.
 
+## [pwdtintii](https://github.com/bmmmm/pwdtintii)
+
+`Shell`
+
+The terminal background takes its colour from the directory you are standing in, via OSC 11 and tmux-aware. The point is not decoration: production and staging stop looking identical at 2am.
+
+<sub>last pushed 2026-09-24</sub>
+
 ## [pegel-visual](https://github.com/bmmmm/pegel-visual)
 
 `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
@@ -33,14 +41,6 @@ Analyses your YouTube watch history locally — topics, and the split between co
 `Shell`
 
 VPN status indicator for zsh plus a small CLI on top of WireGuard and Tailscale. Answers "am I actually on the tunnel right now" in the prompt, where the question comes up.
-
-<sub>last pushed 2026-09-07</sub>
-
-## [pwdtintii](https://github.com/bmmmm/pwdtintii)
-
-`Shell`
-
-The terminal background takes its colour from the directory you are standing in, via OSC 11 and tmux-aware. The point is not decoration: production and staging stop looking identical at 2am.
 
 <sub>last pushed 2026-09-07</sub>
 

@@ -4,6 +4,14 @@ Systems that assume the failure already happened and stay useful anyway. What ma
 
 Newest first — this page is generated, so the order follows the code.
 
+## [how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)
+
+`Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
+
+A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.
+
+<sub>last pushed 2026-09-24</sub>
+
 ## [stattii](https://github.com/bmmmm/stattii)
 
 `Go`
@@ -25,14 +33,6 @@ One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-onl
 `Shell`
 
 Updates a service with the way back built in: snapshot, arm a dead man's switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers.
-
-<sub>last pushed 2026-09-07</sub>
-
-## [how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)
-
-`Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
-
-A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.
 
 <sub>last pushed 2026-09-07</sub>
 
