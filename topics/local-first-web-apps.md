@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
 
-<sub>last pushed 2026-09-17</sub>
+<sub>last pushed 2026-09-23</sub>
 
 ## [musiclinkii](https://github.com/bmmmm/musiclinkii)
 

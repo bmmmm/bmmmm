@@ -10,7 +10,15 @@ Newest first — this page is generated, so the order follows the code.
 
 An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where "I never got the message" has consequences.
 
-<sub>last pushed 2026-09-07</sub>
+<sub>last pushed 2026-09-24</sub>
+
+## [baaackaaab](https://github.com/bmmmm/baaackaaab)
+
+`Swift`
+
+One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.
+
+<sub>last pushed 2026-09-24</sub>
 
 ## [revertii](https://github.com/bmmmm/revertii)
 
@@ -25,14 +33,6 @@ Updates a service with the way back built in: snapshot, arm a dead man's switch,
 `Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
 
 A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.
-
-<sub>last pushed 2026-09-07</sub>
-
-## [baaackaaab](https://github.com/bmmmm/baaackaaab)
-
-`Swift`
-
-One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.
 
 <sub>last pushed 2026-09-07</sub>
 

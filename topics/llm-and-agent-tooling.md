@@ -4,21 +4,13 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
-## [claudii](https://github.com/bmmmm/claudii)
-
-`Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
-
-A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
-
-<sub>last pushed 2026-09-16</sub>
-
 ## [wallii](https://github.com/bmmmm/wallii)
 
 `Go`
 
 An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
 
-<sub>last pushed 2026-09-13</sub>
+<sub>last pushed 2026-09-24</sub>
 
 ## [bumpii](https://github.com/bmmmm/bumpii)
 
@@ -26,7 +18,7 @@ An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and
 
 Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
 
-<sub>last pushed 2026-09-12</sub>
+<sub>last pushed 2026-09-23</sub>
 
 ## [gateii](https://github.com/bmmmm/gateii)
 
@@ -34,7 +26,15 @@ Reads what changed in the CLI tools and containers you run, keeps only what touc
 
 A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.
 
-<sub>last pushed 2026-09-11</sub>
+<sub>last pushed 2026-09-23</sub>
+
+## [claudii](https://github.com/bmmmm/claudii)
+
+`Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
+
+A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
+
+<sub>last pushed 2026-09-16</sub>
 
 ## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
 
