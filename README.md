@@ -8,9 +8,9 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7 projects</summary>
 
 - **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
+- **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
 - **[bumpii](https://github.com/bmmmm/bumpii)** — reads what changed in the tools you run and keeps only what touches the features you use. · `TypeScript`
 - **[gateii](https://github.com/bmmmm/gateii)** — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. · `Lua`
-- **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
 - **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 - **[check0r3000](https://github.com/bmmmm/check0r3000)** — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model. · `Python` · [scorecard](https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md)
 - **[cc-insomnii](https://github.com/bmmmm/cc-insomnii)** — a bedtime-shaming statusline for Claude Code. · `Shell`
@@ -49,8 +49,8 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>Terminal &amp; macOS</strong> — things that live in a shell, or in the menu bar next to it · 8 projects</summary>
 
-- **[pwdtintii](https://github.com/bmmmm/pwdtintii)** — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware. · `Shell`
 - **[pegel-visual](https://github.com/bmmmm/pegel-visual)** — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. · `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
+- **[pwdtintii](https://github.com/bmmmm/pwdtintii)** — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware. · `Shell`
 - **[epcii](https://github.com/bmmmm/epcii)** — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. · `Go` · [live](https://bmmmm.github.io/epcii/)
 - **[youtubehistii](https://github.com/bmmmm/youtubehistii)** — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. · `Go`
 - **[vpnii](https://github.com/bmmmm/vpnii)** — VPN status in the zsh prompt, on top of WireGuard and Tailscale. · `Shell`
