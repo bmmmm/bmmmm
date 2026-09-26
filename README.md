@@ -7,12 +7,12 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details open>
 <summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 7 projects</summary>
 
-- **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
 - **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
-- **[bumpii](https://github.com/bmmmm/bumpii)** — reads what changed in the tools you run and keeps only what touches the features you use. · `TypeScript`
-- **[gateii](https://github.com/bmmmm/gateii)** — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. · `Lua`
+- **[wallii](https://github.com/bmmmm/wallii)** — append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. · `Go`
 - **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 - **[check0r3000](https://github.com/bmmmm/check0r3000)** — LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model. · `Python` · [scorecard](https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md)
+- **[bumpii](https://github.com/bmmmm/bumpii)** — reads what changed in the tools you run and keeps only what touches the features you use. · `TypeScript`
+- **[gateii](https://github.com/bmmmm/gateii)** — minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana. · `Lua`
 - **[cc-insomnii](https://github.com/bmmmm/cc-insomnii)** — a bedtime-shaming statusline for Claude Code. · `Shell`
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/llm-and-agent-tooling.md">LLM &amp; agent tooling in detail →</a></sub>
@@ -22,10 +22,10 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>Backup, recovery &amp; proof</strong> — systems that assume the failure already happened and stay useful anyway · 4 projects</summary>
 
-- **[how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)** — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed. · `Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
-- **[stattii](https://github.com/bmmmm/stattii)** — attestation over an event calendar — cancellations propagate outward with delivery proof. · `Go`
 - **[baaackaaab](https://github.com/bmmmm/baaackaaab)** — one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. · `Swift`
+- **[stattii](https://github.com/bmmmm/stattii)** — attestation over an event calendar — cancellations propagate outward with delivery proof. · `Go`
 - **[revertii](https://github.com/bmmmm/revertii)** — update a service with the way back built in: snapshot, dead man's switch, health-check, revert. · `Shell`
+- **[how-small-can-we-go](https://github.com/bmmmm/how-small-can-we-go)** — trust-golf: one champion per task, dethroned by needing less trust. Measured, never claimed. · `Go` · [live](https://bmmmm.github.io/how-small-can-we-go/)
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/backup-recovery-and-proof.md">Backup, recovery &amp; proof in detail →</a></sub>
 
@@ -34,11 +34,11 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>Local-first web apps</strong> — static pages that keep your data in your own browser · 7 projects</summary>
 
+- **[shieldchipiii](https://github.com/bmmmm/shieldchipiii)** — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. · `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
 - **[putzii](https://github.com/bmmmm/putzii)** — cleaning schedule shared by capability link, with QR check-in. No backend at all. · `JavaScript` · [live](https://bmmmm.github.io/putzii/)
 - **[musiclinkii](https://github.com/bmmmm/musiclinkii)** — turn one music link into links for every streaming platform. · `JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
-- **[gymii](https://github.com/bmmmm/gymii)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. · `JavaScript` · [live](https://bmmmm.github.io/gymii/)
 - **[kuvertii](https://github.com/bmmmm/kuvertii)** — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. · `JavaScript` · [live](https://bmmmm.github.io/kuvertii/)
-- **[shieldchipiii](https://github.com/bmmmm/shieldchipiii)** — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. · `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
+- **[gymii](https://github.com/bmmmm/gymii)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. · `JavaScript` · [live](https://bmmmm.github.io/gymii/)
 - **[db-wallet](https://github.com/bmmmm/db-wallet)** — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn. · `JavaScript` · [live](https://bmmmm.github.io/db-wallet/)
 - **[app-icons-generator](https://github.com/bmmmm/app-icons-generator)** — every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser. · `Shell` · [live](https://bmmmm.github.io/app-icons-generator/)
 
@@ -50,13 +50,13 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <summary><strong>Terminal &amp; macOS</strong> — things that live in a shell, or in the menu bar next to it · 8 projects</summary>
 
 - **[pegel-visual](https://github.com/bmmmm/pegel-visual)** — live ASCII water levels for German rivers, with an optional aircraft overlay from your own ADS-B receiver. · `JavaScript` · [live](https://bmmmm.github.io/pegel-visual/)
-- **[pwdtintii](https://github.com/bmmmm/pwdtintii)** — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware. · `Shell`
-- **[epcii](https://github.com/bmmmm/epcii)** — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. · `Go` · [live](https://bmmmm.github.io/epcii/)
 - **[youtubehistii](https://github.com/bmmmm/youtubehistii)** — local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device. · `Go`
+- **[pwdtintii](https://github.com/bmmmm/pwdtintii)** — the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware. · `Shell`
+- **[git-times-live](https://github.com/bmmmm/git-times-live)** — a standalone live broadcast TV channel for your git activity. · `Shell` · [live](https://bmmmm.github.io/git-times-live/)
+- **[audioctl](https://github.com/bmmmm/audioctl)** — switch macOS output and input devices, volume, mute and sample rate from the CLI. · `Swift`
+- **[epcii](https://github.com/bmmmm/epcii)** — EPC QR code (GiroCode) generator — one static binary with its own QR encoder core. · `Go` · [live](https://bmmmm.github.io/epcii/)
 - **[vpnii](https://github.com/bmmmm/vpnii)** — VPN status in the zsh prompt, on top of WireGuard and Tailscale. · `Shell`
 - **[KeebLock](https://github.com/bmmmm/KeebLock)** — locks the keyboard while you clean it, with animations worth the thirty seconds. · `Swift`
-- **[audioctl](https://github.com/bmmmm/audioctl)** — switch macOS output and input devices, volume, mute and sample rate from the CLI. · `Swift`
-- **[git-times-live](https://github.com/bmmmm/git-times-live)** — a standalone live broadcast TV channel for your git activity. · `Shell` · [live](https://bmmmm.github.io/git-times-live/)
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/terminal-and-macos.md">Terminal &amp; macOS in detail →</a></sub>
 

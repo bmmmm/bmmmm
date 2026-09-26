@@ -21,29 +21,6 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
-          "repo": "wallii",
-          "name": "wallii",
-          "url": "https://github.com/bmmmm/wallii",
-          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
-          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "agent-monitoring",
-            "ai-agents",
-            "cli",
-            "developer-tools",
-            "golang",
-            "ndjson",
-            "tui"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-25T08:52:17Z",
-          "updated": "2026-09-25"
-        },
-        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -76,52 +53,31 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-09-24T12:20:55Z",
-          "updated": "2026-09-24"
+          "pushed_at": "2026-09-26T07:56:12Z",
+          "updated": "2026-09-26"
         },
         {
-          "repo": "bumpii",
-          "name": "bumpii",
-          "url": "https://github.com/bmmmm/bumpii",
-          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
-          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
+          "repo": "wallii",
+          "name": "wallii",
+          "url": "https://github.com/bmmmm/wallii",
+          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
+          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
           "install": null,
           "links": [],
-          "language": "TypeScript",
+          "language": "Go",
           "stars": 0,
           "topics": [
-            "changelog",
+            "agent-monitoring",
+            "ai-agents",
             "cli",
             "developer-tools",
-            "release-notes",
-            "typescript",
-            "updater"
+            "golang",
+            "ndjson",
+            "tui"
           ],
           "live": null,
-          "pushed_at": "2026-09-23T23:55:10Z",
-          "updated": "2026-09-23"
-        },
-        {
-          "repo": "gateii",
-          "name": "gateii",
-          "url": "https://github.com/bmmmm/gateii",
-          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
-          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
-          "install": null,
-          "links": [],
-          "language": "Lua",
-          "stars": 0,
-          "topics": [
-            "anthropic",
-            "api-proxy",
-            "claude",
-            "docker",
-            "llm",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-23T23:16:25Z",
-          "updated": "2026-09-23"
+          "pushed_at": "2026-09-25T18:49:56Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "comparereleaseii",
@@ -151,8 +107,8 @@
             "verification"
           ],
           "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-09-07T09:37:11Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-25T18:46:03Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "check0r3000",
@@ -182,8 +138,52 @@
             "uv"
           ],
           "live": null,
-          "pushed_at": "2026-09-07T09:35:53Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-25T18:45:57Z",
+          "updated": "2026-09-25"
+        },
+        {
+          "repo": "bumpii",
+          "name": "bumpii",
+          "url": "https://github.com/bmmmm/bumpii",
+          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
+          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
+          "install": null,
+          "links": [],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "developer-tools",
+            "release-notes",
+            "typescript",
+            "updater"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-25T18:45:52Z",
+          "updated": "2026-09-25"
+        },
+        {
+          "repo": "gateii",
+          "name": "gateii",
+          "url": "https://github.com/bmmmm/gateii",
+          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
+          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
+          "install": null,
+          "links": [],
+          "language": "Lua",
+          "stars": 0,
+          "topics": [
+            "anthropic",
+            "api-proxy",
+            "claude",
+            "docker",
+            "llm",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-23T23:16:25Z",
+          "updated": "2026-09-23"
         },
         {
           "repo": "cc-insomnii",
@@ -215,6 +215,78 @@
       "intro": "What matters after the bad thing is not that a backup exists, but that it cannot have been rewritten — and that you can show it.",
       "projects": [
         {
+          "repo": "baaackaaab",
+          "name": "baaackaaab",
+          "url": "https://github.com/bmmmm/baaackaaab",
+          "blurb": "one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.",
+          "detail": "One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.",
+          "install": null,
+          "links": [],
+          "language": "Swift",
+          "stars": 0,
+          "topics": [
+            "append-only",
+            "backup",
+            "cli",
+            "icloud",
+            "icloud-photos",
+            "macos",
+            "ransomware-protection",
+            "restic",
+            "swift",
+            "tui"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-25T18:51:07Z",
+          "updated": "2026-09-25"
+        },
+        {
+          "repo": "stattii",
+          "name": "stattii",
+          "url": "https://github.com/bmmmm/stattii",
+          "blurb": "attestation over an event calendar — cancellations propagate outward with delivery proof.",
+          "detail": "An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where \"I never got the message\" has consequences.",
+          "install": null,
+          "links": [],
+          "language": "Go",
+          "stars": 0,
+          "topics": [
+            "attestation",
+            "calendar",
+            "events",
+            "golang",
+            "ics",
+            "selfhosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-25T18:49:30Z",
+          "updated": "2026-09-25"
+        },
+        {
+          "repo": "revertii",
+          "name": "revertii",
+          "url": "https://github.com/bmmmm/revertii",
+          "blurb": "update a service with the way back built in: snapshot, dead man's switch, health-check, revert.",
+          "detail": "Updates a service with the way back built in: snapshot, arm a dead man's switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers.",
+          "install": null,
+          "links": [],
+          "language": "Shell",
+          "stars": 0,
+          "topics": [
+            "deployment",
+            "healthcheck",
+            "podman",
+            "rollback",
+            "self-healing",
+            "shell",
+            "sysadmin",
+            "systemd"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-25T18:48:48Z",
+          "updated": "2026-09-25"
+        },
+        {
           "repo": "how-small-can-we-go",
           "name": "how-small-can-we-go",
           "url": "https://github.com/bmmmm/how-small-can-we-go",
@@ -238,80 +310,8 @@
             "zero-dependency"
           ],
           "live": "https://bmmmm.github.io/how-small-can-we-go/",
-          "pushed_at": "2026-09-24T09:52:14Z",
-          "updated": "2026-09-24"
-        },
-        {
-          "repo": "stattii",
-          "name": "stattii",
-          "url": "https://github.com/bmmmm/stattii",
-          "blurb": "attestation over an event calendar — cancellations propagate outward with delivery proof.",
-          "detail": "An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where \"I never got the message\" has consequences.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "attestation",
-            "calendar",
-            "events",
-            "golang",
-            "ics",
-            "selfhosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-24T00:30:43Z",
-          "updated": "2026-09-24"
-        },
-        {
-          "repo": "baaackaaab",
-          "name": "baaackaaab",
-          "url": "https://github.com/bmmmm/baaackaaab",
-          "blurb": "one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.",
-          "detail": "One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.",
-          "install": null,
-          "links": [],
-          "language": "Swift",
-          "stars": 0,
-          "topics": [
-            "append-only",
-            "backup",
-            "cli",
-            "icloud",
-            "icloud-photos",
-            "macos",
-            "ransomware-protection",
-            "restic",
-            "swift",
-            "tui"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-24T00:14:30Z",
-          "updated": "2026-09-24"
-        },
-        {
-          "repo": "revertii",
-          "name": "revertii",
-          "url": "https://github.com/bmmmm/revertii",
-          "blurb": "update a service with the way back built in: snapshot, dead man's switch, health-check, revert.",
-          "detail": "Updates a service with the way back built in: snapshot, arm a dead man's switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers.",
-          "install": null,
-          "links": [],
-          "language": "Shell",
-          "stars": 0,
-          "topics": [
-            "deployment",
-            "healthcheck",
-            "podman",
-            "rollback",
-            "self-healing",
-            "shell",
-            "sysadmin",
-            "systemd"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-07T09:38:42Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-25T18:46:42Z",
+          "updated": "2026-09-25"
         }
       ]
     },
@@ -321,6 +321,30 @@
       "tagline": "Static pages that keep your data in your own browser",
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
+        {
+          "repo": "shieldchipiii",
+          "name": "shieldchipiii",
+          "url": "https://github.com/bmmmm/shieldchipiii",
+          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
+          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "ascii-art",
+            "car",
+            "localstorage",
+            "logbook",
+            "offline-first",
+            "stone-chip",
+            "vanilla-js",
+            "windshield"
+          ],
+          "live": "https://bmmmm.github.io/shieldchipiii/",
+          "pushed_at": "2026-09-25T18:49:20Z",
+          "updated": "2026-09-25"
+        },
         {
           "repo": "putzii",
           "name": "putzii",
@@ -341,8 +365,8 @@
             "vanilla-js"
           ],
           "live": "https://bmmmm.github.io/putzii/",
-          "pushed_at": "2026-09-24T09:53:11Z",
-          "updated": "2026-09-24"
+          "pushed_at": "2026-09-25T18:48:25Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "musiclinkii",
@@ -363,8 +387,32 @@
             "streaming"
           ],
           "live": "https://bmmmm.github.io/musiclinkii/",
-          "pushed_at": "2026-09-24T09:52:39Z",
-          "updated": "2026-09-24"
+          "pushed_at": "2026-09-25T18:48:06Z",
+          "updated": "2026-09-25"
+        },
+        {
+          "repo": "kuvertii",
+          "name": "kuvertii",
+          "url": "https://github.com/bmmmm/kuvertii",
+          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
+          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "client-side",
+            "email",
+            "email-header",
+            "email-security",
+            "phishing",
+            "privacy",
+            "spam",
+            "static-site"
+          ],
+          "live": "https://bmmmm.github.io/kuvertii/",
+          "pushed_at": "2026-09-25T18:46:58Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "gymii",
@@ -388,56 +436,8 @@
             "workout-tracker"
           ],
           "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-09-23T23:38:40Z",
-          "updated": "2026-09-23"
-        },
-        {
-          "repo": "kuvertii",
-          "name": "kuvertii",
-          "url": "https://github.com/bmmmm/kuvertii",
-          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
-          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "client-side",
-            "email",
-            "email-header",
-            "email-security",
-            "phishing",
-            "privacy",
-            "spam",
-            "static-site"
-          ],
-          "live": "https://bmmmm.github.io/kuvertii/",
-          "pushed_at": "2026-09-07T20:18:31Z",
-          "updated": "2026-09-07"
-        },
-        {
-          "repo": "shieldchipiii",
-          "name": "shieldchipiii",
-          "url": "https://github.com/bmmmm/shieldchipiii",
-          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
-          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "ascii-art",
-            "car",
-            "localstorage",
-            "logbook",
-            "offline-first",
-            "stone-chip",
-            "vanilla-js",
-            "windshield"
-          ],
-          "live": "https://bmmmm.github.io/shieldchipiii/",
-          "pushed_at": "2026-09-07T09:38:57Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-25T18:46:34Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "db-wallet",
@@ -457,8 +457,8 @@
             "pwa"
           ],
           "live": "https://bmmmm.github.io/db-wallet/",
-          "pushed_at": "2026-09-07T09:36:15Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-25T18:46:11Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "app-icons-generator",
@@ -484,8 +484,8 @@
             "xcode"
           ],
           "live": "https://bmmmm.github.io/app-icons-generator/",
-          "pushed_at": "2026-09-02T20:11:33Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-25T18:45:24Z",
+          "updated": "2026-09-25"
         }
       ]
     },
@@ -516,8 +516,30 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-24T20:46:28Z",
-          "updated": "2026-09-24"
+          "pushed_at": "2026-09-25T20:45:36Z",
+          "updated": "2026-09-25"
+        },
+        {
+          "repo": "youtubehistii",
+          "name": "youtubehistii",
+          "url": "https://github.com/bmmmm/youtubehistii",
+          "blurb": "local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.",
+          "detail": "Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.",
+          "install": null,
+          "links": [],
+          "language": "Go",
+          "stars": 0,
+          "topics": [
+            "go",
+            "google-takeout",
+            "local-llm",
+            "privacy",
+            "watch-history",
+            "youtube"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-25T18:50:06Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "pwdtintii",
@@ -543,8 +565,64 @@
             "zsh-plugin"
           ],
           "live": null,
-          "pushed_at": "2026-09-24T09:53:18Z",
-          "updated": "2026-09-24"
+          "pushed_at": "2026-09-25T18:48:33Z",
+          "updated": "2026-09-25"
+        },
+        {
+          "repo": "git-times-live",
+          "name": "git-times-live",
+          "url": "https://github.com/bmmmm/git-times-live",
+          "blurb": "a standalone live broadcast TV channel for your git activity.",
+          "detail": "A standalone live broadcast TV channel for your git activity, generated from git-times. Exactly as useful as it sounds, and it runs.",
+          "install": null,
+          "links": [],
+          "language": "Shell",
+          "stars": 0,
+          "topics": [
+            "bash",
+            "broadcast",
+            "claude-code",
+            "cli",
+            "dashboard",
+            "developer-tools",
+            "git",
+            "git-log",
+            "jq",
+            "live",
+            "monitoring",
+            "news-ticker",
+            "shell",
+            "terminal",
+            "tui"
+          ],
+          "live": "https://bmmmm.github.io/git-times-live/",
+          "pushed_at": "2026-09-25T18:46:17Z",
+          "updated": "2026-09-25"
+        },
+        {
+          "repo": "audioctl",
+          "name": "audioctl",
+          "url": "https://github.com/bmmmm/audioctl",
+          "blurb": "switch macOS output and input devices, volume, mute and sample rate from the CLI.",
+          "detail": "Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through.",
+          "install": null,
+          "links": [],
+          "language": "Swift",
+          "stars": 0,
+          "topics": [
+            "audio",
+            "audio-device",
+            "blackhole",
+            "cli",
+            "command-line",
+            "coreaudio",
+            "hotkey",
+            "macos",
+            "swift"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-25T18:45:29Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "epcii",
@@ -566,30 +644,8 @@
             "sepa"
           ],
           "live": "https://bmmmm.github.io/epcii/",
-          "pushed_at": "2026-09-21T21:15:52Z",
-          "updated": "2026-09-21"
-        },
-        {
-          "repo": "youtubehistii",
-          "name": "youtubehistii",
-          "url": "https://github.com/bmmmm/youtubehistii",
-          "blurb": "local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.",
-          "detail": "Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "go",
-            "google-takeout",
-            "local-llm",
-            "privacy",
-            "watch-history",
-            "youtube"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-07T09:39:42Z",
-          "updated": "2026-09-07"
+          "pushed_at": "2026-09-25T15:29:31Z",
+          "updated": "2026-09-25"
         },
         {
           "repo": "vpnii",
@@ -636,62 +692,6 @@
           "live": null,
           "pushed_at": "2026-09-07T09:37:30Z",
           "updated": "2026-09-07"
-        },
-        {
-          "repo": "audioctl",
-          "name": "audioctl",
-          "url": "https://github.com/bmmmm/audioctl",
-          "blurb": "switch macOS output and input devices, volume, mute and sample rate from the CLI.",
-          "detail": "Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through.",
-          "install": null,
-          "links": [],
-          "language": "Swift",
-          "stars": 0,
-          "topics": [
-            "audio",
-            "audio-device",
-            "blackhole",
-            "cli",
-            "command-line",
-            "coreaudio",
-            "hotkey",
-            "macos",
-            "swift"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-07T09:35:30Z",
-          "updated": "2026-09-07"
-        },
-        {
-          "repo": "git-times-live",
-          "name": "git-times-live",
-          "url": "https://github.com/bmmmm/git-times-live",
-          "blurb": "a standalone live broadcast TV channel for your git activity.",
-          "detail": "A standalone live broadcast TV channel for your git activity, generated from git-times. Exactly as useful as it sounds, and it runs.",
-          "install": null,
-          "links": [],
-          "language": "Shell",
-          "stars": 0,
-          "topics": [
-            "bash",
-            "broadcast",
-            "claude-code",
-            "cli",
-            "dashboard",
-            "developer-tools",
-            "git",
-            "git-log",
-            "jq",
-            "live",
-            "monitoring",
-            "news-ticker",
-            "shell",
-            "terminal",
-            "tui"
-          ],
-          "live": "https://bmmmm.github.io/git-times-live/",
-          "pushed_at": "2026-09-02T20:11:54Z",
-          "updated": "2026-09-02"
         }
       ]
     },
