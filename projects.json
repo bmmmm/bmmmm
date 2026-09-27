@@ -21,6 +21,90 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "bumpii",
+          "name": "bumpii",
+          "url": "https://github.com/bmmmm/bumpii",
+          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
+          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
+          "install": null,
+          "links": [],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "developer-tools",
+            "release-notes",
+            "typescript",
+            "updater"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-26T10:23:40Z",
+          "updated": "2026-09-26"
+        },
+        {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-09-26T10:23:19Z",
+          "updated": "2026-09-26"
+        },
+        {
+          "repo": "check0r3000",
+          "name": "check0r3000",
+          "url": "https://github.com/bmmmm/check0r3000",
+          "blurb": "LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.",
+          "detail": "Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.",
+          "install": null,
+          "links": [
+            {
+              "label": "scorecard",
+              "url": "https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md"
+            }
+          ],
+          "language": "Python",
+          "stars": 0,
+          "topics": [
+            "comparison-tool",
+            "document-extraction",
+            "insurance",
+            "llm",
+            "pdf-extraction",
+            "python",
+            "rechtsschutz",
+            "textual",
+            "tui",
+            "uv"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-26T10:21:48Z",
+          "updated": "2026-09-26"
+        },
+        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -77,90 +161,6 @@
           ],
           "live": null,
           "pushed_at": "2026-09-25T18:49:56Z",
-          "updated": "2026-09-25"
-        },
-        {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-09-25T18:46:03Z",
-          "updated": "2026-09-25"
-        },
-        {
-          "repo": "check0r3000",
-          "name": "check0r3000",
-          "url": "https://github.com/bmmmm/check0r3000",
-          "blurb": "LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.",
-          "detail": "Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.",
-          "install": null,
-          "links": [
-            {
-              "label": "scorecard",
-              "url": "https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md"
-            }
-          ],
-          "language": "Python",
-          "stars": 0,
-          "topics": [
-            "comparison-tool",
-            "document-extraction",
-            "insurance",
-            "llm",
-            "pdf-extraction",
-            "python",
-            "rechtsschutz",
-            "textual",
-            "tui",
-            "uv"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-25T18:45:57Z",
-          "updated": "2026-09-25"
-        },
-        {
-          "repo": "bumpii",
-          "name": "bumpii",
-          "url": "https://github.com/bmmmm/bumpii",
-          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
-          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
-          "install": null,
-          "links": [],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "developer-tools",
-            "release-notes",
-            "typescript",
-            "updater"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-25T18:45:52Z",
           "updated": "2026-09-25"
         },
         {
@@ -322,6 +322,31 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
+          "repo": "gymii",
+          "name": "gymii",
+          "url": "https://github.com/bmmmm/gymii",
+          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
+          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "fitness",
+            "gym",
+            "localstorage",
+            "no-build",
+            "offline-first",
+            "pwa",
+            "static-site",
+            "vanilla-js",
+            "workout-tracker"
+          ],
+          "live": "https://bmmmm.github.io/gymii/",
+          "pushed_at": "2026-09-26T10:21:37Z",
+          "updated": "2026-09-26"
+        },
+        {
           "repo": "shieldchipiii",
           "name": "shieldchipiii",
           "url": "https://github.com/bmmmm/shieldchipiii",
@@ -415,31 +440,6 @@
           "updated": "2026-09-25"
         },
         {
-          "repo": "gymii",
-          "name": "gymii",
-          "url": "https://github.com/bmmmm/gymii",
-          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
-          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "fitness",
-            "gym",
-            "localstorage",
-            "no-build",
-            "offline-first",
-            "pwa",
-            "static-site",
-            "vanilla-js",
-            "workout-tracker"
-          ],
-          "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-09-25T18:46:34Z",
-          "updated": "2026-09-25"
-        },
-        {
           "repo": "db-wallet",
           "name": "db-wallet",
           "url": "https://github.com/bmmmm/db-wallet",
@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-25T20:45:36Z",
-          "updated": "2026-09-25"
+          "pushed_at": "2026-09-26T20:08:30Z",
+          "updated": "2026-09-26"
         },
         {
           "repo": "youtubehistii",

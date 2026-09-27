@@ -4,6 +4,14 @@ Static pages that keep your data in your own browser. No backend, no account, no
 
 Newest first — this page is generated, so the order follows the code.
 
+## [gymii](https://github.com/bmmmm/gymii)
+
+`JavaScript` · [live](https://bmmmm.github.io/gymii/)
+
+Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
+
+<sub>last pushed 2026-09-26</sub>
+
 ## [shieldchipiii](https://github.com/bmmmm/shieldchipiii)
 
 `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
@@ -33,14 +41,6 @@ Turn one music link into links for every streaming platform, so a recommendation
 `JavaScript` · [live](https://bmmmm.github.io/kuvertii/)
 
 Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.
-
-<sub>last pushed 2026-09-25</sub>
-
-## [gymii](https://github.com/bmmmm/gymii)
-
-`JavaScript` · [live](https://bmmmm.github.io/gymii/)
-
-Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
 
 <sub>last pushed 2026-09-25</sub>
 
