@@ -4,19 +4,19 @@ Four small extensions for the reader I actually use every day. Each one exists b
 
 Newest first — this page is generated, so the order follows the code.
 
-## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
-
-`JavaScript`
-
-Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.
-
-<sub>last pushed 2026-09-22</sub>
-
 ## [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)
 
 `PHP`
 
 Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.
+
+<sub>last pushed 2026-09-29</sub>
+
+## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
+
+`JavaScript`
+
+Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.
 
 <sub>last pushed 2026-09-22</sub>
 

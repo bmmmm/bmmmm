@@ -65,8 +65,8 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>FreshRSS extensions</strong> — four small extensions for the reader I actually use every day · 4 projects</summary>
 
-- **[ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)** — a large QR code for the current article, so a phone can pick the link off the screen. · `JavaScript`
 - **[NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)** — drop notes and links on one device, copy them on another with one click. · `PHP`
+- **[ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)** — a large QR code for the current article, so a phone can pick the link off the screen. · `JavaScript`
 - **[ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)** — keeps a history of the article links you actually opened. · `PHP`
 - **[ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)** — a floating button to leave the reading view in one click. · `JavaScript`
 
