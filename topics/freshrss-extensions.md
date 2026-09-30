@@ -4,6 +4,14 @@ Four small extensions for the reader I actually use every day. Each one exists b
 
 Newest first — this page is generated, so the order follows the code.
 
+## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
+
+`JavaScript`
+
+Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.
+
+<sub>last pushed 2026-09-29</sub>
+
 ## [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)
 
 `PHP`
@@ -12,13 +20,13 @@ Drop notes and links from one device and copy them on another with one click —
 
 <sub>last pushed 2026-09-29</sub>
 
-## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
+## [ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)
 
 `JavaScript`
 
-Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.
+Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.
 
-<sub>last pushed 2026-09-22</sub>
+<sub>last pushed 2026-09-29</sub>
 
 ## [ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)
 
@@ -26,15 +34,7 @@ Shows a large QR code for the current article, so a phone can pick the link stra
 
 Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns "I read something about this last month" into a searchable list.
 
-<sub>last pushed 2026-09-18</sub>
-
-## [ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)
-
-`JavaScript`
-
-Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.
-
-<sub>last pushed 2026-09-02</sub>
+<sub>last pushed 2026-09-29</sub>
 
 ---
 

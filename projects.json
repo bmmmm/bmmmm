@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-09-28T22:39:59Z",
-          "updated": "2026-09-28"
+          "pushed_at": "2026-09-30T07:41:58Z",
+          "updated": "2026-09-30"
         },
         {
           "repo": "youtubehistii",
@@ -702,26 +702,6 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
-          "repo": "xExtension-NoteDrop",
-          "name": "NoteDrop",
-          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
-          "blurb": "drop notes and links on one device, copy them on another with one click.",
-          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 0,
-          "topics": [
-            "clipboard",
-            "freshrss",
-            "freshrss-extension",
-            "notes"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-29T06:34:07Z",
-          "updated": "2026-09-29"
-        },
-        {
           "repo": "xExtension-ShareViaQRCode",
           "name": "ShareViaQRCode",
           "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
@@ -742,8 +722,48 @@
             "self-hosted"
           ],
           "live": null,
-          "pushed_at": "2026-09-22T18:44:11Z",
-          "updated": "2026-09-22"
+          "pushed_at": "2026-09-29T23:11:54Z",
+          "updated": "2026-09-29"
+        },
+        {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 0,
+          "topics": [
+            "clipboard",
+            "freshrss",
+            "freshrss-extension",
+            "notes"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-29T23:11:49Z",
+          "updated": "2026-09-29"
+        },
+        {
+          "repo": "xExtension-ExitReaderView",
+          "name": "ExitReaderView",
+          "url": "https://github.com/bmmmm/xExtension-ExitReaderView",
+          "blurb": "a floating button to leave the reading view in one click.",
+          "detail": "Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "rss-reader"
+          ],
+          "live": null,
+          "pushed_at": "2026-09-29T23:11:44Z",
+          "updated": "2026-09-29"
         },
         {
           "repo": "xExtension-ClickHistory",
@@ -763,28 +783,8 @@
             "rss"
           ],
           "live": null,
-          "pushed_at": "2026-09-18T09:07:52Z",
-          "updated": "2026-09-18"
-        },
-        {
-          "repo": "xExtension-ExitReaderView",
-          "name": "ExitReaderView",
-          "url": "https://github.com/bmmmm/xExtension-ExitReaderView",
-          "blurb": "a floating button to leave the reading view in one click.",
-          "detail": "Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "rss-reader"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-02T22:44:55Z",
-          "updated": "2026-09-02"
+          "pushed_at": "2026-09-29T23:11:40Z",
+          "updated": "2026-09-29"
         }
       ]
     }
