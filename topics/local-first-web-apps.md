@@ -10,7 +10,15 @@ Newest first — this page is generated, so the order follows the code.
 
 Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
 
-<sub>last pushed 2026-09-26</sub>
+<sub>last pushed 2026-10-01</sub>
+
+## [musiclinkii](https://github.com/bmmmm/musiclinkii)
+
+`JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
+
+Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.
+
+<sub>last pushed 2026-10-01</sub>
 
 ## [shieldchipiii](https://github.com/bmmmm/shieldchipiii)
 
@@ -25,14 +33,6 @@ A stone-chip logbook for your car windshield: photograph and date every chip, so
 `JavaScript` · [live](https://bmmmm.github.io/putzii/)
 
 A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
-
-<sub>last pushed 2026-09-25</sub>
-
-## [musiclinkii](https://github.com/bmmmm/musiclinkii)
-
-`JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
-
-Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.
 
 <sub>last pushed 2026-09-25</sub>
 

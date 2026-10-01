@@ -4,13 +4,13 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
-## [bumpii](https://github.com/bmmmm/bumpii)
+## [gateii](https://github.com/bmmmm/gateii)
 
-`TypeScript`
+`Lua`
 
-Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
+A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.
 
-<sub>last pushed 2026-09-26</sub>
+<sub>last pushed 2026-10-01</sub>
 
 ## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
 
@@ -18,7 +18,15 @@ Reads what changed in the CLI tools and containers you run, keeps only what touc
 
 Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
 
-<sub>last pushed 2026-09-26</sub>
+<sub>last pushed 2026-10-01</sub>
+
+## [bumpii](https://github.com/bmmmm/bumpii)
+
+`TypeScript`
+
+Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
+
+<sub>last pushed 2026-10-01</sub>
 
 ## [check0r3000](https://github.com/bmmmm/check0r3000)
 
@@ -43,14 +51,6 @@ A statusline for Claude Code: session cost, context usage in percent, rate-limit
 An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
 
 <sub>last pushed 2026-09-25</sub>
-
-## [gateii](https://github.com/bmmmm/gateii)
-
-`Lua`
-
-A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.
-
-<sub>last pushed 2026-09-23</sub>
 
 ## [cc-insomnii](https://github.com/bmmmm/cc-insomnii)
 
