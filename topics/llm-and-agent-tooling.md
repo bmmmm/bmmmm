@@ -4,11 +4,19 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
-## [gateii](https://github.com/bmmmm/gateii)
+## [claudii](https://github.com/bmmmm/claudii)
 
-`Lua`
+`Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
 
-A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.
+A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
+
+<sub>last pushed 2026-10-02</sub>
+
+## [bumpii](https://github.com/bmmmm/bumpii)
+
+`TypeScript`
+
+Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
 
 <sub>last pushed 2026-10-01</sub>
 
@@ -20,11 +28,11 @@ Fact-checks release notes against the diff that shipped. Works on GitHub, Forgej
 
 <sub>last pushed 2026-10-01</sub>
 
-## [bumpii](https://github.com/bmmmm/bumpii)
+## [gateii](https://github.com/bmmmm/gateii)
 
-`TypeScript`
+`Lua`
 
-Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
+A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.
 
 <sub>last pushed 2026-10-01</sub>
 
@@ -33,14 +41,6 @@ Reads what changed in the CLI tools and containers you run, keeps only what touc
 `Python` · [scorecard](https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md)
 
 Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.
-
-<sub>last pushed 2026-09-26</sub>
-
-## [claudii](https://github.com/bmmmm/claudii)
-
-`Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
-
-A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
 
 <sub>last pushed 2026-09-26</sub>
 

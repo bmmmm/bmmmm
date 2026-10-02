@@ -20,21 +20,21 @@ Turn one music link into links for every streaming platform, so a recommendation
 
 <sub>last pushed 2026-10-01</sub>
 
+## [db-wallet](https://github.com/bmmmm/db-wallet)
+
+`JavaScript` · [live](https://bmmmm.github.io/db-wallet/)
+
+Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.
+
+<sub>last pushed 2026-10-01</sub>
+
 ## [shieldchipiii](https://github.com/bmmmm/shieldchipiii)
 
 `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
 
 A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.
 
-<sub>last pushed 2026-09-25</sub>
-
-## [putzii](https://github.com/bmmmm/putzii)
-
-`JavaScript` · [live](https://bmmmm.github.io/putzii/)
-
-A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
-
-<sub>last pushed 2026-09-25</sub>
+<sub>last pushed 2026-10-01</sub>
 
 ## [kuvertii](https://github.com/bmmmm/kuvertii)
 
@@ -42,13 +42,13 @@ A cleaning schedule for a shared flat or office, handed around as a capability l
 
 Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.
 
-<sub>last pushed 2026-09-25</sub>
+<sub>last pushed 2026-10-01</sub>
 
-## [db-wallet](https://github.com/bmmmm/db-wallet)
+## [putzii](https://github.com/bmmmm/putzii)
 
-`JavaScript` · [live](https://bmmmm.github.io/db-wallet/)
+`JavaScript` · [live](https://bmmmm.github.io/putzii/)
 
-Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.
+A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
 
 <sub>last pushed 2026-09-25</sub>
 
