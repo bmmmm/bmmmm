@@ -4,6 +4,14 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
+## [bumpii](https://github.com/bmmmm/bumpii)
+
+`TypeScript`
+
+Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
+
+<sub>last pushed 2026-10-05</sub>
+
 ## [claudii](https://github.com/bmmmm/claudii)
 
 `Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
@@ -11,14 +19,6 @@ Newest first — this page is generated, so the order follows the code.
 A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
 
 <sub>last pushed 2026-10-02</sub>
-
-## [bumpii](https://github.com/bmmmm/bumpii)
-
-`TypeScript`
-
-Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
-
-<sub>last pushed 2026-10-01</sub>
 
 ## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
 
