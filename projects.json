@@ -39,7 +39,38 @@
             "updater"
           ],
           "live": null,
-          "pushed_at": "2026-10-05T09:40:45Z",
+          "pushed_at": "2026-10-06T07:28:57Z",
+          "updated": "2026-10-06"
+        },
+        {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-10-05T20:55:58Z",
           "updated": "2026-10-05"
         },
         {
@@ -75,39 +106,8 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-10-02T09:11:01Z",
-          "updated": "2026-10-02"
-        },
-        {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-10-01T17:08:28Z",
-          "updated": "2026-10-01"
+          "pushed_at": "2026-10-05T13:41:49Z",
+          "updated": "2026-10-05"
         },
         {
           "repo": "gateii",
@@ -516,7 +516,7 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-05T07:10:05Z",
+          "pushed_at": "2026-10-05T23:22:48Z",
           "updated": "2026-10-05"
         },
         {
@@ -702,27 +702,6 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
-          "repo": "xExtension-ClickHistory",
-          "name": "ClickHistory",
-          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
-          "blurb": "keeps a history of the article links you actually opened.",
-          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "reading-history",
-            "rss"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-02T09:06:35Z",
-          "updated": "2026-10-02"
-        },
-        {
           "repo": "xExtension-NoteDrop",
           "name": "NoteDrop",
           "url": "https://github.com/bmmmm/xExtension-NoteDrop",
@@ -739,8 +718,8 @@
             "notes"
           ],
           "live": null,
-          "pushed_at": "2026-10-01T08:24:14Z",
-          "updated": "2026-10-01"
+          "pushed_at": "2026-10-06T06:35:47Z",
+          "updated": "2026-10-06"
         },
         {
           "repo": "xExtension-ShareViaQRCode",
@@ -763,8 +742,29 @@
             "self-hosted"
           ],
           "live": null,
-          "pushed_at": "2026-09-29T23:11:54Z",
-          "updated": "2026-09-29"
+          "pushed_at": "2026-10-05T14:03:25Z",
+          "updated": "2026-10-05"
+        },
+        {
+          "repo": "xExtension-ClickHistory",
+          "name": "ClickHistory",
+          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
+          "blurb": "keeps a history of the article links you actually opened.",
+          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "reading-history",
+            "rss"
+          ],
+          "live": null,
+          "pushed_at": "2026-10-05T14:02:55Z",
+          "updated": "2026-10-05"
         },
         {
           "repo": "xExtension-ExitReaderView",

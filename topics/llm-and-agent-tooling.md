@@ -10,6 +10,14 @@ Newest first — this page is generated, so the order follows the code.
 
 Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
 
+<sub>last pushed 2026-10-06</sub>
+
+## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
+
+`TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
+
+Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
+
 <sub>last pushed 2026-10-05</sub>
 
 ## [claudii](https://github.com/bmmmm/claudii)
@@ -18,15 +26,7 @@ Reads what changed in the CLI tools and containers you run, keeps only what touc
 
 A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
 
-<sub>last pushed 2026-10-02</sub>
-
-## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
-
-`TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
-
-Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
-
-<sub>last pushed 2026-10-01</sub>
+<sub>last pushed 2026-10-05</sub>
 
 ## [gateii](https://github.com/bmmmm/gateii)
 
