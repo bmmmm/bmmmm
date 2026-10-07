@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.
 
-<sub>last pushed 2026-10-06</sub>
+<sub>last pushed 2026-10-07</sub>
 
 ## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
 

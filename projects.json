@@ -39,8 +39,8 @@
             "updater"
           ],
           "live": null,
-          "pushed_at": "2026-10-06T07:28:57Z",
-          "updated": "2026-10-06"
+          "pushed_at": "2026-10-07T06:26:15Z",
+          "updated": "2026-10-07"
         },
         {
           "repo": "comparereleaseii",
@@ -516,8 +516,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-05T23:22:48Z",
-          "updated": "2026-10-05"
+          "pushed_at": "2026-10-06T21:53:59Z",
+          "updated": "2026-10-06"
         },
         {
           "repo": "KeebLock",
@@ -702,26 +702,6 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
-          "repo": "xExtension-NoteDrop",
-          "name": "NoteDrop",
-          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
-          "blurb": "drop notes and links on one device, copy them on another with one click.",
-          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 0,
-          "topics": [
-            "clipboard",
-            "freshrss",
-            "freshrss-extension",
-            "notes"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-06T06:35:47Z",
-          "updated": "2026-10-06"
-        },
-        {
           "repo": "xExtension-ShareViaQRCode",
           "name": "ShareViaQRCode",
           "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
@@ -742,8 +722,28 @@
             "self-hosted"
           ],
           "live": null,
-          "pushed_at": "2026-10-05T14:03:25Z",
-          "updated": "2026-10-05"
+          "pushed_at": "2026-10-06T18:44:36Z",
+          "updated": "2026-10-06"
+        },
+        {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 0,
+          "topics": [
+            "clipboard",
+            "freshrss",
+            "freshrss-extension",
+            "notes"
+          ],
+          "live": null,
+          "pushed_at": "2026-10-06T06:35:47Z",
+          "updated": "2026-10-06"
         },
         {
           "repo": "xExtension-ClickHistory",
