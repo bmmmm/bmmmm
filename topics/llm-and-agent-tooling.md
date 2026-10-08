@@ -4,6 +4,14 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
+## [claudii](https://github.com/bmmmm/claudii)
+
+`Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
+
+A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
+
+<sub>last pushed 2026-10-08</sub>
+
 ## [bumpii](https://github.com/bmmmm/bumpii)
 
 `TypeScript`
@@ -17,14 +25,6 @@ Reads what changed in the CLI tools and containers you run, keeps only what touc
 `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 
 Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
-
-<sub>last pushed 2026-10-05</sub>
-
-## [claudii](https://github.com/bmmmm/claudii)
-
-`Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
-
-A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
 
 <sub>last pushed 2026-10-05</sub>
 
