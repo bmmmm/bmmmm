@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 A trust-golf arena: one champion per task, dethroned by needing less trust — fewer third-party bytes, fewer dangerous constructs. Every entry is measured against the same surface metric, never self-declared, and the current champion is whoever survived the last challenge.
 
-<sub>last pushed 2026-10-01</sub>
+<sub>last pushed 2026-10-11</sub>
 
 ## [baaackaaab](https://github.com/bmmmm/baaackaaab)
 
