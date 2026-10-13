@@ -4,6 +4,14 @@ Instrumenting, measuring and fact-checking what models actually do. The common t
 
 Newest first — this page is generated, so the order follows the code.
 
+## [wallii](https://github.com/bmmmm/wallii)
+
+`Go`
+
+An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
+
+<sub>last pushed 2026-10-13</sub>
+
 ## [claudii](https://github.com/bmmmm/claudii)
 
 `Shell` · [live](https://bmmmm.github.io/claudii/) · `brew install bmmmm/tap/claudii`
@@ -43,14 +51,6 @@ A minimal self-hosted proxy in front of LLM APIs. One place that sees every requ
 Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.
 
 <sub>last pushed 2026-09-26</sub>
-
-## [wallii](https://github.com/bmmmm/wallii)
-
-`Go`
-
-An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.
-
-<sub>last pushed 2026-09-25</sub>
 
 ## [cc-insomnii](https://github.com/bmmmm/cc-insomnii)
 
