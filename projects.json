@@ -21,26 +21,34 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
-          "repo": "wallii",
-          "name": "wallii",
-          "url": "https://github.com/bmmmm/wallii",
-          "blurb": "append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it.",
-          "detail": "An append-only message wall for agents: NDJSON feed plus a CLI to post, tail and browse it. Agents report finished work — including the failures — so a long-running fleet leaves a readable trail rather than a scrollback.",
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
           "install": null,
-          "links": [],
-          "language": "Go",
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
           "stars": 0,
           "topics": [
-            "agent-monitoring",
-            "ai-agents",
+            "changelog",
             "cli",
-            "developer-tools",
-            "golang",
-            "ndjson",
-            "tui"
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
           ],
-          "live": null,
-          "pushed_at": "2026-10-13T10:26:54Z",
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-10-13T21:00:52Z",
           "updated": "2026-10-13"
         },
         {
@@ -78,133 +86,6 @@
           "live": "https://bmmmm.github.io/claudii/",
           "pushed_at": "2026-10-12T09:23:37Z",
           "updated": "2026-10-12"
-        },
-        {
-          "repo": "bumpii",
-          "name": "bumpii",
-          "url": "https://github.com/bmmmm/bumpii",
-          "blurb": "reads what changed in the tools you run and keeps only what touches the features you use.",
-          "detail": "Reads what changed in the CLI tools and containers you run, keeps only what touches the features you use, and then bumps them. The judgement is the point: most upgrade notes matter to somebody, but not to you.",
-          "install": null,
-          "links": [],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "developer-tools",
-            "release-notes",
-            "typescript",
-            "updater"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-07T21:24:08Z",
-          "updated": "2026-10-07"
-        },
-        {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-10-05T20:55:58Z",
-          "updated": "2026-10-05"
-        },
-        {
-          "repo": "gateii",
-          "name": "gateii",
-          "url": "https://github.com/bmmmm/gateii",
-          "blurb": "minimal self-hosted proxy in front of LLM APIs — OpenResty, Prometheus, Grafana.",
-          "detail": "A minimal self-hosted proxy in front of LLM APIs. One place that sees every request, so latency, spend and failure rates are measurable instead of anecdotal.",
-          "install": null,
-          "links": [],
-          "language": "Lua",
-          "stars": 0,
-          "topics": [
-            "anthropic",
-            "api-proxy",
-            "claude",
-            "docker",
-            "llm",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-01T07:21:48Z",
-          "updated": "2026-10-01"
-        },
-        {
-          "repo": "check0r3000",
-          "name": "check0r3000",
-          "url": "https://github.com/bmmmm/check0r3000",
-          "blurb": "LLM extraction of comparable facts out of insurance terms, benchmarked against golden files. Finding so far: what you feed the model matters more than which model.",
-          "detail": "Extracts comparable facts out of German insurance terms (AVB), ranks them by quality and tracks prices over time — an entire market in one terminal. Ships with its own benchmark: golden files per line of business, scored on faithfulness, schema validity, hallucinations and coverage, because an extraction pipeline whose accuracy you have not measured is a rumour. Finding so far: what you feed the model matters more than which model — on one contract a local 20B model scored 100 where Opus scored 57, same input.",
-          "install": null,
-          "links": [
-            {
-              "label": "scorecard",
-              "url": "https://github.com/bmmmm/check0r3000/blob/main/benchmarks/rechtsschutz/scorecard.md"
-            }
-          ],
-          "language": "Python",
-          "stars": 0,
-          "topics": [
-            "comparison-tool",
-            "document-extraction",
-            "insurance",
-            "llm",
-            "pdf-extraction",
-            "python",
-            "rechtsschutz",
-            "textual",
-            "tui",
-            "uv"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-26T10:21:48Z",
-          "updated": "2026-09-26"
-        },
-        {
-          "repo": "cc-insomnii",
-          "name": "cc-insomnii",
-          "url": "https://github.com/bmmmm/cc-insomnii",
-          "blurb": "a bedtime-shaming statusline for Claude Code.",
-          "detail": "A bedtime-shaming statusline for Claude Code. Small, and it works.",
-          "install": null,
-          "links": [],
-          "language": "Shell",
-          "stars": 0,
-          "topics": [
-            "claude-code",
-            "cli",
-            "shell",
-            "statusline",
-            "terminal"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-02T20:11:43Z",
-          "updated": "2026-09-02"
         }
       ]
     },
@@ -240,78 +121,6 @@
           "live": "https://bmmmm.github.io/how-small-can-we-go/",
           "pushed_at": "2026-10-11T21:01:41Z",
           "updated": "2026-10-11"
-        },
-        {
-          "repo": "baaackaaab",
-          "name": "baaackaaab",
-          "url": "https://github.com/bmmmm/baaackaaab",
-          "blurb": "one-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store.",
-          "detail": "One-way, ransomware-resistant iCloud backup: Drive and Photos into an append-only restic store. One-way is the whole design — the machine holding the source can write new snapshots but cannot delete old ones, so an attacker with full control of it still cannot reach into yesterday.",
-          "install": null,
-          "links": [],
-          "language": "Swift",
-          "stars": 0,
-          "topics": [
-            "append-only",
-            "backup",
-            "cli",
-            "icloud",
-            "icloud-photos",
-            "macos",
-            "ransomware-protection",
-            "restic",
-            "swift",
-            "tui"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-01T13:02:36Z",
-          "updated": "2026-10-01"
-        },
-        {
-          "repo": "stattii",
-          "name": "stattii",
-          "url": "https://github.com/bmmmm/stattii",
-          "blurb": "attestation over an event calendar — cancellations propagate outward with delivery proof.",
-          "detail": "An attestation layer over an event calendar. Responsible people confirm or cancel through tokenised links; a cancellation propagates outward to everyone downstream, with delivery proof at each hop. Built for the case where \"I never got the message\" has consequences.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "attestation",
-            "calendar",
-            "events",
-            "golang",
-            "ics",
-            "selfhosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-25T18:49:30Z",
-          "updated": "2026-09-25"
-        },
-        {
-          "repo": "revertii",
-          "name": "revertii",
-          "url": "https://github.com/bmmmm/revertii",
-          "blurb": "update a service with the way back built in: snapshot, dead man's switch, health-check, revert.",
-          "detail": "Updates a service with the way back built in: snapshot, arm a dead man's switch, apply, health-check, and revert automatically if it does not come back. The switch is armed before the change, not after — an update that hangs is the case a manual rollback never covers.",
-          "install": null,
-          "links": [],
-          "language": "Shell",
-          "stars": 0,
-          "topics": [
-            "deployment",
-            "healthcheck",
-            "podman",
-            "rollback",
-            "self-healing",
-            "shell",
-            "sysadmin",
-            "systemd"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-25T18:48:48Z",
-          "updated": "2026-09-25"
         }
       ]
     },
@@ -343,7 +152,7 @@
             "workout-tracker"
           ],
           "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-10-13T10:06:03Z",
+          "pushed_at": "2026-10-13T14:09:56Z",
           "updated": "2026-10-13"
         },
         {
@@ -516,81 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-12T23:47:01Z",
-          "updated": "2026-10-12"
-        },
-        {
-          "repo": "KeebLock",
-          "name": "KeebLock",
-          "url": "https://github.com/bmmmm/KeebLock",
-          "blurb": "locks the keyboard while you clean it, with animations worth the thirty seconds.",
-          "detail": "Locks the keyboard while you wipe it down, with animations worth watching for the thirty seconds it takes.",
-          "install": null,
-          "links": [],
-          "language": "Swift",
-          "stars": 0,
-          "topics": [
-            "keyboard",
-            "mac-app",
-            "macos",
-            "swift",
-            "swiftui"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-01T13:02:29Z",
-          "updated": "2026-10-01"
-        },
-        {
-          "repo": "vpnii",
-          "name": "vpnii",
-          "url": "https://github.com/bmmmm/vpnii",
-          "blurb": "VPN status in the zsh prompt, on top of WireGuard and Tailscale.",
-          "detail": "VPN status indicator for zsh plus a small CLI on top of WireGuard and Tailscale. Answers \"am I actually on the tunnel right now\" in the prompt, where the question comes up.",
-          "install": null,
-          "links": [],
-          "language": "Shell",
-          "stars": 0,
-          "topics": [
-            "cli",
-            "macos",
-            "tailscale",
-            "vpn",
-            "wg-quick",
-            "wireguard",
-            "zsh",
-            "zsh-plugin",
-            "zsh-prompt"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-01T13:02:23Z",
-          "updated": "2026-10-01"
-        },
-        {
-          "repo": "pwdtintii",
-          "name": "pwdtintii",
-          "url": "https://github.com/bmmmm/pwdtintii",
-          "blurb": "the terminal background takes its colour from the directory you are in. zsh, bash, fish, tmux-aware.",
-          "detail": "The terminal background takes its colour from the directory you are standing in, via OSC 11 and tmux-aware. The point is not decoration: production and staging stop looking identical at 2am.",
-          "install": null,
-          "links": [],
-          "language": "Shell",
-          "stars": 0,
-          "topics": [
-            "bash",
-            "cli",
-            "fish",
-            "fzf",
-            "oh-my-zsh",
-            "shell",
-            "terminal",
-            "terminal-colors",
-            "tmux",
-            "zsh",
-            "zsh-plugin"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-01T13:02:19Z",
-          "updated": "2026-10-01"
+          "pushed_at": "2026-10-14T00:23:25Z",
+          "updated": "2026-10-14"
         },
         {
           "repo": "epcii",
@@ -613,28 +349,6 @@
           ],
           "live": "https://bmmmm.github.io/epcii/",
           "pushed_at": "2026-10-01T07:21:46Z",
-          "updated": "2026-10-01"
-        },
-        {
-          "repo": "youtubehistii",
-          "name": "youtubehistii",
-          "url": "https://github.com/bmmmm/youtubehistii",
-          "blurb": "local YouTube watch-history analyzer — topics, and consume vs. learn. Fully on-device.",
-          "detail": "Analyses your YouTube watch history locally — topics, and the split between consuming and learning. Fully on-device, because handing a full viewing history to a third party to be told how you spend your evenings is a poor trade.",
-          "install": null,
-          "links": [],
-          "language": "Go",
-          "stars": 0,
-          "topics": [
-            "go",
-            "google-takeout",
-            "local-llm",
-            "privacy",
-            "watch-history",
-            "youtube"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-01T07:21:42Z",
           "updated": "2026-10-01"
         },
         {
@@ -666,31 +380,6 @@
           ],
           "live": "https://bmmmm.github.io/git-times-live/",
           "pushed_at": "2026-09-25T18:46:17Z",
-          "updated": "2026-09-25"
-        },
-        {
-          "repo": "audioctl",
-          "name": "audioctl",
-          "url": "https://github.com/bmmmm/audioctl",
-          "blurb": "switch macOS output and input devices, volume, mute and sample rate from the CLI.",
-          "detail": "Control macOS audio from the CLI: switch the default output and input device, volume, mute and sample rate, and cycle outputs with a global hotkey — the things the system UI makes you click through.",
-          "install": null,
-          "links": [],
-          "language": "Swift",
-          "stars": 0,
-          "topics": [
-            "audio",
-            "audio-device",
-            "blackhole",
-            "cli",
-            "command-line",
-            "coreaudio",
-            "hotkey",
-            "macos",
-            "swift"
-          ],
-          "live": null,
-          "pushed_at": "2026-09-25T18:45:29Z",
           "updated": "2026-09-25"
         }
       ]
