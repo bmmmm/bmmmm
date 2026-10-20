@@ -53,8 +53,8 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-10-14T23:26:48Z",
-          "updated": "2026-10-14"
+          "pushed_at": "2026-10-20T08:30:36Z",
+          "updated": "2026-10-20"
         },
         {
           "repo": "comparereleaseii",
@@ -325,7 +325,7 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-19T04:37:31Z",
+          "pushed_at": "2026-10-19T21:46:03Z",
           "updated": "2026-10-19"
         },
         {
@@ -391,6 +391,26 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 0,
+          "topics": [
+            "clipboard",
+            "freshrss",
+            "freshrss-extension",
+            "notes"
+          ],
+          "live": null,
+          "pushed_at": "2026-10-20T06:34:52Z",
+          "updated": "2026-10-20"
+        },
+        {
           "repo": "xExtension-ClickHistory",
           "name": "ClickHistory",
           "url": "https://github.com/bmmmm/xExtension-ClickHistory",
@@ -433,26 +453,6 @@
           ],
           "live": null,
           "pushed_at": "2026-10-14T18:29:36Z",
-          "updated": "2026-10-14"
-        },
-        {
-          "repo": "xExtension-NoteDrop",
-          "name": "NoteDrop",
-          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
-          "blurb": "drop notes and links on one device, copy them on another with one click.",
-          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 0,
-          "topics": [
-            "clipboard",
-            "freshrss",
-            "freshrss-extension",
-            "notes"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-14T16:17:18Z",
           "updated": "2026-10-14"
         },
         {

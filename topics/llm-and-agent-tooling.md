@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
 
-<sub>last pushed 2026-10-14</sub>
+<sub>last pushed 2026-10-20</sub>
 
 ## [comparereleaseii](https://github.com/bmmmm/comparereleaseii)
 
