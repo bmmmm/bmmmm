@@ -21,6 +21,37 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-10-20T15:05:36Z",
+          "updated": "2026-10-20"
+        },
+        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -53,39 +84,8 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-10-20T08:30:36Z",
+          "pushed_at": "2026-10-20T15:03:40Z",
           "updated": "2026-10-20"
-        },
-        {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-10-13T21:00:52Z",
-          "updated": "2026-10-13"
         }
       ]
     },
@@ -131,6 +131,51 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
+          "repo": "shieldchipiii",
+          "name": "shieldchipiii",
+          "url": "https://github.com/bmmmm/shieldchipiii",
+          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
+          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "ascii-art",
+            "car",
+            "localstorage",
+            "logbook",
+            "offline-first",
+            "stone-chip",
+            "vanilla-js",
+            "windshield"
+          ],
+          "live": "https://bmmmm.github.io/shieldchipiii/",
+          "pushed_at": "2026-10-20T15:06:36Z",
+          "updated": "2026-10-20"
+        },
+        {
+          "repo": "db-wallet",
+          "name": "db-wallet",
+          "url": "https://github.com/bmmmm/db-wallet",
+          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 2,
+          "topics": [
+            "bonn",
+            "hackspace",
+            "javascript",
+            "offline-first",
+            "pwa"
+          ],
+          "live": "https://bmmmm.github.io/db-wallet/",
+          "pushed_at": "2026-10-20T15:05:51Z",
+          "updated": "2026-10-20"
+        },
+        {
           "repo": "gymii",
           "name": "gymii",
           "url": "https://github.com/bmmmm/gymii",
@@ -152,8 +197,8 @@
             "workout-tracker"
           ],
           "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-10-13T14:09:56Z",
-          "updated": "2026-10-13"
+          "pushed_at": "2026-10-20T15:04:13Z",
+          "updated": "2026-10-20"
         },
         {
           "repo": "musiclinkii",
@@ -175,51 +220,6 @@
           ],
           "live": "https://bmmmm.github.io/musiclinkii/",
           "pushed_at": "2026-10-01T22:41:08Z",
-          "updated": "2026-10-01"
-        },
-        {
-          "repo": "db-wallet",
-          "name": "db-wallet",
-          "url": "https://github.com/bmmmm/db-wallet",
-          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
-          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 2,
-          "topics": [
-            "bonn",
-            "hackspace",
-            "javascript",
-            "offline-first",
-            "pwa"
-          ],
-          "live": "https://bmmmm.github.io/db-wallet/",
-          "pushed_at": "2026-10-01T21:54:40Z",
-          "updated": "2026-10-01"
-        },
-        {
-          "repo": "shieldchipiii",
-          "name": "shieldchipiii",
-          "url": "https://github.com/bmmmm/shieldchipiii",
-          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
-          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "ascii-art",
-            "car",
-            "localstorage",
-            "logbook",
-            "offline-first",
-            "stone-chip",
-            "vanilla-js",
-            "windshield"
-          ],
-          "live": "https://bmmmm.github.io/shieldchipiii/",
-          "pushed_at": "2026-10-01T12:25:51Z",
           "updated": "2026-10-01"
         },
         {
@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-19T21:46:03Z",
-          "updated": "2026-10-19"
+          "pushed_at": "2026-10-20T20:52:00Z",
+          "updated": "2026-10-20"
         },
         {
           "repo": "epcii",
@@ -391,6 +391,30 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ShareViaQRCode",
+          "name": "ShareViaQRCode",
+          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
+          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
+          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "javascript",
+            "php",
+            "qr-code",
+            "rss",
+            "rss-reader",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-10-20T18:44:40Z",
+          "updated": "2026-10-20"
+        },
+        {
           "repo": "xExtension-NoteDrop",
           "name": "NoteDrop",
           "url": "https://github.com/bmmmm/xExtension-NoteDrop",
@@ -430,30 +454,6 @@
           "live": null,
           "pushed_at": "2026-10-16T09:07:25Z",
           "updated": "2026-10-16"
-        },
-        {
-          "repo": "xExtension-ShareViaQRCode",
-          "name": "ShareViaQRCode",
-          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
-          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
-          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "javascript",
-            "php",
-            "qr-code",
-            "rss",
-            "rss-reader",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-14T18:29:36Z",
-          "updated": "2026-10-14"
         },
         {
           "repo": "xExtension-ExitReaderView",

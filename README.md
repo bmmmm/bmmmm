@@ -7,8 +7,8 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details open>
 <summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 2 projects</summary>
 
-- **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
 - **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
+- **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/llm-and-agent-tooling.md">LLM &amp; agent tooling in detail →</a></sub>
 
@@ -26,10 +26,10 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>Local-first web apps</strong> — static pages that keep your data in your own browser · 7 projects</summary>
 
+- **[shieldchipiii](https://github.com/bmmmm/shieldchipiii)** — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. · `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
+- **[db-wallet](https://github.com/bmmmm/db-wallet)** — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn. · `JavaScript` · [live](https://bmmmm.github.io/db-wallet/)
 - **[gymii](https://github.com/bmmmm/gymii)** — floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device. · `JavaScript` · [live](https://bmmmm.github.io/gymii/)
 - **[musiclinkii](https://github.com/bmmmm/musiclinkii)** — turn one music link into links for every streaming platform. · `JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
-- **[db-wallet](https://github.com/bmmmm/db-wallet)** — drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn. · `JavaScript` · [live](https://bmmmm.github.io/db-wallet/)
-- **[shieldchipiii](https://github.com/bmmmm/shieldchipiii)** — stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory. · `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
 - **[kuvertii](https://github.com/bmmmm/kuvertii)** — read what an email header says about you — who it was really addressed to, where the unsubscribe link leads. · `JavaScript` · [live](https://bmmmm.github.io/kuvertii/)
 - **[putzii](https://github.com/bmmmm/putzii)** — cleaning schedule shared by capability link, with QR check-in. No backend at all. · `JavaScript` · [live](https://bmmmm.github.io/putzii/)
 - **[app-icons-generator](https://github.com/bmmmm/app-icons-generator)** — every iOS, macOS and watchOS icon size from one 1024px PNG — CLI and browser. · `Shell` · [live](https://bmmmm.github.io/app-icons-generator/)
@@ -52,9 +52,9 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details>
 <summary><strong>FreshRSS extensions</strong> — four small extensions for the reader I actually use every day · 4 projects</summary>
 
+- **[ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)** — a large QR code for the current article, so a phone can pick the link off the screen. · `JavaScript`
 - **[NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)** — drop notes and links on one device, copy them on another with one click. · `PHP`
 - **[ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)** — keeps a history of the article links you actually opened. · `PHP`
-- **[ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)** — a large QR code for the current article, so a phone can pick the link off the screen. · `JavaScript`
 - **[ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)** — a floating button to leave the reading view in one click. · `JavaScript`
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/freshrss-extensions.md">FreshRSS extensions in detail →</a></sub>

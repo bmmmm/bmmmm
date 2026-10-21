@@ -4,21 +4,13 @@ Static pages that keep your data in your own browser. No backend, no account, no
 
 Newest first — this page is generated, so the order follows the code.
 
-## [gymii](https://github.com/bmmmm/gymii)
+## [shieldchipiii](https://github.com/bmmmm/shieldchipiii)
 
-`JavaScript` · [live](https://bmmmm.github.io/gymii/)
+`JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
 
-Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
+A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.
 
-<sub>last pushed 2026-10-13</sub>
-
-## [musiclinkii](https://github.com/bmmmm/musiclinkii)
-
-`JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
-
-Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.
-
-<sub>last pushed 2026-10-01</sub>
+<sub>last pushed 2026-10-20</sub>
 
 ## [db-wallet](https://github.com/bmmmm/db-wallet)
 
@@ -26,13 +18,21 @@ Turn one music link into links for every streaming platform, so a recommendation
 
 Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.
 
-<sub>last pushed 2026-10-01</sub>
+<sub>last pushed 2026-10-20</sub>
 
-## [shieldchipiii](https://github.com/bmmmm/shieldchipiii)
+## [gymii](https://github.com/bmmmm/gymii)
 
-`JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
+`JavaScript` · [live](https://bmmmm.github.io/gymii/)
 
-A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.
+Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
+
+<sub>last pushed 2026-10-20</sub>
+
+## [musiclinkii](https://github.com/bmmmm/musiclinkii)
+
+`JavaScript` · [live](https://bmmmm.github.io/musiclinkii/)
+
+Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.
 
 <sub>last pushed 2026-10-01</sub>
 
