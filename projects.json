@@ -131,6 +131,31 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
+          "repo": "gymii",
+          "name": "gymii",
+          "url": "https://github.com/bmmmm/gymii",
+          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
+          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "fitness",
+            "gym",
+            "localstorage",
+            "no-build",
+            "offline-first",
+            "pwa",
+            "static-site",
+            "vanilla-js",
+            "workout-tracker"
+          ],
+          "live": "https://bmmmm.github.io/gymii/",
+          "pushed_at": "2026-10-21T21:01:13Z",
+          "updated": "2026-10-21"
+        },
+        {
           "repo": "shieldchipiii",
           "name": "shieldchipiii",
           "url": "https://github.com/bmmmm/shieldchipiii",
@@ -173,31 +198,6 @@
           ],
           "live": "https://bmmmm.github.io/db-wallet/",
           "pushed_at": "2026-10-20T15:05:51Z",
-          "updated": "2026-10-20"
-        },
-        {
-          "repo": "gymii",
-          "name": "gymii",
-          "url": "https://github.com/bmmmm/gymii",
-          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
-          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "fitness",
-            "gym",
-            "localstorage",
-            "no-build",
-            "offline-first",
-            "pwa",
-            "static-site",
-            "vanilla-js",
-            "workout-tracker"
-          ],
-          "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-10-20T15:04:13Z",
           "updated": "2026-10-20"
         },
         {
@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-20T20:52:00Z",
-          "updated": "2026-10-20"
+          "pushed_at": "2026-10-21T19:18:24Z",
+          "updated": "2026-10-21"
         },
         {
           "repo": "epcii",

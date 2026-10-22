@@ -4,6 +4,14 @@ Static pages that keep your data in your own browser. No backend, no account, no
 
 Newest first — this page is generated, so the order follows the code.
 
+## [gymii](https://github.com/bmmmm/gymii)
+
+`JavaScript` · [live](https://bmmmm.github.io/gymii/)
+
+Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
+
+<sub>last pushed 2026-10-21</sub>
+
 ## [shieldchipiii](https://github.com/bmmmm/shieldchipiii)
 
 `JavaScript` · [live](https://bmmmm.github.io/shieldchipiii/)
@@ -17,14 +25,6 @@ A stone-chip logbook for your car windshield: photograph and date every chip, so
 `JavaScript` · [live](https://bmmmm.github.io/db-wallet/)
 
 Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.
-
-<sub>last pushed 2026-10-20</sub>
-
-## [gymii](https://github.com/bmmmm/gymii)
-
-`JavaScript` · [live](https://bmmmm.github.io/gymii/)
-
-Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
 
 <sub>last pushed 2026-10-20</sub>
 
