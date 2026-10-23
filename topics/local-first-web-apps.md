@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.
 
-<sub>last pushed 2026-10-21</sub>
+<sub>last pushed 2026-10-22</sub>
 
 ## [shieldchipiii](https://github.com/bmmmm/shieldchipiii)
 
