@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-22T19:13:44Z",
-          "updated": "2026-10-22"
+          "pushed_at": "2026-10-23T20:40:17Z",
+          "updated": "2026-10-23"
         },
         {
           "repo": "epcii",
@@ -391,6 +391,27 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ClickHistory",
+          "name": "ClickHistory",
+          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
+          "blurb": "keeps a history of the article links you actually opened.",
+          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "reading-history",
+            "rss"
+          ],
+          "live": null,
+          "pushed_at": "2026-10-23T09:07:11Z",
+          "updated": "2026-10-23"
+        },
+        {
           "repo": "xExtension-ShareViaQRCode",
           "name": "ShareViaQRCode",
           "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
@@ -433,27 +454,6 @@
           "live": null,
           "pushed_at": "2026-10-20T06:34:52Z",
           "updated": "2026-10-20"
-        },
-        {
-          "repo": "xExtension-ClickHistory",
-          "name": "ClickHistory",
-          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
-          "blurb": "keeps a history of the article links you actually opened.",
-          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "reading-history",
-            "rss"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-16T09:07:25Z",
-          "updated": "2026-10-16"
         },
         {
           "repo": "xExtension-ExitReaderView",
