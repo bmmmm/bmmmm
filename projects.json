@@ -21,37 +21,6 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-10-20T15:05:36Z",
-          "updated": "2026-10-20"
-        },
-        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -84,7 +53,38 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-10-20T15:03:40Z",
+          "pushed_at": "2026-10-28T09:20:47Z",
+          "updated": "2026-10-28"
+        },
+        {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-10-20T15:05:36Z",
           "updated": "2026-10-20"
         }
       ]
@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-26T21:51:08Z",
-          "updated": "2026-10-26"
+          "pushed_at": "2026-10-27T22:28:06Z",
+          "updated": "2026-10-27"
         },
         {
           "repo": "epcii",
@@ -391,27 +391,6 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
-          "repo": "xExtension-ClickHistory",
-          "name": "ClickHistory",
-          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
-          "blurb": "keeps a history of the article links you actually opened.",
-          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "reading-history",
-            "rss"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-23T09:07:11Z",
-          "updated": "2026-10-23"
-        },
-        {
           "repo": "xExtension-ShareViaQRCode",
           "name": "ShareViaQRCode",
           "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
@@ -432,8 +411,29 @@
             "self-hosted"
           ],
           "live": null,
-          "pushed_at": "2026-10-20T18:44:40Z",
-          "updated": "2026-10-20"
+          "pushed_at": "2026-10-27T18:44:38Z",
+          "updated": "2026-10-27"
+        },
+        {
+          "repo": "xExtension-ClickHistory",
+          "name": "ClickHistory",
+          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
+          "blurb": "keeps a history of the article links you actually opened.",
+          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "reading-history",
+            "rss"
+          ],
+          "live": null,
+          "pushed_at": "2026-10-23T09:07:11Z",
+          "updated": "2026-10-23"
         },
         {
           "repo": "xExtension-NoteDrop",
