@@ -131,6 +131,29 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
+          "repo": "putzii",
+          "name": "putzii",
+          "url": "https://github.com/bmmmm/putzii",
+          "blurb": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
+          "detail": "A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "cleaning-schedule",
+            "go",
+            "local-first",
+            "pwa",
+            "qr-code",
+            "self-hosted",
+            "vanilla-js"
+          ],
+          "live": "https://bmmmm.github.io/putzii/",
+          "pushed_at": "2026-11-01T09:46:52Z",
+          "updated": "2026-11-01"
+        },
+        {
           "repo": "gymii",
           "name": "gymii",
           "url": "https://github.com/bmmmm/gymii",
@@ -247,29 +270,6 @@
           "updated": "2026-10-01"
         },
         {
-          "repo": "putzii",
-          "name": "putzii",
-          "url": "https://github.com/bmmmm/putzii",
-          "blurb": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
-          "detail": "A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "cleaning-schedule",
-            "go",
-            "local-first",
-            "pwa",
-            "qr-code",
-            "self-hosted",
-            "vanilla-js"
-          ],
-          "live": "https://bmmmm.github.io/putzii/",
-          "pushed_at": "2026-09-25T18:48:25Z",
-          "updated": "2026-09-25"
-        },
-        {
           "repo": "app-icons-generator",
           "name": "app-icons-generator",
           "url": "https://github.com/bmmmm/app-icons-generator",
@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-30T21:43:58Z",
-          "updated": "2026-10-30"
+          "pushed_at": "2026-10-31T20:42:22Z",
+          "updated": "2026-10-31"
         },
         {
           "repo": "epcii",

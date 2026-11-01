@@ -4,6 +4,14 @@ Static pages that keep your data in your own browser. No backend, no account, no
 
 Newest first — this page is generated, so the order follows the code.
 
+## [putzii](https://github.com/bmmmm/putzii)
+
+`JavaScript` · [live](https://bmmmm.github.io/putzii/)
+
+A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
+
+<sub>last pushed 2026-11-01</sub>
+
 ## [gymii](https://github.com/bmmmm/gymii)
 
 `JavaScript` · [live](https://bmmmm.github.io/gymii/)
@@ -43,14 +51,6 @@ Turn one music link into links for every streaming platform, so a recommendation
 Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.
 
 <sub>last pushed 2026-10-01</sub>
-
-## [putzii](https://github.com/bmmmm/putzii)
-
-`JavaScript` · [live](https://bmmmm.github.io/putzii/)
-
-A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.
-
-<sub>last pushed 2026-09-25</sub>
 
 ## [app-icons-generator](https://github.com/bmmmm/app-icons-generator)
 
