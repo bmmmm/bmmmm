@@ -48,8 +48,8 @@
             "verification"
           ],
           "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-10-31T01:24:17Z",
-          "updated": "2026-10-31"
+          "pushed_at": "2026-11-01T17:07:52Z",
+          "updated": "2026-11-01"
         },
         {
           "repo": "claudii",
@@ -150,7 +150,53 @@
             "vanilla-js"
           ],
           "live": "https://bmmmm.github.io/putzii/",
-          "pushed_at": "2026-11-01T09:46:52Z",
+          "pushed_at": "2026-11-01T22:02:34Z",
+          "updated": "2026-11-01"
+        },
+        {
+          "repo": "musiclinkii",
+          "name": "musiclinkii",
+          "url": "https://github.com/bmmmm/musiclinkii",
+          "blurb": "turn one music link into links for every streaming platform.",
+          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "github-pages",
+            "link-converter",
+            "music",
+            "songlink-alternative",
+            "static-site",
+            "streaming"
+          ],
+          "live": "https://bmmmm.github.io/musiclinkii/",
+          "pushed_at": "2026-11-01T22:02:07Z",
+          "updated": "2026-11-01"
+        },
+        {
+          "repo": "kuvertii",
+          "name": "kuvertii",
+          "url": "https://github.com/bmmmm/kuvertii",
+          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
+          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "client-side",
+            "email",
+            "email-header",
+            "email-security",
+            "phishing",
+            "privacy",
+            "spam",
+            "static-site"
+          ],
+          "live": "https://bmmmm.github.io/kuvertii/",
+          "pushed_at": "2026-11-01T22:01:58Z",
           "updated": "2026-11-01"
         },
         {
@@ -175,8 +221,8 @@
             "workout-tracker"
           ],
           "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-10-22T23:52:50Z",
-          "updated": "2026-10-22"
+          "pushed_at": "2026-11-01T11:08:40Z",
+          "updated": "2026-11-01"
         },
         {
           "repo": "shieldchipiii",
@@ -222,52 +268,6 @@
           "live": "https://bmmmm.github.io/db-wallet/",
           "pushed_at": "2026-10-20T15:05:51Z",
           "updated": "2026-10-20"
-        },
-        {
-          "repo": "musiclinkii",
-          "name": "musiclinkii",
-          "url": "https://github.com/bmmmm/musiclinkii",
-          "blurb": "turn one music link into links for every streaming platform.",
-          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "github-pages",
-            "link-converter",
-            "music",
-            "songlink-alternative",
-            "static-site",
-            "streaming"
-          ],
-          "live": "https://bmmmm.github.io/musiclinkii/",
-          "pushed_at": "2026-10-01T22:41:08Z",
-          "updated": "2026-10-01"
-        },
-        {
-          "repo": "kuvertii",
-          "name": "kuvertii",
-          "url": "https://github.com/bmmmm/kuvertii",
-          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
-          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "client-side",
-            "email",
-            "email-header",
-            "email-security",
-            "phishing",
-            "privacy",
-            "spam",
-            "static-site"
-          ],
-          "live": "https://bmmmm.github.io/kuvertii/",
-          "pushed_at": "2026-10-01T11:34:39Z",
-          "updated": "2026-10-01"
         },
         {
           "repo": "app-icons-generator",
@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-10-31T20:42:22Z",
-          "updated": "2026-10-31"
+          "pushed_at": "2026-11-02T05:23:13Z",
+          "updated": "2026-11-02"
         },
         {
           "repo": "epcii",

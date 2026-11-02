@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
 
-<sub>last pushed 2026-10-31</sub>
+<sub>last pushed 2026-11-01</sub>
 
 ## [claudii](https://github.com/bmmmm/claudii)
 
