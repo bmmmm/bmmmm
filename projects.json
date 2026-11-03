@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-02T05:23:13Z",
-          "updated": "2026-11-02"
+          "pushed_at": "2026-11-03T00:04:40Z",
+          "updated": "2026-11-03"
         },
         {
           "repo": "epcii",
@@ -391,6 +391,26 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 0,
+          "topics": [
+            "clipboard",
+            "freshrss",
+            "freshrss-extension",
+            "notes"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-03T06:34:17Z",
+          "updated": "2026-11-03"
+        },
+        {
           "repo": "xExtension-ClickHistory",
           "name": "ClickHistory",
           "url": "https://github.com/bmmmm/xExtension-ClickHistory",
@@ -434,26 +454,6 @@
           "live": null,
           "pushed_at": "2026-10-27T18:44:38Z",
           "updated": "2026-10-27"
-        },
-        {
-          "repo": "xExtension-NoteDrop",
-          "name": "NoteDrop",
-          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
-          "blurb": "drop notes and links on one device, copy them on another with one click.",
-          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 0,
-          "topics": [
-            "clipboard",
-            "freshrss",
-            "freshrss-extension",
-            "notes"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-20T06:34:52Z",
-          "updated": "2026-10-20"
         },
         {
           "repo": "xExtension-ExitReaderView",
