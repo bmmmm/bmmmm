@@ -21,37 +21,6 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-11-01T17:07:52Z",
-          "updated": "2026-11-01"
-        },
-        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -84,8 +53,39 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-10-28T14:31:18Z",
-          "updated": "2026-10-28"
+          "pushed_at": "2026-11-03T23:24:55Z",
+          "updated": "2026-11-03"
+        },
+        {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-11-01T17:07:52Z",
+          "updated": "2026-11-01"
         }
       ]
     },
@@ -325,7 +325,7 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-03T00:04:40Z",
+          "pushed_at": "2026-11-03T22:33:19Z",
           "updated": "2026-11-03"
         },
         {
@@ -391,6 +391,30 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ShareViaQRCode",
+          "name": "ShareViaQRCode",
+          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
+          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
+          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "javascript",
+            "php",
+            "qr-code",
+            "rss",
+            "rss-reader",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-03T18:44:44Z",
+          "updated": "2026-11-03"
+        },
+        {
           "repo": "xExtension-NoteDrop",
           "name": "NoteDrop",
           "url": "https://github.com/bmmmm/xExtension-NoteDrop",
@@ -430,30 +454,6 @@
           "live": null,
           "pushed_at": "2026-10-30T09:09:12Z",
           "updated": "2026-10-30"
-        },
-        {
-          "repo": "xExtension-ShareViaQRCode",
-          "name": "ShareViaQRCode",
-          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
-          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
-          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "javascript",
-            "php",
-            "qr-code",
-            "rss",
-            "rss-reader",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-10-27T18:44:38Z",
-          "updated": "2026-10-27"
         },
         {
           "repo": "xExtension-ExitReaderView",
