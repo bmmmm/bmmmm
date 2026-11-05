@@ -21,6 +21,37 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-11-05T08:18:53Z",
+          "updated": "2026-11-05"
+        },
+        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -55,37 +86,6 @@
           "live": "https://bmmmm.github.io/claudii/",
           "pushed_at": "2026-11-03T23:24:55Z",
           "updated": "2026-11-03"
-        },
-        {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-11-01T17:07:52Z",
-          "updated": "2026-11-01"
         }
       ]
     },
@@ -131,6 +131,55 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
+          "repo": "gymii",
+          "name": "gymii",
+          "url": "https://github.com/bmmmm/gymii",
+          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
+          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "fitness",
+            "gym",
+            "localstorage",
+            "no-build",
+            "offline-first",
+            "pwa",
+            "static-site",
+            "vanilla-js",
+            "workout-tracker"
+          ],
+          "live": "https://bmmmm.github.io/gymii/",
+          "pushed_at": "2026-11-05T08:11:15Z",
+          "updated": "2026-11-05"
+        },
+        {
+          "repo": "kuvertii",
+          "name": "kuvertii",
+          "url": "https://github.com/bmmmm/kuvertii",
+          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
+          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "client-side",
+            "email",
+            "email-header",
+            "email-security",
+            "phishing",
+            "privacy",
+            "spam",
+            "static-site"
+          ],
+          "live": "https://bmmmm.github.io/kuvertii/",
+          "pushed_at": "2026-11-05T01:05:07Z",
+          "updated": "2026-11-05"
+        },
+        {
           "repo": "putzii",
           "name": "putzii",
           "url": "https://github.com/bmmmm/putzii",
@@ -173,55 +222,6 @@
           ],
           "live": "https://bmmmm.github.io/musiclinkii/",
           "pushed_at": "2026-11-01T22:02:07Z",
-          "updated": "2026-11-01"
-        },
-        {
-          "repo": "kuvertii",
-          "name": "kuvertii",
-          "url": "https://github.com/bmmmm/kuvertii",
-          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
-          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "client-side",
-            "email",
-            "email-header",
-            "email-security",
-            "phishing",
-            "privacy",
-            "spam",
-            "static-site"
-          ],
-          "live": "https://bmmmm.github.io/kuvertii/",
-          "pushed_at": "2026-11-01T22:01:58Z",
-          "updated": "2026-11-01"
-        },
-        {
-          "repo": "gymii",
-          "name": "gymii",
-          "url": "https://github.com/bmmmm/gymii",
-          "blurb": "floor-plan your gym, log sets against numbered machines. Offline-first, data never leaves the device.",
-          "detail": "Floor-plan your gym, then log sets against numbered machines instead of guessing which bench you used. Offline-first, all data in the browser.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "fitness",
-            "gym",
-            "localstorage",
-            "no-build",
-            "offline-first",
-            "pwa",
-            "static-site",
-            "vanilla-js",
-            "workout-tracker"
-          ],
-          "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-11-01T11:08:40Z",
           "updated": "2026-11-01"
         },
         {
@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-03T22:33:19Z",
-          "updated": "2026-11-03"
+          "pushed_at": "2026-11-05T05:47:21Z",
+          "updated": "2026-11-05"
         },
         {
           "repo": "epcii",
