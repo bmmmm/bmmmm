@@ -131,6 +131,27 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
+          "repo": "db-wallet",
+          "name": "db-wallet",
+          "url": "https://github.com/bmmmm/db-wallet",
+          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 2,
+          "topics": [
+            "bonn",
+            "hackspace",
+            "javascript",
+            "offline-first",
+            "pwa"
+          ],
+          "live": "https://bmmmm.github.io/db-wallet/",
+          "pushed_at": "2026-11-09T23:53:49Z",
+          "updated": "2026-11-09"
+        },
+        {
           "repo": "gymii",
           "name": "gymii",
           "url": "https://github.com/bmmmm/gymii",
@@ -152,8 +173,30 @@
             "workout-tracker"
           ],
           "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-11-05T08:11:15Z",
-          "updated": "2026-11-05"
+          "pushed_at": "2026-11-09T16:18:09Z",
+          "updated": "2026-11-09"
+        },
+        {
+          "repo": "musiclinkii",
+          "name": "musiclinkii",
+          "url": "https://github.com/bmmmm/musiclinkii",
+          "blurb": "turn one music link into links for every streaming platform.",
+          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "github-pages",
+            "link-converter",
+            "music",
+            "songlink-alternative",
+            "static-site",
+            "streaming"
+          ],
+          "live": "https://bmmmm.github.io/musiclinkii/",
+          "pushed_at": "2026-11-09T12:23:13Z",
+          "updated": "2026-11-09"
         },
         {
           "repo": "kuvertii",
@@ -203,28 +246,6 @@
           "updated": "2026-11-01"
         },
         {
-          "repo": "musiclinkii",
-          "name": "musiclinkii",
-          "url": "https://github.com/bmmmm/musiclinkii",
-          "blurb": "turn one music link into links for every streaming platform.",
-          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "github-pages",
-            "link-converter",
-            "music",
-            "songlink-alternative",
-            "static-site",
-            "streaming"
-          ],
-          "live": "https://bmmmm.github.io/musiclinkii/",
-          "pushed_at": "2026-11-01T22:02:07Z",
-          "updated": "2026-11-01"
-        },
-        {
           "repo": "shieldchipiii",
           "name": "shieldchipiii",
           "url": "https://github.com/bmmmm/shieldchipiii",
@@ -246,27 +267,6 @@
           ],
           "live": "https://bmmmm.github.io/shieldchipiii/",
           "pushed_at": "2026-10-20T15:06:36Z",
-          "updated": "2026-10-20"
-        },
-        {
-          "repo": "db-wallet",
-          "name": "db-wallet",
-          "url": "https://github.com/bmmmm/db-wallet",
-          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
-          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 2,
-          "topics": [
-            "bonn",
-            "hackspace",
-            "javascript",
-            "offline-first",
-            "pwa"
-          ],
-          "live": "https://bmmmm.github.io/db-wallet/",
-          "pushed_at": "2026-10-20T15:05:51Z",
           "updated": "2026-10-20"
         },
         {
@@ -325,7 +325,28 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-09T05:23:11Z",
+          "pushed_at": "2026-11-10T00:53:57Z",
+          "updated": "2026-11-10"
+        },
+        {
+          "repo": "KeebLock",
+          "name": "KeebLock",
+          "url": "https://github.com/bmmmm/KeebLock",
+          "blurb": "locks the keyboard while you clean it, with animations worth the thirty seconds.",
+          "detail": "Locks the keyboard while you wipe it down, with animations worth watching for the thirty seconds it takes.",
+          "install": null,
+          "links": [],
+          "language": "Swift",
+          "stars": 0,
+          "topics": [
+            "keyboard",
+            "mac-app",
+            "macos",
+            "swift",
+            "swiftui"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-09T22:02:27Z",
           "updated": "2026-11-09"
         },
         {
@@ -391,6 +412,26 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 0,
+          "topics": [
+            "clipboard",
+            "freshrss",
+            "freshrss-extension",
+            "notes"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-10T06:34:48Z",
+          "updated": "2026-11-10"
+        },
+        {
           "repo": "xExtension-ClickHistory",
           "name": "ClickHistory",
           "url": "https://github.com/bmmmm/xExtension-ClickHistory",
@@ -433,26 +474,6 @@
           ],
           "live": null,
           "pushed_at": "2026-11-03T18:44:44Z",
-          "updated": "2026-11-03"
-        },
-        {
-          "repo": "xExtension-NoteDrop",
-          "name": "NoteDrop",
-          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
-          "blurb": "drop notes and links on one device, copy them on another with one click.",
-          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 0,
-          "topics": [
-            "clipboard",
-            "freshrss",
-            "freshrss-extension",
-            "notes"
-          ],
-          "live": null,
-          "pushed_at": "2026-11-03T06:34:17Z",
           "updated": "2026-11-03"
         },
         {
