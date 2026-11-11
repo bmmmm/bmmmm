@@ -325,7 +325,7 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-10T00:53:57Z",
+          "pushed_at": "2026-11-10T21:18:36Z",
           "updated": "2026-11-10"
         },
         {
@@ -412,6 +412,30 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ShareViaQRCode",
+          "name": "ShareViaQRCode",
+          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
+          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
+          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "javascript",
+            "php",
+            "qr-code",
+            "rss",
+            "rss-reader",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-10T18:44:56Z",
+          "updated": "2026-11-10"
+        },
+        {
           "repo": "xExtension-NoteDrop",
           "name": "NoteDrop",
           "url": "https://github.com/bmmmm/xExtension-NoteDrop",
@@ -451,30 +475,6 @@
           "live": null,
           "pushed_at": "2026-11-06T09:10:49Z",
           "updated": "2026-11-06"
-        },
-        {
-          "repo": "xExtension-ShareViaQRCode",
-          "name": "ShareViaQRCode",
-          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
-          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
-          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "javascript",
-            "php",
-            "qr-code",
-            "rss",
-            "rss-reader",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-11-03T18:44:44Z",
-          "updated": "2026-11-03"
         },
         {
           "repo": "xExtension-ExitReaderView",
