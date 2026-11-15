@@ -48,8 +48,8 @@
             "verification"
           ],
           "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-11-06T22:01:22Z",
-          "updated": "2026-11-06"
+          "pushed_at": "2026-11-14T11:23:24Z",
+          "updated": "2026-11-14"
         },
         {
           "repo": "claudii",
@@ -84,8 +84,8 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-11-03T23:24:55Z",
-          "updated": "2026-11-03"
+          "pushed_at": "2026-11-14T11:23:10Z",
+          "updated": "2026-11-14"
         }
       ]
     },
@@ -119,8 +119,8 @@
             "zero-dependency"
           ],
           "live": "https://bmmmm.github.io/how-small-can-we-go/",
-          "pushed_at": "2026-10-11T21:01:41Z",
-          "updated": "2026-10-11"
+          "pushed_at": "2026-11-14T11:25:10Z",
+          "updated": "2026-11-14"
         }
       ]
     },
@@ -131,25 +131,97 @@
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
         {
-          "repo": "db-wallet",
-          "name": "db-wallet",
-          "url": "https://github.com/bmmmm/db-wallet",
-          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
-          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "repo": "shieldchipiii",
+          "name": "shieldchipiii",
+          "url": "https://github.com/bmmmm/shieldchipiii",
+          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
+          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.",
           "install": null,
           "links": [],
           "language": "JavaScript",
-          "stars": 2,
+          "stars": 0,
           "topics": [
-            "bonn",
-            "hackspace",
-            "javascript",
+            "ascii-art",
+            "car",
+            "localstorage",
+            "logbook",
             "offline-first",
-            "pwa"
+            "stone-chip",
+            "vanilla-js",
+            "windshield"
           ],
-          "live": "https://bmmmm.github.io/db-wallet/",
-          "pushed_at": "2026-11-09T23:53:49Z",
-          "updated": "2026-11-09"
+          "live": "https://bmmmm.github.io/shieldchipiii/",
+          "pushed_at": "2026-11-14T11:28:15Z",
+          "updated": "2026-11-14"
+        },
+        {
+          "repo": "putzii",
+          "name": "putzii",
+          "url": "https://github.com/bmmmm/putzii",
+          "blurb": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
+          "detail": "A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "cleaning-schedule",
+            "go",
+            "local-first",
+            "pwa",
+            "qr-code",
+            "self-hosted",
+            "vanilla-js"
+          ],
+          "live": "https://bmmmm.github.io/putzii/",
+          "pushed_at": "2026-11-14T11:27:27Z",
+          "updated": "2026-11-14"
+        },
+        {
+          "repo": "musiclinkii",
+          "name": "musiclinkii",
+          "url": "https://github.com/bmmmm/musiclinkii",
+          "blurb": "turn one music link into links for every streaming platform.",
+          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "github-pages",
+            "link-converter",
+            "music",
+            "songlink-alternative",
+            "static-site",
+            "streaming"
+          ],
+          "live": "https://bmmmm.github.io/musiclinkii/",
+          "pushed_at": "2026-11-14T11:27:01Z",
+          "updated": "2026-11-14"
+        },
+        {
+          "repo": "kuvertii",
+          "name": "kuvertii",
+          "url": "https://github.com/bmmmm/kuvertii",
+          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
+          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "client-side",
+            "email",
+            "email-header",
+            "email-security",
+            "phishing",
+            "privacy",
+            "spam",
+            "static-site"
+          ],
+          "live": "https://bmmmm.github.io/kuvertii/",
+          "pushed_at": "2026-11-14T11:26:42Z",
+          "updated": "2026-11-14"
         },
         {
           "repo": "gymii",
@@ -173,101 +245,29 @@
             "workout-tracker"
           ],
           "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-11-09T16:18:09Z",
-          "updated": "2026-11-09"
+          "pushed_at": "2026-11-14T11:24:51Z",
+          "updated": "2026-11-14"
         },
         {
-          "repo": "musiclinkii",
-          "name": "musiclinkii",
-          "url": "https://github.com/bmmmm/musiclinkii",
-          "blurb": "turn one music link into links for every streaming platform.",
-          "detail": "Turn one music link into links for every streaming platform, so a recommendation stops depending on what the other person subscribes to. Fully static.",
+          "repo": "db-wallet",
+          "name": "db-wallet",
+          "url": "https://github.com/bmmmm/db-wallet",
+          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
           "install": null,
           "links": [],
           "language": "JavaScript",
-          "stars": 0,
+          "stars": 2,
           "topics": [
-            "github-pages",
-            "link-converter",
-            "music",
-            "songlink-alternative",
-            "static-site",
-            "streaming"
-          ],
-          "live": "https://bmmmm.github.io/musiclinkii/",
-          "pushed_at": "2026-11-09T12:23:13Z",
-          "updated": "2026-11-09"
-        },
-        {
-          "repo": "kuvertii",
-          "name": "kuvertii",
-          "url": "https://github.com/bmmmm/kuvertii",
-          "blurb": "read what an email header says about you — who it was really addressed to, where the unsubscribe link leads.",
-          "detail": "Paste an email header and read what it says about you: who the message was really addressed to, how that address was hidden from the other recipients, and where the unsubscribe link actually leads. Runs entirely client-side — a tool about privacy that uploaded your mail headers would be a joke.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "client-side",
-            "email",
-            "email-header",
-            "email-security",
-            "phishing",
-            "privacy",
-            "spam",
-            "static-site"
-          ],
-          "live": "https://bmmmm.github.io/kuvertii/",
-          "pushed_at": "2026-11-05T01:05:07Z",
-          "updated": "2026-11-05"
-        },
-        {
-          "repo": "putzii",
-          "name": "putzii",
-          "url": "https://github.com/bmmmm/putzii",
-          "blurb": "cleaning schedule shared by capability link, with QR check-in. No backend at all.",
-          "detail": "A cleaning schedule for a shared flat or office, handed around as a capability link and checked in by QR code on the wall. No accounts, no backend — the link is the permission.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "cleaning-schedule",
-            "go",
-            "local-first",
-            "pwa",
-            "qr-code",
-            "self-hosted",
-            "vanilla-js"
-          ],
-          "live": "https://bmmmm.github.io/putzii/",
-          "pushed_at": "2026-11-01T22:02:34Z",
-          "updated": "2026-11-01"
-        },
-        {
-          "repo": "shieldchipiii",
-          "name": "shieldchipiii",
-          "url": "https://github.com/bmmmm/shieldchipiii",
-          "blurb": "stone-chip logbook for your windshield, so the insurance conversation has a record instead of a memory.",
-          "detail": "A stone-chip logbook for your car windshield: photograph and date every chip, so the insurance conversation later has a record instead of a memory. Local-only web app plus a terminal CLI, DE/EN.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "ascii-art",
-            "car",
-            "localstorage",
-            "logbook",
+            "bonn",
+            "hackspace",
+            "javascript",
             "offline-first",
-            "stone-chip",
-            "vanilla-js",
-            "windshield"
+            "pwa"
           ],
-          "live": "https://bmmmm.github.io/shieldchipiii/",
-          "pushed_at": "2026-10-20T15:06:36Z",
-          "updated": "2026-10-20"
+          "live": "https://bmmmm.github.io/db-wallet/",
+          "pushed_at": "2026-11-14T11:23:34Z",
+          "updated": "2026-11-14"
         },
         {
           "repo": "app-icons-generator",
@@ -325,7 +325,7 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-14T10:31:19Z",
+          "pushed_at": "2026-11-14T21:43:14Z",
           "updated": "2026-11-14"
         },
         {
@@ -346,8 +346,8 @@
             "swiftui"
           ],
           "live": null,
-          "pushed_at": "2026-11-09T22:02:27Z",
-          "updated": "2026-11-09"
+          "pushed_at": "2026-11-14T11:26:31Z",
+          "updated": "2026-11-14"
         },
         {
           "repo": "epcii",
@@ -369,8 +369,8 @@
             "sepa"
           ],
           "live": "https://bmmmm.github.io/epcii/",
-          "pushed_at": "2026-10-15T11:28:14Z",
-          "updated": "2026-10-15"
+          "pushed_at": "2026-11-14T11:24:06Z",
+          "updated": "2026-11-14"
         },
         {
           "repo": "git-times-live",
@@ -429,8 +429,8 @@
             "rss"
           ],
           "live": null,
-          "pushed_at": "2026-11-13T09:09:30Z",
-          "updated": "2026-11-13"
+          "pushed_at": "2026-11-14T12:18:57Z",
+          "updated": "2026-11-14"
         },
         {
           "repo": "xExtension-ShareViaQRCode",
@@ -453,8 +453,8 @@
             "self-hosted"
           ],
           "live": null,
-          "pushed_at": "2026-11-10T18:44:56Z",
-          "updated": "2026-11-10"
+          "pushed_at": "2026-11-14T12:14:58Z",
+          "updated": "2026-11-14"
         },
         {
           "repo": "xExtension-NoteDrop",
@@ -473,8 +473,8 @@
             "notes"
           ],
           "live": null,
-          "pushed_at": "2026-11-10T06:34:48Z",
-          "updated": "2026-11-10"
+          "pushed_at": "2026-11-14T12:12:17Z",
+          "updated": "2026-11-14"
         },
         {
           "repo": "xExtension-ExitReaderView",
@@ -493,8 +493,8 @@
             "rss-reader"
           ],
           "live": null,
-          "pushed_at": "2026-09-29T23:11:44Z",
-          "updated": "2026-09-29"
+          "pushed_at": "2026-11-14T12:09:31Z",
+          "updated": "2026-11-14"
         }
       ]
     }

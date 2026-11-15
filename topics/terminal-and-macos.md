@@ -18,7 +18,7 @@ Live ASCII water levels for German rivers, straight from PEGELONLINE, with an op
 
 Locks the keyboard while you wipe it down, with animations worth watching for the thirty seconds it takes.
 
-<sub>last pushed 2026-11-09</sub>
+<sub>last pushed 2026-11-14</sub>
 
 ## [epcii](https://github.com/bmmmm/epcii)
 
@@ -26,7 +26,7 @@ Locks the keyboard while you wipe it down, with animations worth watching for th
 
 EPC QR code (GiroCode) generator — a single static binary with its own QR encoder core rather than a dependency tree, so a payment code can be generated on a machine you do not want to install anything on.
 
-<sub>last pushed 2026-10-15</sub>
+<sub>last pushed 2026-11-14</sub>
 
 ## [git-times-live](https://github.com/bmmmm/git-times-live)
 

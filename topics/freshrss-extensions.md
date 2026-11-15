@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns "I read something about this last month" into a searchable list.
 
-<sub>last pushed 2026-11-13</sub>
+<sub>last pushed 2026-11-14</sub>
 
 ## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
 
@@ -18,7 +18,7 @@ Keeps a history of the article links you actually opened, as opposed to the ones
 
 Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.
 
-<sub>last pushed 2026-11-10</sub>
+<sub>last pushed 2026-11-14</sub>
 
 ## [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)
 
@@ -26,7 +26,7 @@ Shows a large QR code for the current article, so a phone can pick the link stra
 
 Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.
 
-<sub>last pushed 2026-11-10</sub>
+<sub>last pushed 2026-11-14</sub>
 
 ## [ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)
 
@@ -34,7 +34,7 @@ Drop notes and links from one device and copy them on another with one click —
 
 Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.
 
-<sub>last pushed 2026-09-29</sub>
+<sub>last pushed 2026-11-14</sub>
 
 ---
 
