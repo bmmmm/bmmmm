@@ -10,7 +10,7 @@ Newest first — this page is generated, so the order follows the code.
 
 Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?
 
-<sub>last pushed 2026-11-17</sub>
+<sub>last pushed 2026-11-24</sub>
 
 ## [claudii](https://github.com/bmmmm/claudii)
 
@@ -18,7 +18,7 @@ Fact-checks release notes against the diff that shipped. Works on GitHub, Forgej
 
 A statusline for Claude Code: session cost, context usage in percent, rate-limit headroom and model health, refreshed in the prompt. Pure bash and jq — no daemon, no background process, nothing that outlives the shell.
 
-<sub>last pushed 2026-11-14</sub>
+<sub>last pushed 2026-11-24</sub>
 
 ---
 

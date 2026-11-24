@@ -48,8 +48,8 @@
             "verification"
           ],
           "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-11-17T00:30:16Z",
-          "updated": "2026-11-17"
+          "pushed_at": "2026-11-24T09:56:17Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "claudii",
@@ -84,8 +84,8 @@
             "zsh-plugin"
           ],
           "live": "https://bmmmm.github.io/claudii/",
-          "pushed_at": "2026-11-14T11:23:10Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T09:56:06Z",
+          "updated": "2026-11-24"
         }
       ]
     },
@@ -119,8 +119,8 @@
             "zero-dependency"
           ],
           "live": "https://bmmmm.github.io/how-small-can-we-go/",
-          "pushed_at": "2026-11-22T18:13:56Z",
-          "updated": "2026-11-22"
+          "pushed_at": "2026-11-24T09:57:57Z",
+          "updated": "2026-11-24"
         }
       ]
     },
@@ -130,27 +130,6 @@
       "tagline": "Static pages that keep your data in your own browser",
       "intro": "No backend, no account, no telemetry — which also means there is no server of mine to breach, subpoena or shut down.",
       "projects": [
-        {
-          "repo": "db-wallet",
-          "name": "db-wallet",
-          "url": "https://github.com/bmmmm/db-wallet",
-          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
-          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 2,
-          "topics": [
-            "bonn",
-            "hackspace",
-            "javascript",
-            "offline-first",
-            "pwa"
-          ],
-          "live": "https://bmmmm.github.io/db-wallet/",
-          "pushed_at": "2026-11-17T19:47:32Z",
-          "updated": "2026-11-17"
-        },
         {
           "repo": "shieldchipiii",
           "name": "shieldchipiii",
@@ -172,8 +151,8 @@
             "windshield"
           ],
           "live": "https://bmmmm.github.io/shieldchipiii/",
-          "pushed_at": "2026-11-14T11:28:15Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T10:02:45Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "putzii",
@@ -195,8 +174,8 @@
             "vanilla-js"
           ],
           "live": "https://bmmmm.github.io/putzii/",
-          "pushed_at": "2026-11-14T11:27:27Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T10:01:58Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "musiclinkii",
@@ -217,8 +196,8 @@
             "streaming"
           ],
           "live": "https://bmmmm.github.io/musiclinkii/",
-          "pushed_at": "2026-11-14T11:27:01Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T10:01:24Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "kuvertii",
@@ -241,8 +220,8 @@
             "static-site"
           ],
           "live": "https://bmmmm.github.io/kuvertii/",
-          "pushed_at": "2026-11-14T11:26:42Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T10:01:02Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "gymii",
@@ -266,8 +245,29 @@
             "workout-tracker"
           ],
           "live": "https://bmmmm.github.io/gymii/",
-          "pushed_at": "2026-11-14T11:24:51Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T09:57:46Z",
+          "updated": "2026-11-24"
+        },
+        {
+          "repo": "db-wallet",
+          "name": "db-wallet",
+          "url": "https://github.com/bmmmm/db-wallet",
+          "blurb": "drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "detail": "Drink tracking wallet for the crowd at bitcircus101.de and Datenburg e.V. Bonn.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 2,
+          "topics": [
+            "bonn",
+            "hackspace",
+            "javascript",
+            "offline-first",
+            "pwa"
+          ],
+          "live": "https://bmmmm.github.io/db-wallet/",
+          "pushed_at": "2026-11-24T09:56:30Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "app-icons-generator",
@@ -278,7 +278,7 @@
           "install": null,
           "links": [],
           "language": "Shell",
-          "stars": 1,
+          "stars": 2,
           "topics": [
             "app-icons",
             "appicon",
@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-23T05:23:13Z",
-          "updated": "2026-11-23"
+          "pushed_at": "2026-11-24T10:01:39Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "KeebLock",
@@ -346,8 +346,8 @@
             "swiftui"
           ],
           "live": null,
-          "pushed_at": "2026-11-14T11:26:31Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T10:00:51Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "epcii",
@@ -369,8 +369,8 @@
             "sepa"
           ],
           "live": "https://bmmmm.github.io/epcii/",
-          "pushed_at": "2026-11-14T11:24:06Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T09:57:00Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "git-times-live",
@@ -412,6 +412,46 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 0,
+          "topics": [
+            "clipboard",
+            "freshrss",
+            "freshrss-extension",
+            "notes"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-24T10:05:55Z",
+          "updated": "2026-11-24"
+        },
+        {
+          "repo": "xExtension-ExitReaderView",
+          "name": "ExitReaderView",
+          "url": "https://github.com/bmmmm/xExtension-ExitReaderView",
+          "blurb": "a floating button to leave the reading view in one click.",
+          "detail": "Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "rss-reader"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-24T10:04:42Z",
+          "updated": "2026-11-24"
+        },
+        {
           "repo": "xExtension-ClickHistory",
           "name": "ClickHistory",
           "url": "https://github.com/bmmmm/xExtension-ClickHistory",
@@ -429,8 +469,8 @@
             "rss"
           ],
           "live": null,
-          "pushed_at": "2026-11-20T09:13:37Z",
-          "updated": "2026-11-20"
+          "pushed_at": "2026-11-24T10:04:31Z",
+          "updated": "2026-11-24"
         },
         {
           "repo": "xExtension-ShareViaQRCode",
@@ -453,48 +493,8 @@
             "self-hosted"
           ],
           "live": null,
-          "pushed_at": "2026-11-14T12:14:58Z",
-          "updated": "2026-11-14"
-        },
-        {
-          "repo": "xExtension-NoteDrop",
-          "name": "NoteDrop",
-          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
-          "blurb": "drop notes and links on one device, copy them on another with one click.",
-          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 0,
-          "topics": [
-            "clipboard",
-            "freshrss",
-            "freshrss-extension",
-            "notes"
-          ],
-          "live": null,
-          "pushed_at": "2026-11-14T12:12:17Z",
-          "updated": "2026-11-14"
-        },
-        {
-          "repo": "xExtension-ExitReaderView",
-          "name": "ExitReaderView",
-          "url": "https://github.com/bmmmm/xExtension-ExitReaderView",
-          "blurb": "a floating button to leave the reading view in one click.",
-          "detail": "Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "rss-reader"
-          ],
-          "live": null,
-          "pushed_at": "2026-11-14T12:09:31Z",
-          "updated": "2026-11-14"
+          "pushed_at": "2026-11-24T09:38:42Z",
+          "updated": "2026-11-24"
         }
       ]
     }
