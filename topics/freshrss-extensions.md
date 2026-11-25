@@ -4,6 +4,14 @@ Four small extensions for the reader I actually use every day. Each one exists b
 
 Newest first — this page is generated, so the order follows the code.
 
+## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
+
+`JavaScript`
+
+Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.
+
+<sub>last pushed 2026-11-24</sub>
+
 ## [NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)
 
 `PHP`
@@ -25,14 +33,6 @@ Adds a floating button to leave the reading view in one click. Nine commits, and
 `PHP`
 
 Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns "I read something about this last month" into a searchable list.
-
-<sub>last pushed 2026-11-24</sub>
-
-## [ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)
-
-`JavaScript`
-
-Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.
 
 <sub>last pushed 2026-11-24</sub>
 
