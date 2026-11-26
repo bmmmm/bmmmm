@@ -7,8 +7,8 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 <details open>
 <summary><strong>LLM &amp; agent tooling</strong> — instrumenting, measuring and fact-checking what models actually do · 2 projects</summary>
 
-- **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 - **[claudii](https://github.com/bmmmm/claudii)** — statusline for Claude Code: session cost, context %, rate limits, model health. Pure bash + jq, zero daemons. · `Shell` · [live](https://bmmmm.github.io/claudii/)
+- **[comparereleaseii](https://github.com/bmmmm/comparereleaseii)** — fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone. · `TypeScript` · [live](https://bmmmm.github.io/comparereleaseii/demo/) · [gh extension](https://github.com/bmmmm/gh-comparereleaseii)
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/llm-and-agent-tooling.md">LLM &amp; agent tooling in detail →</a></sub>
 
@@ -55,8 +55,8 @@ Small, sharp tools that do one thing and can prove they did it. Most are a singl
 
 - **[ShareViaQRCode](https://github.com/bmmmm/xExtension-ShareViaQRCode)** — a large QR code for the current article, so a phone can pick the link off the screen. · `JavaScript`
 - **[NoteDrop](https://github.com/bmmmm/xExtension-NoteDrop)** — drop notes and links on one device, copy them on another with one click. · `PHP`
-- **[ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)** — a floating button to leave the reading view in one click. · `JavaScript`
 - **[ClickHistory](https://github.com/bmmmm/xExtension-ClickHistory)** — keeps a history of the article links you actually opened. · `PHP`
+- **[ExitReaderView](https://github.com/bmmmm/xExtension-ExitReaderView)** — a floating button to leave the reading view in one click. · `JavaScript`
 
 <sub>More on each — <a href="https://github.com/bmmmm/bmmmm/blob/main/topics/freshrss-extensions.md">FreshRSS extensions in detail →</a></sub>
 
