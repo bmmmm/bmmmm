@@ -21,6 +21,37 @@
       "intro": "The common thread: a claim is not a result. Every one of these exists because something was asserted — a release note, a cost estimate, a changelog — and nothing was checking it.",
       "projects": [
         {
+          "repo": "comparereleaseii",
+          "name": "comparereleaseii",
+          "url": "https://github.com/bmmmm/comparereleaseii",
+          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
+          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
+          "install": null,
+          "links": [
+            {
+              "label": "gh extension",
+              "url": "https://github.com/bmmmm/gh-comparereleaseii"
+            }
+          ],
+          "language": "TypeScript",
+          "stars": 0,
+          "topics": [
+            "changelog",
+            "cli",
+            "fact-checking",
+            "forgejo",
+            "gitea",
+            "gitlab",
+            "llm",
+            "release-notes",
+            "supply-chain-security",
+            "verification"
+          ],
+          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
+          "pushed_at": "2026-11-26T22:01:19Z",
+          "updated": "2026-11-26"
+        },
+        {
           "repo": "claudii",
           "name": "claudii",
           "url": "https://github.com/bmmmm/claudii",
@@ -55,37 +86,6 @@
           "live": "https://bmmmm.github.io/claudii/",
           "pushed_at": "2026-11-25T18:52:05Z",
           "updated": "2026-11-25"
-        },
-        {
-          "repo": "comparereleaseii",
-          "name": "comparereleaseii",
-          "url": "https://github.com/bmmmm/comparereleaseii",
-          "blurb": "fact-check release notes against the diff that shipped — GitHub, Forgejo, GitLab or any git clone.",
-          "detail": "Fact-checks release notes against the diff that shipped. Works on GitHub, Forgejo, GitLab or any local git clone. Answers the question you have before an upgrade: does the changelog describe what changed, and what did it leave out?",
-          "install": null,
-          "links": [
-            {
-              "label": "gh extension",
-              "url": "https://github.com/bmmmm/gh-comparereleaseii"
-            }
-          ],
-          "language": "TypeScript",
-          "stars": 0,
-          "topics": [
-            "changelog",
-            "cli",
-            "fact-checking",
-            "forgejo",
-            "gitea",
-            "gitlab",
-            "llm",
-            "release-notes",
-            "supply-chain-security",
-            "verification"
-          ],
-          "live": "https://bmmmm.github.io/comparereleaseii/demo/",
-          "pushed_at": "2026-11-24T21:46:35Z",
-          "updated": "2026-11-24"
         }
       ]
     },
@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-26T01:12:03Z",
-          "updated": "2026-11-26"
+          "pushed_at": "2026-11-27T01:11:33Z",
+          "updated": "2026-11-27"
         },
         {
           "repo": "KeebLock",
@@ -412,6 +412,47 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ClickHistory",
+          "name": "ClickHistory",
+          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
+          "blurb": "keeps a history of the article links you actually opened.",
+          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "reading-history",
+            "rss"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-27T09:10:37Z",
+          "updated": "2026-11-27"
+        },
+        {
+          "repo": "xExtension-ExitReaderView",
+          "name": "ExitReaderView",
+          "url": "https://github.com/bmmmm/xExtension-ExitReaderView",
+          "blurb": "a floating button to leave the reading view in one click.",
+          "detail": "Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 1,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "php",
+            "rss-reader"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-26T22:01:37Z",
+          "updated": "2026-11-26"
+        },
+        {
           "repo": "xExtension-ShareViaQRCode",
           "name": "ShareViaQRCode",
           "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
@@ -454,47 +495,6 @@
           "live": null,
           "pushed_at": "2026-11-25T22:01:50Z",
           "updated": "2026-11-25"
-        },
-        {
-          "repo": "xExtension-ClickHistory",
-          "name": "ClickHistory",
-          "url": "https://github.com/bmmmm/xExtension-ClickHistory",
-          "blurb": "keeps a history of the article links you actually opened.",
-          "detail": "Keeps a history of the article links you actually opened, as opposed to the ones you scrolled past. Turns \"I read something about this last month\" into a searchable list.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "reading-history",
-            "rss"
-          ],
-          "live": null,
-          "pushed_at": "2026-11-25T22:01:36Z",
-          "updated": "2026-11-25"
-        },
-        {
-          "repo": "xExtension-ExitReaderView",
-          "name": "ExitReaderView",
-          "url": "https://github.com/bmmmm/xExtension-ExitReaderView",
-          "blurb": "a floating button to leave the reading view in one click.",
-          "detail": "Adds a floating button to leave the reading view in one click. Nine commits, and it fixes the thing that annoyed me daily.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 1,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "php",
-            "rss-reader"
-          ],
-          "live": null,
-          "pushed_at": "2026-11-24T21:53:03Z",
-          "updated": "2026-11-24"
         }
       ]
     }
