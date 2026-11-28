@@ -325,8 +325,8 @@
             "water-level"
           ],
           "live": "https://bmmmm.github.io/pegel-visual/",
-          "pushed_at": "2026-11-27T01:11:33Z",
-          "updated": "2026-11-27"
+          "pushed_at": "2026-11-28T00:43:23Z",
+          "updated": "2026-11-28"
         },
         {
           "repo": "KeebLock",
@@ -412,6 +412,50 @@
       "intro": "Each one exists because a single step in my own reading loop was one click too many.",
       "projects": [
         {
+          "repo": "xExtension-ShareViaQRCode",
+          "name": "ShareViaQRCode",
+          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
+          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
+          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
+          "install": null,
+          "links": [],
+          "language": "JavaScript",
+          "stars": 0,
+          "topics": [
+            "freshrss",
+            "freshrss-extension",
+            "javascript",
+            "php",
+            "qr-code",
+            "rss",
+            "rss-reader",
+            "self-hosted"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-27T22:01:40Z",
+          "updated": "2026-11-27"
+        },
+        {
+          "repo": "xExtension-NoteDrop",
+          "name": "NoteDrop",
+          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
+          "blurb": "drop notes and links on one device, copy them on another with one click.",
+          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
+          "install": null,
+          "links": [],
+          "language": "PHP",
+          "stars": 0,
+          "topics": [
+            "clipboard",
+            "freshrss",
+            "freshrss-extension",
+            "notes"
+          ],
+          "live": null,
+          "pushed_at": "2026-11-27T22:01:34Z",
+          "updated": "2026-11-27"
+        },
+        {
           "repo": "xExtension-ClickHistory",
           "name": "ClickHistory",
           "url": "https://github.com/bmmmm/xExtension-ClickHistory",
@@ -451,50 +495,6 @@
           "live": null,
           "pushed_at": "2026-11-26T22:01:37Z",
           "updated": "2026-11-26"
-        },
-        {
-          "repo": "xExtension-ShareViaQRCode",
-          "name": "ShareViaQRCode",
-          "url": "https://github.com/bmmmm/xExtension-ShareViaQRCode",
-          "blurb": "a large QR code for the current article, so a phone can pick the link off the screen.",
-          "detail": "Shows a large QR code for the current article, so a phone can pick the link straight off the screen — no sharing service in between.",
-          "install": null,
-          "links": [],
-          "language": "JavaScript",
-          "stars": 0,
-          "topics": [
-            "freshrss",
-            "freshrss-extension",
-            "javascript",
-            "php",
-            "qr-code",
-            "rss",
-            "rss-reader",
-            "self-hosted"
-          ],
-          "live": null,
-          "pushed_at": "2026-11-25T22:01:59Z",
-          "updated": "2026-11-25"
-        },
-        {
-          "repo": "xExtension-NoteDrop",
-          "name": "NoteDrop",
-          "url": "https://github.com/bmmmm/xExtension-NoteDrop",
-          "blurb": "drop notes and links on one device, copy them on another with one click.",
-          "detail": "Drop notes and links from one device and copy them on another with one click — the gap between reading on the phone and acting on the laptop, closed without a chat message to yourself.",
-          "install": null,
-          "links": [],
-          "language": "PHP",
-          "stars": 0,
-          "topics": [
-            "clipboard",
-            "freshrss",
-            "freshrss-extension",
-            "notes"
-          ],
-          "live": null,
-          "pushed_at": "2026-11-25T22:01:50Z",
-          "updated": "2026-11-25"
         }
       ]
     }
